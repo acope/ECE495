@@ -1,0 +1,21 @@
+21:04:09 **** Auto Build of configuration Debug for project led_test ****
+make all 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -I../../led_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.d" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+Finished building: ../src/LED_test_tut_1C.c
+ 
+Building target: led_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../led_test_bsp/ps7_cortexa9_0/lib -o "led_test.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: led_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size led_test.elf  |tee "led_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23684	   1168	  22596	  47448	   b958	led_test.elf
+Finished building: led_test.elf.size
+ 
+
+21:04:09 Build Finished (took 261ms)
+

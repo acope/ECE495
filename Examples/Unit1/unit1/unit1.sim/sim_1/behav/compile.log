@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Examples/Unit1/mybcd_udcount.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mybcd_udcount
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Examples/Unit1/tb_mybcd_udcount.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_mybcd_udcount

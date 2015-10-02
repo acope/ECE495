@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Sep 18 15:26:46 2015
+# Process ID: 14295
+# Log file: /home/akcopema/Documents/ECE495/Examples/Unit1/unit1/unit1.runs/synth_1/mybcd_udcount_top.vds
+# Journal file: /home/akcopema/Documents/ECE495/Examples/Unit1/unit1/unit1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mybcd_udcount_top.tcl -notrace

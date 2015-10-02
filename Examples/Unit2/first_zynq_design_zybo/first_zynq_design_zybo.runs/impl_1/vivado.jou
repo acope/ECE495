@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Sep 30 20:56:43 2015
+# Process ID: 5969
+# Log file: /home/akcopema/Documents/ECE495/Examples/Unit2/first_zynq_design_zybo/first_zynq_design_zybo.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/akcopema/Documents/ECE495/Examples/Unit2/first_zynq_design_zybo/first_zynq_design_zybo.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

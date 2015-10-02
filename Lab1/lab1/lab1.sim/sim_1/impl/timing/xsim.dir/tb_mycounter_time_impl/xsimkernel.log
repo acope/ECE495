@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_mycounter_time_impl/xsimk -simmode gui -wdb tb_mycounter_time_impl.wdb -simrunnum 0 -socket 58647
+Design successfully loaded
+Design Loading Memory Usage: 117228 KB (Peak: 117248 KB)
+Design Loading CPU Usage: 20 ms

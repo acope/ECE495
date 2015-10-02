@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Lab1/mycounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mycounter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Lab1/tb_mycounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_mycounter
