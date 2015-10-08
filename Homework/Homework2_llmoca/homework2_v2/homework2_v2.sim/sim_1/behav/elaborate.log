@@ -1,0 +1,23 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto 92186bb748264cc3969fc579135d3694 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_serial_mult_behav xil_defaultlib.tb_serial_mult -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.shiftregleft [\shiftregleft(20,"LEFT")(1,4)\]
+Compiling architecture behavioral of entity xil_defaultlib.shiftregright [\shiftregright(8,"RIGHT")(1,5)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.serial_mult [\serial_mult(12,8)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(12)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(8)\]
+Compiling architecture behavioral of entity xil_defaultlib.D_latch [d_latch_default]
+Compiling architecture behavioral of entity xil_defaultlib.multi_top [multi_top_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_serial_mult
+Built simulation snapshot tb_serial_mult_behav

@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/fulladder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/shiftregright.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftregright
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/shiftregleft.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftregleft
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/D_latch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_latch
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/serial_mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity serial_mult
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/homework2_v2/homework2_v2.srcs/sources_1/new/multi_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multi_top
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/akcopema/Documents/ECE495/Homework/Homework2_llmoca/tb_serial_mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_serial_mult

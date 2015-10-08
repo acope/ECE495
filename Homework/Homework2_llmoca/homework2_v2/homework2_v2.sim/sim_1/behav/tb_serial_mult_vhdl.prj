@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../fulladder.vhd"
+vhdl xil_defaultlib  "../../../../shiftregright.vhd"
+vhdl xil_defaultlib  "../../../../shiftregleft.vhd"
+vhdl xil_defaultlib  "../../../../my_rege.vhd"
+vhdl xil_defaultlib  "../../../../my_addsub.vhd"
+vhdl xil_defaultlib  "../../../../D_latch.vhd"
+vhdl xil_defaultlib  "../../../../serial_mult.vhd"
+vhdl xil_defaultlib  "../../../homework2_v2.srcs/sources_1/new/multi_top.vhd"
+vhdl xil_defaultlib  "../../../../tb_serial_mult.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+CRITICAL WARNING: [Common 17-183] Failed to open handle webtalk.jou. Please check access permission of directory '/opt/Xilinx/Vivado/2015.2'. You should restart the application from a writable working directory.
+CRITICAL WARNING: [Common 17-183] Failed to open handle webtalk.log. Please check access permission of directory '/opt/Xilinx/Vivado/2015.2'. You should restart the application from a writable working directory.
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/akcopema/Documents/ECE495/Lab/Lab2/lab2/lab2.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1326559921 -regid "210884438_0_0_847" -xml /home/akcopema/Documents/ECE495/Lab/Lab2/lab2/lab2.hw/webtalk/usage_statistics_e..."
+    (file "/home/akcopema/Documents/ECE495/Lab/Lab2/lab2/lab2.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Fri Oct  2 15:29:50 2015...
