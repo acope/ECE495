@@ -1,0 +1,715 @@
+20:39:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+20:39:19 INFO  : XSDB server has started successfully.
+20:39:21 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:44:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+20:44:36 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:50:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+20:50:57 INFO  : 'fpga -state' command is executed.
+20:50:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:58 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+20:51:08 INFO  : Mermory regions for PS have been updated.
+20:51:08 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:51:09 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+20:51:27 INFO  : 'ps7_init' command is executed.
+20:51:27 INFO  : 'ps7_post_config' command is executed.
+20:51:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:51:28 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:51:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:51:30 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:51:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf
+----------------End of Script----------------
+
+20:51:31 INFO  : Memory regions updated for context APU
+20:51:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:51:31 INFO  : 'con' command is executed.
+20:51:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+20:55:17 INFO  : Disconnected from the channel tcfchan#1.
+20:55:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:55:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+20:55:18 INFO  : 'fpga -state' command is executed.
+20:55:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:55:19 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+20:55:26 INFO  : Mermory regions for PS have been updated.
+20:55:26 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:55:26 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+20:55:49 INFO  : 'ps7_init' command is executed.
+20:55:50 INFO  : 'ps7_post_config' command is executed.
+20:55:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:55:51 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:55:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:55:52 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:55:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf
+----------------End of Script----------------
+
+20:55:53 INFO  : Memory regions updated for context APU
+20:55:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:55:53 INFO  : 'con' command is executed.
+20:55:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+20:58:16 INFO  : Disconnected from the channel tcfchan#2.
+20:58:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:58:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+20:58:17 INFO  : 'fpga -state' command is executed.
+20:58:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:58:19 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+20:58:26 INFO  : Mermory regions for PS have been updated.
+20:58:26 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:58:27 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+20:58:43 INFO  : 'ps7_init' command is executed.
+20:58:44 INFO  : 'ps7_post_config' command is executed.
+20:58:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:58:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:58:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:58:47 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:58:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf
+----------------End of Script----------------
+
+20:58:48 INFO  : Memory regions updated for context APU
+20:58:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:58:49 INFO  : 'con' command is executed.
+20:58:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+20:59:52 INFO  : Disconnected from the channel tcfchan#3.
+20:59:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:59:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+20:59:53 INFO  : 'fpga -state' command is executed.
+21:00:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:00:09 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:00:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:00:15 INFO  : 'fpga -state' command is executed.
+21:00:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:15 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:00:23 INFO  : Mermory regions for PS have been updated.
+21:00:23 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:00:24 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:00:34 ERROR : Cannot halt processor core, timeout
+21:00:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+----------------End of Script----------------
+
+21:00:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:00:45 INFO  : 'fpga -state' command is executed.
+21:00:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:46 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:00:53 INFO  : Mermory regions for PS have been updated.
+21:00:53 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:00:54 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:01:03 ERROR : Cannot halt processor core, timeout
+21:01:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+----------------End of Script----------------
+
+21:02:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:02:04 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:02:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:02:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:02:52 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:09:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:09:12 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:16:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:20:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:21:06 INFO  : XSDB server has started successfully.
+21:21:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:21:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:21:34 INFO  : 'fpga -state' command is executed.
+21:21:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:21:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:21:45 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:21:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:21:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:21:54 INFO  : 'fpga -state' command is executed.
+21:21:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:21:54 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:21:58 INFO  : Mermory regions for PS have been updated.
+21:21:58 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:21:59 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:21:59 INFO  : 'ps7_init' command is executed.
+21:21:59 INFO  : 'ps7_post_config' command is executed.
+21:22:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:00 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:22:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:01 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:22:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf
+----------------End of Script----------------
+
+21:22:01 INFO  : Memory regions updated for context APU
+21:22:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:01 INFO  : 'con' command is executed.
+21:22:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+21:25:49 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Unknown Source)
+21:25:49 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+21:25:51 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:27:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:27:45 INFO  : XSDB server has started successfully.
+21:28:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:28:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:28:26 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:28:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:28:52 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:935)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:28:52 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:29:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:29:31 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+21:29:33 INFO  : XSDB server has started successfully.
+21:29:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:29:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:29:52 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:30:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+21:30:05 INFO  : 'fpga -state' command is executed.
+21:30:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:30:09 INFO  : Mermory regions for PS have been updated.
+21:30:10 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:30:10 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+21:30:10 INFO  : 'ps7_init' command is executed.
+21:30:10 INFO  : 'ps7_post_config' command is executed.
+21:30:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:30:11 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:30:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:30:11 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:30:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1092616192 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/LED_test/Debug/LED_test.elf
+----------------End of Script----------------
+
+21:30:11 INFO  : Memory regions updated for context APU
+21:30:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:30:12 INFO  : 'con' command is executed.
+21:30:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+21:31:19 INFO  : Disconnected from the channel tcfchan#1.
+21:31:20 INFO  : System reset is completed.
+21:31:21 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:31:22 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:935)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:31:22 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:31:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:26:02 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+22:26:05 INFO  : XSDB server has started successfully.
+22:28:17 INFO  : System reset is completed.
+22:28:18 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:28:19 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:935)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+22:28:22 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+22:28:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:28:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+22:28:54 ERROR : Cannot find memory context of target ARM_DAP
+22:29:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:29:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+22:30:17 ERROR : 'fpga -file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit' is cancelled.
+22:41:52 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Unknown Source)
+22:41:52 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+22:42:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+22:42:07 INFO  : XSDB server has started successfully.
+11:57:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:57:46 INFO  : XSDB server has started successfully.
+11:59:22 INFO  : System reset is completed.
+11:59:23 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:59:24 INFO  : ps7_init is completed.
+11:59:25 INFO  : ps7_post_config is completed.
+11:59:25 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:935)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:59:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:59:48 INFO  : System reset is completed.
+11:59:50 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:59:50 INFO  : ps7_init is completed.
+11:59:50 INFO  : ps7_post_config is completed.
+12:03:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:03:49 INFO  : System reset is completed.
+12:03:50 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:03:51 INFO  : ps7_init is completed.
+12:03:51 INFO  : ps7_post_config is completed.
+12:11:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:11:36 INFO  : System reset is completed.
+12:11:38 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:11:39 INFO  : ps7_init is completed.
+12:11:39 INFO  : ps7_post_config is completed.
+12:14:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:14:48 INFO  : System reset is completed.
+12:14:49 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:14:50 INFO  : ps7_init is completed.
+12:14:50 INFO  : ps7_post_config is completed.

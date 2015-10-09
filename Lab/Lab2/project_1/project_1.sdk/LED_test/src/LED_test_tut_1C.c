@@ -49,7 +49,7 @@ int LEDOutputExample(void)
 	volatile int Delay;
 	int Status;
 	char led ; /* Hold current LED value. Initialise to LED definition */
-    char test[] = {0b00001000, 0b00001100, 0b00001110, 0b00001111, 0b00000111, 0b00000011, 0b00000001, 0b00000000};
+    char ledArray[] = {0b00001000, 0b00001100, 0b00001110, 0b00001111, 0b00000111, 0b00000011, 0b00000001, 0b00000000};
     volatile int i;
 		/* GPIO driver initialisation */
 		Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
@@ -57,31 +57,18 @@ int LEDOutputExample(void)
 			return XST_FAILURE;
 		}
 
-		/*Set the direction for the LEDs to output. */
-		XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x00);
-
-		//XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, 0x0F);
-		/* Loop forever blinking the LED. */
 			while (1) {
-				/* Write output to the LEDs. */
-				//XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, led);
-
-				//led= ~ led;
-
-
-
-
 
 				for(i=0 ;i<8;i++){
-					led = test[i];
+					led = ledArray[i];
+					//LED Delay
 					for (Delay = 0; Delay < LED_DELAY; Delay++);
+					//Send to the LEDs
 					XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, led);
-					if(i==8)
+					//Write ECE495 - LEDs ok! To the terminal after last element in the array.
+					if(i==7)
 						xil_printf("ECE495 - LEDs OK!\r\n");
 				}
-
-				/* Wait a small amount of time so that the LED blinking is visible. */
-				//for (Delay = 0; Delay < LED_DELAY; Delay++);
 			}
 
 		return XST_SUCCESS; /* Should be unreachable */

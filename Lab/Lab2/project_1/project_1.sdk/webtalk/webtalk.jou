@@ -2,9 +2,9 @@
 # Webtalk v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # 
-# Start of session at: Thu Oct  8 19:30:57 2015
-# Process ID: 5058
-# Log file: /home/akcopema/Documents/ECE495/Lab/Lab2/project_1/project_1.sdk/webtalk/webtalk.log
-# Journal file: /home/akcopema/Documents/ECE495/Lab/Lab2/project_1/project_1.sdk/webtalk/webtalk.jou
+# Start of session at: Thu Oct 08 20:38:41 2015
+# Process ID: 6056
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl

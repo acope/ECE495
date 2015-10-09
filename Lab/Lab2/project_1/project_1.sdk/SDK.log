@@ -4077,3 +4077,6 @@ con
 20:23:34 INFO  : Processing command line option -hwspec /home/akcopema/Documents/ECE495/Lab/Lab2/project_1/project_1.sdk/design_1_wrapper.hdf.
 20:23:35 INFO  : XSDB server has started successfully.
 20:23:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:35:42 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+20:35:45 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:35:49 INFO  : XSDB server has started successfully.
