@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_ext_labtool.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Oct  2 15:29:47 2015'>
+<webTalkData  fileName='usage_statistics_ext_labtool.xml'  majorVersion='1' minorVersion='0' timeStamp='Thu Oct  8 18:11:09 2015'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="1266856" description="" />
-  <keyValuePair key="date_generated" value="Fri Oct  2 15:29:46 2015" description="" />
+  <keyValuePair key="date_generated" value="Thu Oct  8 18:11:09 2015" description="" />
   <keyValuePair key="os_platform" value="LIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2015.2 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="f49e8112-01f8-4173-aac8-f71d7fb94fcc" description="" />
+  <keyValuePair key="project_id" value="42e5ce6d-b12b-44fc-929c-40c8e66d69fc" description="" />
   <keyValuePair key="project_iteration" value="1" description="" />
   <keyValuePair key="random_id" value="4146e7b0-f4f4-482d-a65e-3412038571cb" description="" />
   <keyValuePair key="registration_id" value="210884438_0_0_847" description="" />
@@ -20,7 +20,7 @@
  </section>
  <section name="user_environment" level="1" order="2" description="">
   <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz" description="" />
-  <keyValuePair key="cpu_speed" value="1514.460 MHz" description="" />
+  <keyValuePair key="cpu_speed" value="3794.585 MHz" description="" />
   <keyValuePair key="os_name" value="Ubuntu" description="" />
   <keyValuePair key="os_release" value="Ubuntu 15.04" description="" />
   <keyValuePair key="system_ram" value="8.000 GB" description="" />
@@ -28,9 +28,7 @@
  </section>
  <section name="labtool" level="1" order="3" description="">
   <section name="usage" level="2" order="1" description="">
-   <keyValuePair key="cable" value="" description="" />
    <keyValuePair key="pgmcnt" value="00:00:00" description="" />
-   <keyValuePair key="remote" value="1" description="" />
   </section>
  </section>
  <section name="vivado_usage" level="1" order="4" description="">
