@@ -283,3 +283,12 @@ arm-xilinx-eabi-size LED_test.elf  |tee "LED_test.elf.size"
 12:14:46 **** Incremental Build of configuration Debug for project LED_test ****
 make all 
 make: Nothing to be done for `all'.
+14:09:03 **** Incremental Build of configuration Debug for project LED_test ****
+make all 
+make: Nothing to be done for `all'.
+14:09:14 **** Incremental Build of configuration Debug for project LED_test ****
+make all 
+make: Nothing to be done for `all'.
+14:09:55 **** Incremental Build of configuration Debug for project LED_test ****
+make all 
+make: Nothing to be done for `all'.

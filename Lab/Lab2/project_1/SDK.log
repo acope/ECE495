@@ -713,3 +713,24 @@ Could not detect MDM peripheral on hardware. Please check:
 12:14:49 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 12:14:50 INFO  : ps7_init is completed.
 12:14:50 INFO  : ps7_post_config is completed.
+14:09:08 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:436)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+14:09:16 INFO  : System reset is completed.
+14:09:18 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab2/project_1/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:09:20 INFO  : ps7_init is completed.
+14:09:20 INFO  : ps7_post_config is completed.
+14:09:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:16:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
