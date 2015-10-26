@@ -1,0 +1,224 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Oct 26 13:45:08 2015
+# Process ID: 4008
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 682.008 ; gain = 138.578
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:14:56 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:17]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:17:36 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:18:00 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:18:43 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:20:19 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:22:22 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:25:39 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:26:20 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:27:37 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:28:33 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:29:11 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:29:42 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:30:36 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:31:49 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:1]
+[Mon Oct 26 15:32:41 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

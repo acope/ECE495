@@ -1,0 +1,1628 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 4008
+
+Current time: 	10/26/15 1:45:31 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	mr_co_000
+User directory: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/mr_co_000/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/mr_co_000/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	168 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 387 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 2.1s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\lab3\lab3.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 60 MB (+60496kb) [00:00:10]
+// [Engine Memory]: 367 MB (+233773kb) [00:00:10]
+// Tcl Message: open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 397 MB (+11255kb) [00:00:13]
+// [Engine Memory]: 432 MB (+16785kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 438 MB. GUI used memory: 36 MB. Current time: 10/26/15 1:45:37 PM EDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lab3; location: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 682.008 ; gain = 138.578 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+// [Engine Memory]: 466 MB (+12492kb) [00:00:43]
+// PAPropertyPanels.initPanels (CORDIC_FP_top.vhd) elapsed time: 0.3s
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 466 MB. GUI used memory: 35 MB. Current time: 10/26/15 1:46:04 PM EDT
+// Elapsed time: 25 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 212, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 618, 516); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 626, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 660, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 64, 479); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 639, 485); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 13, 455); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 124, 487); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 124, 487, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 98, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 2, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 2, 463, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CORDIC_FP_top.vhd", 43, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 38, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 54, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 449, 483); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 326, 500); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 265, 496); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 297, 499); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 197, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 190, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 145, 483); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 253, 518); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 244, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 111, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 56, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 618, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 242, 515); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 114, 546); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 118, 545); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 117, 551); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 117, 571); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 31, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 31, 555, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CORDIC_FP_top.vhd", 85, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 65 MB (+1971kb) [00:04:45]
+// Elapsed time: 17 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 114, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 83, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 74, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 18, 530); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 48, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 26, 325); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 35, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 17, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 41, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 157, 345); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 157, 345, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 165, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 91, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 66, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 250, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 331, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 69 MB (+302kb) [00:07:03]
+// Elapsed time: 78 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 30, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 65, 544); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 424, 430); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 453, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("CORDIC_FP_top.vhd", 454, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 465, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 187, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 128, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 360, 455); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 464, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("CORDIC_FP_top.vhd", 459, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 224, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 78 MB (+5844kb) [00:08:39]
+selectCodeEditor("CORDIC_FP_top.vhd", 234, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 432, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 131, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 441, 485); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 84 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 242, 501); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 82 MB (+1001kb) [00:10:53]
+// Elapsed time: 421 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 230, 490); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 250, 494); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 241, 501); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 243, 518); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 24, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 272, 470); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, CORDIC_FP_top.vhd]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, CORDIC_FP_top.vhd]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near :. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:147]. ]", 8, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;147;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 160, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near ;. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:147]. ]", 8, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;147;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 238, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 324, 470); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 355, 493); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 353, 482); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 28, 521); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near :=. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:149]. ]", 8, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;149;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 243, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 239, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 241, 503); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 88 MB (+1578kb) [00:20:14]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:152]. ]", 8, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;152;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 160, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 50, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 53, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 54, 482); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 54, 503); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 55, 517); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 57, 529); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 59, 360); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 57, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 53, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 56, 400); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 55, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:151]. ]", 8); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 334, 438); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 246, 497); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 249, 514); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 249, 532); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 91 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 294, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 293, 487); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 328, 346); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 147 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 126, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 298, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 293, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 126, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LPM_CLSHIFT - LPM_SYN (lpm_clshift.vhd)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LPM_CLSHIFT - LPM_SYN (lpm_clshift.vhd)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 127, 415); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lpm_clshift.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 123, 397); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 276, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 30 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 133, 97); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 123, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 44, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 49, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 89, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:152]. ]", 8, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;152;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 38 MB. Current time: 10/26/15 2:16:06 PM EDT
+// Elapsed time: 43 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 123, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 229, 343); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 142, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 274, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 211, 480); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 213, 489); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:152]. ]", 8); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 71 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 42, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lpm_clshift.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 195, 400); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 1, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 26, 117); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 34, 341); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 145, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 145, 123, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 144, 108); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 194, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 222, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 109, 127); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 83, 139); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 211, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 182, 71); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 202, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 181, 378); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 280, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 418, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_addsub - structure (my_addsub.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_addsub - structure (my_addsub.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_addsub - structure (my_addsub.vhd), gi.fi - fulladd - structure (fulladd.vhd)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_addsub - structure (my_addsub.vhd), gi.fi - fulladd - structure (fulladd.vhd)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_addsub.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lpm_clshift.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 112, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 104, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 407, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 122, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 181, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 127, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 102, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 426, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 267, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 259, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 153, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 92, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 88, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 179, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near port. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:134]. ]", 8); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 204, 209); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 274, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("CORDIC_FP_top.vhd", 321, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 143, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 143, 396); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 141, 379); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 263, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("CORDIC_FP_top.vhd", 122, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 267, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 126, 378); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 126, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 127, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("CORDIC_FP_top.vhd", 193, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 225, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 115, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 61, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 58, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 63, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 137, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 222, 415); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 215, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 142, 452); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 175, 471); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("CORDIC_FP_top.vhd", 199, 452); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 116, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 123, 442); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 98, 452); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("CORDIC_FP_top.vhd", 183, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 38, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 60, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 29, 341); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 33, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 194, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 139, 379); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 135, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 141, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 152, 381); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 176, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 30, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 40 MB. Current time: 10/26/15 2:46:08 PM EDT
+// Elapsed time: 1152 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), muxX - mux_2to1 - Behavioral (mux_2to1.vhd)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), muxX - mux_2to1 - Behavioral (mux_2to1.vhd)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 93 MB (+51kb) [01:18:26]
+// Elapsed time: 1077 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fulladd.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fulladd.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 180 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_addsub.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 632, 281); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 609, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 272, 534); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 112, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 110, 572); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 112, 551); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 174, 549); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 626, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 89, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 89, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("CORDIC_FP_top.vhd", 43, 522); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 58 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 300, 518); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 213, 520); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 201, 514); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 229, 526); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 33, 539); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 90, 521); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 208, 523); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 34, 534); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 177, 532); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Oct 26 15:14:56 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2772] type std_logic does not match with a string literal [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:24]. ]", 1); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2772] type std_logic does not match with a string literal [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:24]. ]", 1, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2772] type std_logic does not match with a string literal [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:24]. ]", 1, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\my4to1LUT_atan.vhd;-;;-;16;-;line;-;24;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2772] type std_logic does not match with a string literal [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:24]. ]", 1); // ae:k (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 40 MB. Current time: 10/26/15 3:16:10 PM EDT
+// Elapsed time: 19 seconds
+selectCodeEditor("my4to1LUT_atan.vhd", 213, 95); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my4to1LUT_atan.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 237, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 49 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:17:36 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near end. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:17]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\my4to1LUT_atan.vhd;-;;-;16;-;line;-;17;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("my4to1LUT_atan.vhd", 358, 92); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:18:00 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1807] character '0' is not in type std_logic_vector [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:41]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("my4to1LUT_atan.vhd", 141, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("my4to1LUT_atan.vhd", 189, 511); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:18:43 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2778] type error near reset ; expected type std_logic_vector [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:73]. ]", 1, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;73;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2778] type error near reset ; expected type std_logic_vector [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:73]. ]", 1); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2778] type error near reset ; expected type std_logic_vector [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:73]. , [Synth 8-2778] type error near s_xyz ; expected type std_logic [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:79]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;79;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 341, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Oct 26 15:20:19 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] sclr is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:107]. ]", 1); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] sclr is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:107]. , [Synth 8-1031] sclr is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:116]. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;116;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 224, 108); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] sclr is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:107]. , [Synth 8-1031] x_result is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:135]. ]", 4, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;135;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 399, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] sclr is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:107]. , [Synth 8-1031] x_result is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:181]. ]", 6, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;181;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 253, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 267, 409); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 262, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 59, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 108, 389); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 42, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 266, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 265, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:22:22 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] x_result is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:135]. ]", 1, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;135;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 142, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 147, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 39 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2774] type std_logic does not match with the integer literal [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:180]. ]", 3); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2774] type std_logic does not match with the integer literal [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:180]. ]", 3, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;180;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 202, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), X_barrel_shifter - LPM_CLSHIFT - LPM_SYN (lpm_clshift.vhd)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), X_barrel_shifter - LPM_CLSHIFT - LPM_SYN (lpm_clshift.vhd)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lpm_clshift.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my4to1LUT_atan.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "my_addsub.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 97 MB (+199kb) [01:39:11]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lpm_clshift.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 300, 379); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 112, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 168, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:25:39 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] x_result is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:181]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;181;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 218, 210); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 244, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 276, 455); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:26:20 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'A': port width = 2, actual width = 20 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:80]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;80;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'A': port width = 2, actual width = 20 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:80]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 210, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), muxX - mux_2to1 - Behavioral (mux_2to1.vhd)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), muxX - mux_2to1 - Behavioral (mux_2to1.vhd)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("mux_2to1.vhd", 183, 72); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_2to1.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:27:37 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 11 seconds
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'A': port width = 2, actual width = 20 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:80]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 189, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 187, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 187, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 186, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:28:33 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'A': port width = 20, actual width = 16 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:94]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'A': port width = 20, actual width = 16 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:94]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;94;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 197, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:29:11 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 224, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2778] type error near data_z ; expected type integer [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:92]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 203, 250); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:29:42 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-358] invalid actual connected to output port 'overflow' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:138]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-358] invalid actual connected to output port 'overflow' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:138]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-358] invalid actual connected to output port 'overflow' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:138]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;138;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 186, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 158, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 195, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 165, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 197, 533); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 167, 547); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:30:36 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-358] invalid actual connected to output port 'overflow' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:138]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-358] invalid actual connected to output port 'overflow' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:138]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;138;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 89, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 191, 250); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 165, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 177, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 89, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 95, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 94, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 93, 450); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 96, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 209, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 96, 479); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 110, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 183, 284); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 180, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:31:49 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-358] invalid actual connected to output port 'underflow' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:183]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\CORDIC_FP_top.vhd;-;;-;16;-;line;-;183;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 111, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 111, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 212, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 266, 266); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 302, 402); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 322, 372); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 170, 378); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 166, 394); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Oct 26 15:32:41 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design CORDIC_FP_top has unconnected port done. ]", 3); // ae:k (JViewport:JComponent, cl:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net done in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:9]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1565] actual for formal port addsub is neither a static name nor a globally static expression [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:134]. ]", 1); // ae:k (JViewport:JComponent, cl:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1565] actual for formal port addsub is neither a static name nor a globally static expression [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:134]. ]", 1); // ae:k (JViewport:JComponent, cl:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net done in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:9]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design CORDIC_FP_top has unconnected port done. ]", 3); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 677 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 43 MB. Current time: 10/26/15 3:46:13 PM EDT
+// Elapsed time: 254 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_2to1.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 153 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 619, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 114, 522); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 23, 553); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 27, 568); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 91, 552); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 74, 530); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 47, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 0, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 219, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 0, 130); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 1, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 2, 210); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 226, 375); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 196, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 58, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 52, 171); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 62, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 53, 171); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 54, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 29, 359); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 54, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 54, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 82, 193); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 81, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 83, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 84, 277); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 81, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 245, 344); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 57, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 53, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 55, 345); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 104, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 84, 445); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 247, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 176, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 184, 501); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 85 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sclr"); // o:ao (f:JComboBox, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 356, 125); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 281, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 297, 124); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 244, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 285, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 244, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 357, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 230, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 210, 340); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 532, 396); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 234, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 240, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 93, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 275, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 227, 349); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 189, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 243, 404); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 33 seconds
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:77]. ]", 9); // ae:k (JViewport:JComponent, cl:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:77]. ]", 9); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_2to1.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 138, 445); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 140, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 108 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 151, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 314 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // w:JideButton (CommandBar:DockableBar, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+setFileChooser("C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// cp:P (cl:JFrame):  Add Simulation Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd 
+dismissDialog("Add Simulation Sources"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 15); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 16); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 17, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 17, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), Y_barrel_shifter - LPM_CLSHIFT - LPM_SYN (lpm_clshift.vhd)]", 29, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 17); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_cordic_fp - behavior (tb_cordic_fp.vhd)]", 18, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_cordic_fp - behavior (tb_cordic_fp.vhd), uut - multi_top]", 19, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("tb_cordic_fp.vhd", 142, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("CORDIC_FP_top.vhd", 143, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CORDIC_FP_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_cordic_fp - behavior (tb_cordic_fp.vhd)]", 6, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_cordic_fp - behavior (tb_cordic_fp.vhd)]", 6, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("tb_cordic_fp.vhd", 55, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 47, 402); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 47, 402, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("tb_cordic_fp.vhd", 52, 507); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 142, 363); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 10, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_cordic_fp - behavior (tb_cordic_fp.vhd)]", 6); // A:k (H:JPanel, cl:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 96, 385); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 12, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 86, 420); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 86, 420, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 116, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 73, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 187, 361); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 206, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 183, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 186, 379); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 162, 396); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 180, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 169, 448); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 166, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 142, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 140, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 141, 361); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 138, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 174, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 169, 379); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_cordic_fp.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 304, 151); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 275, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 7); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 142, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 163, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 261, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 152, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 180, 350); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 177, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 170, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 161, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd:60]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectCodeEditor("tb_cordic_fp.vhd", 80, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 122, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 85, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// [GUI Memory]: 103 MB (+538kb) [02:29:22]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near ;. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd:55]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\tb_cordic_fp.vhd;-;;-;16;-;line;-;55;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 208, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 204, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 239, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 479 MB. GUI used memory: 49 MB. Current time: 10/26/15 4:16:15 PM EDT
+// Elapsed time: 357 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 124, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 64, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 181, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 176, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 265, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 166 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 315, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 308, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 347, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 333, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 244, 299); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 147, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 392, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 222, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 278, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 112, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 53, 299); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 53, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 57, 359); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 53, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 104, 409); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 113, 410); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 113, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 166, 471); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 166, 471, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("tb_cordic_fp.vhd", 233, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 233, 468, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("tb_cordic_fp.vhd", 163, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "tb_cordic_fp.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 157, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 161, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 163, 483); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 189, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 378, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 374, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 374, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 377, 364, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("tb_cordic_fp.vhd", 380, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 420, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_cordic_fp.vhd", 425, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 196, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near s. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd:82]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab3\tb_cordic_fp.vhd;-;;-;16;-;line;-;82;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 422, 301); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 435, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 415, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 386, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("tb_cordic_fp.vhd", 11, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("tb_cordic_fp.vhd", 961, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

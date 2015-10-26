@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Oct 26 13:45:08 2015
+# Process ID: 4008
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

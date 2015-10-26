@@ -13,7 +13,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity my4to1LUT is
 	port ( ILUT: in std_logic_vector (4 downto 0);
-	       OLUT: out std_logic);
+	       OLUT: out std_logic_vector (15 downto 0));
 end my4to1LUT;
 
 architecture struct of my4to1LUT is
@@ -38,7 +38,7 @@ begin
 					x"0004" when "01110",--aTan(2^(-14))
 					x"0002" when "01111",--aTan(2^(-15))
 					x"0001" when "10000",--aTan(2^(-16))
-					'0' when others;
+					x"0000" when others;
 
 end struct;
 
