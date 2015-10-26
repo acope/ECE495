@@ -40,12 +40,12 @@ ARCHITECTURE behavior OF tb_cordic_fp IS
    signal Xin : std_logic_vector(15 downto 0) := (others => '0');
    signal Yin : std_logic_vector(15 downto 0) := (others => '0');
    signal Zin : std_logic_vector(15 downto 0) := (others => '0');
+   
+   
+   --Outputs
    signal Xout : std_logic_vector(15 downto 0) := (others => '0');
    signal Yout : std_logic_vector(15 downto 0) := (others => '0');
    signal Zout : std_logic_vector(15 downto 0) := (others => '0');
-
- 	--Outputs
-   signal P : std_logic_vector(19 downto 0);
    signal done : std_logic;
 
    -- Clock period definitions
@@ -59,7 +59,6 @@ BEGIN
                    reset => resetn, --resetn 
                    s => s, 
                    mode => mode, 
-                   sclr => sclr,
                    Xin => Xin, 
                    Yin => Yin, 
                    Zin => Zin,
@@ -92,10 +91,10 @@ BEGIN
 		      xin <= X"0001"; yin <= X"0001"; zin <= x"0A52";  s <= '1'; wait for clock_period; --z = -pi/3 = -1.047197551 = 0xBF860A52
 		      s <= '0';
 	  wait for clock_period*10;
-              xin <= X"0001"; yin <= X"0001"; zin <= "0000";  s <= '1'; wait for clock_period;
+              xin <= X"0001"; yin <= X"0001"; zin <= X"0000";  s <= '1'; wait for clock_period;
               s <= '0';
       wait for clock_period*10;
-              xin <= x"0000"; yin <= X"0001"; zin <= "0000";  s <= '1'; wait for clock_period; --x = 0.5 = 0x3F000000
+              xin <= x"0000"; yin <= X"0001"; zin <= X"0000";  s <= '1'; wait for clock_period; --x = 0.5 = 0x3F000000
               s <= '0';         
       wait;
    end process;

@@ -92,3 +92,42 @@ launch_simulation
 launch_simulation
 launch_simulation
 launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_cordic_fp.tcl
+close_sim
+launch_simulation
+source tb_cordic_fp.tcl
+add_wave {{/tb_cordic_fp/cordic/data_X}} 
+add_wave {{/tb_cordic_fp/cordic/data_Y}} 
+add_wave {{/tb_cordic_fp/cordic/data_Z}} 
+add_wave {{/tb_cordic_fp/cordic/X}} 
+add_wave {{/tb_cordic_fp/cordic/Y}} 
+add_wave {{/tb_cordic_fp/cordic/Z}} 
+restart
+run 10 us
+add_wave {{/tb_cordic_fp/cordic/next_X}} 
+add_wave {{/tb_cordic_fp/cordic/next_Y}} 
+add_wave {{/tb_cordic_fp/cordic/next_Z}} 
+restart
+run 5 us
+restart
+run 5 us
+close_sim
+launch_simulation
+source tb_cordic_fp.tcl
+add_wave {{/tb_cordic_fp/cordic/X}} 
+add_wave {{/tb_cordic_fp/cordic/Y}} 
+restart
+run .5 us
+add_wave {{/tb_cordic_fp/cordic/state_y}} 
+add_wave {{/tb_cordic_fp/cordic/E}} 
+restart
+run .5 us
+run .5 us

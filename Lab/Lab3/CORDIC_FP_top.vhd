@@ -237,12 +237,8 @@ begin
                 sclr <= '1';
             when S2 =>
                 E <= '1';
-                if i = "10000" then
-                    state_y <= S2;
-                else
                     --i <= i + 1;
                     i <= i + "1";
-                end if;
             when S3 => done <= '1';
         end case;
     end process;

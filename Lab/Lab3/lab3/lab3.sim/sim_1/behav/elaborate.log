@@ -1,0 +1,28 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6dd5183cbbae4d4d82b82930dfdfb805 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [\mux_2to1(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [\mux_2to1(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"LOGICAL","LPM...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [cordic_fp_top_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav

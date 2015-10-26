@@ -21,7 +21,7 @@ architecture struct of my4to1LUT is
 begin
 	
 	with ILUT select
-			OLUT <= x"B400" when "0000", --aTan(2^(-0))
+			OLUT <= x"B400" when "00000", --aTan(2^(-0))
 					x"6A43" when "00001",--aTan(2^(-1))
 					x"3825" when "00010",--aTan(2^(-2))
 					x"1C80" when "00011",--aTan(2^(-3))

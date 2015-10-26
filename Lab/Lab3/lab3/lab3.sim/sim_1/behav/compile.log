@@ -17,7 +17,3 @@ WARNING: [VRFC 10-280] actual for formal port addsub is neither a static name no
 WARNING: [VRFC 10-280] actual for formal port addsub is neither a static name nor a globally static expression [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:158]
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
-ERROR: [VRFC 10-719] formal port/generic <sclr> is not declared in <cordic_fp_top> [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd:62]
-ERROR: [VRFC 10-704] formal xin has no actual or default value [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd:57]
-ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd:22]
-INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/tb_cordic_fp.vhd ignored due to errors
