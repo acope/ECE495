@@ -10,6 +10,7 @@
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+use ieee.numeric_std.all; 
  
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -22,7 +23,7 @@ ARCHITECTURE behavior OF tb_cordic_fp IS
  
     -- Component Declaration for the Unit Under Test (UUT)   
     component CORDIC_FP_top is
-        port ( clock, reset, s, mode, sclr: in std_logic;
+        port ( clock, reset, s, mode: in std_logic;
                Xin, Yin, Zin: in std_logic_vector (15 downto 0);
                done: out std_logic;
                Xout, Yout, Zout: out std_logic_vector (15 downto 0)
@@ -34,8 +35,14 @@ ARCHITECTURE behavior OF tb_cordic_fp IS
    signal clock : std_logic := '0';
    signal resetn : std_logic := '0';
    signal s : std_logic := '0';
-   signal A : std_logic_vector(11 downto 0) := (others => '0');
-   signal B : std_logic_vector(7 downto 0) := (others => '0');
+   signal sclr : std_logic := '0';
+   signal mode : std_logic := '0';
+   signal Xin : std_logic_vector(15 downto 0) := (others => '0');
+   signal Yin : std_logic_vector(15 downto 0) := (others => '0');
+   signal Zin : std_logic_vector(15 downto 0) := (others => '0');
+   signal Xout : std_logic_vector(15 downto 0) := (others => '0');
+   signal Yout : std_logic_vector(15 downto 0) := (others => '0');
+   signal Zout : std_logic_vector(15 downto 0) := (others => '0');
 
  	--Outputs
    signal P : std_logic_vector(19 downto 0);
@@ -49,7 +56,7 @@ BEGIN
 	-- Instantiate the Unit Under Test (UUT)
   cordic : CORDIC_FP_top       
             port map( clock => clock, 
-                   reset => not(reset), --resetn 
+                   reset => resetn, --resetn 
                    s => s, 
                    mode => mode, 
                    sclr => sclr,
@@ -76,19 +83,19 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns; reset <= '0';
+      wait for 100 ns; resetn <= '1';
 
       -- insert stimulus here 
-		      xin <= X"0001"; yin <= X"0001"; zin <= (3.14/6);  s <= '1'; wait for clock_period;
+		      xin <= X"0001"; yin <= X"0001"; zin <= x"0A92";  s <= '1'; wait for clock_period; --z = pi/6 = 0.5235987756 = 0x3F060A92
 		      s <= '0';		
-		wait for clock_period*10;
-		      xin <= X"0001"; yin <= X"0001"; zin <= (-3.14/3);  s <= '1'; wait for clock_period;
+	  wait for clock_period*10;
+		      xin <= X"0001"; yin <= X"0001"; zin <= x"0A52";  s <= '1'; wait for clock_period; --z = -pi/3 = -1.047197551 = 0xBF860A52
 		      s <= '0';
-		wait for clock_period*10;
+	  wait for clock_period*10;
               xin <= X"0001"; yin <= X"0001"; zin <= "0000";  s <= '1'; wait for clock_period;
               s <= '0';
-       wait for clock_period*10;
-              xin <= 0.5; yin <= X"0001"; zin <= "0000";  s <= '1'; wait for clock_period;
+      wait for clock_period*10;
+              xin <= x"0000"; yin <= X"0001"; zin <= "0000";  s <= '1'; wait for clock_period; --x = 0.5 = 0x3F000000
               s <= '0';         
       wait;
    end process;

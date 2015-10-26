@@ -2,9 +2,10 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_arith.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity CORDIC_FP_top is
-	port ( clock, reset, s, mode, sclr: in std_logic;
+	port ( clock, reset, s, mode: in std_logic;
 		   Xin, Yin, Zin: in std_logic_vector (15 downto 0);
 		   done: out std_logic;
 		   Xout, Yout, Zout: out std_logic_vector (15 downto 0)
@@ -61,10 +62,14 @@ architecture Behavioral of CORDIC_FP_top is
         );
     end component LPM_CLSHIFT;
     
+    type state is (S1, S2, S3);
+    signal state_y: state;
     signal xin_ext, yin_ext, data_X, data_Y, X, Y, result_x, result_Y, next_X, next_Y: std_logic_vector(19 downto 0);
     signal data_Z, next_Z, Z, e_i: std_logic_vector(15 downto 0);
     signal i: std_logic_vector(4 downto 0);
-    signal s_xyz, di, E, resetn: std_logic;
+    signal s_xyz, di, E, resetn, sclr: std_logic;
+    
+
   
 begin
 
@@ -212,32 +217,34 @@ begin
     Transitions: process (resetn, clock, s, i, mode)
     begin
             if resetn = '0' then -- asynchronous signal
-                y <= S1; -- if resetn asserted, go to initial state: S1
+                state_y <= S1; -- if resetn asserted, go to initial state: S1
             elsif (clock'event and clock = '1') then
-                case y is
-                    when S1 => if s = '1' then y <= S2; else y <= S1; end if;
-                    when S2 => if i = 16 then y <= S3; else y <= S2; end if;
-                    when S3 => if s = '1' then y <= S3; else y <= S1; end if;
+                case state_y is
+                    when S1 => if s = '1' then state_y <= S2; else state_y <= S1; end if;
+                    when S2 => if i = "10000" then state_y <= S3; else state_y <= S2; end if;
+                    when S3 => if s = '1' then state_y <= S3; else state_y <= S1; end if;
                 end case;
             end if;
     end process;
     
-    Outputs: process (y, s, done)
+    Outputs: process (y, s)
     begin
          -- Initialization of output signals
-        sclr <= '0'; done <= '0'; E <= '0'; i <= 0; di <= '0'; s <= '0'; s_xyz <= '0';
-        case y is
+        sclr <= '0'; done <= '0'; E <= '0'; i <= "00000"; di <= '0'; s_xyz <= '0';
+        case state_y is
             when S1 =>
                 s_xyz <= '1';
                 sclr <= '1';
             when S2 =>
                 E <= '1';
-                if i = 16 then
-                    y <= S2;
+                if i = "10000" then
+                    state_y <= S2;
                 else
-                    i <= i + 1;
+                    --i <= i + 1;
+                    i <= i + "1";
                 end if;
             when S3 => done <= '1';
         end case;
     end process;
+    
 end Behavioral;
