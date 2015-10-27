@@ -7,6 +7,7 @@ vhdl xil_defaultlib  "../../../../my_addsub.vhd"
 vhdl xil_defaultlib  "../../../../mux_2to1.vhd"
 vhdl xil_defaultlib  "../../../../lpm_clshift.vhd"
 vhdl xil_defaultlib  "../../../../CORDIC_FP_top.vhd"
+vhdl xil_defaultlib  "../../../../LPM_COMMON_CONVERSION.vhd"
 vhdl xil_defaultlib  "../../../../tb_cordic_fp.vhd"
 
 # Do not sort compile order

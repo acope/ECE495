@@ -35,7 +35,7 @@ ARCHITECTURE behavior OF tb_cordic_fp IS
    signal clock : std_logic := '0';
    signal resetn : std_logic := '0';
    signal s : std_logic := '0';
-   signal sclr : std_logic := '0';
+  -- signal sclr : std_logic := '0';
    signal mode : std_logic := '0';
    signal Xin : std_logic_vector(15 downto 0) := (others => '0');
    signal Yin : std_logic_vector(15 downto 0) := (others => '0');
@@ -82,10 +82,12 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns; resetn <= '1';
+      -- resetn <= '0';
+       wait for 10 ns;
+       resetn <= '0';
 
       -- insert stimulus here 
-		      xin <= X"0001"; yin <= X"0000"; zin <= x"2183";  s <= '1'; mode <= '1'; wait for clock_period; --z = pi/6 = 0.5235987756 = 0x3F060A92
+		      xin <= X"0000"; yin <= X"26dc"; zin <= x"2183";  s <= '1'; mode <= '0'; wait for clock_period*12; --z = pi/6 = 0.5235987756 = 0x3F060A92
 		      s <= '0';		
 --	  wait for clock_period*(18);
 --		      xin <= X"0001"; yin <= X"0001"; zin <= x"0A52";  s <= '1'; wait for clock_period; --z = -pi/3 = -1.047197551 = 0xBF860A52

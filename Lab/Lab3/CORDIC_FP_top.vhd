@@ -3,6 +3,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_arith.all;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use work.LPM_COMPONENTS.all;
 
 entity CORDIC_FP_top is
 	port ( clock, reset, s, mode: in std_logic;
@@ -17,7 +18,7 @@ architecture Behavioral of CORDIC_FP_top is
     component my_rege is
        generic (N: INTEGER);
         port ( clock, resetn: in std_logic;
-               E, sclr: in std_logic; -- sclr: Synchronous clear
+               E, sclr: in std_logic;
                D: in std_logic_vector (N-1 downto 0);
                Q: out std_logic_vector (N-1 downto 0));
     end component my_rege;
@@ -63,14 +64,14 @@ architecture Behavioral of CORDIC_FP_top is
     end component LPM_CLSHIFT;
     
     type state is (S1, S2, S3);
-    signal state_y: state;
+    signal state_y: state:=S1;
     signal xin_ext, yin_ext, data_X, data_Y, X, Y, result_x, result_Y, next_X, next_Y: std_logic_vector(19 downto 0);
     signal data_Z, next_Z, Z, e_i: std_logic_vector(15 downto 0);
     signal i: std_logic_vector(4 downto 0);
-    signal s_xyz, di, E, resetn, sclr: std_logic;
+    signal s_xyz, di, resetn : std_logic;
     
-
-  
+  signal sclr : std_logic :='1';
+  signal E : std_logic :='0';
 begin
 
     xin_ext <= xin & x"0";
@@ -137,8 +138,8 @@ begin
     X_addsub : my_addsub
         generic map(N => 20)
         port map(addsub => not(di),
-             x => result_y,
-             y => X,     
+             x => x,
+             y => result_y,     
              s => next_x
              --overflow => 'U',
              --cout => 'U'
@@ -147,8 +148,8 @@ begin
     Y_addsub : my_addsub
          generic map(N => 20)
          port map(addsub => di,
-              x => result_x,
-              y => Y,     
+              x => y,
+              y => result_x,     
               s => next_Y
               --overflow => 'U',
              -- cout => 'U');
@@ -177,13 +178,13 @@ begin
     X_barrel_shifter : LPM_CLSHIFT
        generic map(lpm_width => 20,                              
                    lpm_widthdist => 5, 
-                   lpm_shifttype =>"arithmetic",
-                   lpm_type      =>"LPM_CLSHIFT",
-                   lpm_hint      =>"UNUSED")
+                   lpm_shifttype =>"ARITHMETIC")
+                   --lpm_type      =>"LPM_CLSHIFT",
+                   --lpm_hint      =>"UNUSED")
                   
        port map(data      => X, 
                 distance  => i, 
-                --direction => 0,
+                direction => '1',
                 result    => result_x
                 --underflow => '-',
                 --overflow  => '-');   
@@ -192,13 +193,13 @@ begin
      Y_barrel_shifter : LPM_CLSHIFT
                generic map(lpm_width => 20,                              
                            lpm_widthdist => 5, 
-                           lpm_shifttype =>"arithmetic",
-                           lpm_type      =>"LPM_CLSHIFT",
-                           lpm_hint      =>"UNUSED")
+                           lpm_shifttype =>"ARITHMETIC")
+                           --lpm_type      =>"LPM_CLSHIFT",
+                           --lpm_hint      =>"UNUSED")
                           
                port map(data      => Y, 
                         distance  => i, 
-                        --direction => 0,
+                        direction => '1',
                         result    => result_y
                         --underflow => '-',
                         --overflow  => '-'); 
@@ -216,39 +217,37 @@ begin
 -------------------------------------------------------------------------------------- 
     
     
-    Transitions: process (resetn, clock, s, s_xyz)
+    Transitions: process (resetn, clock, s,i)
     begin
             if resetn = '0' then -- asynchronous signal
                 state_y <= S1; -- if resetn asserted, go to initial state: S1
-            elsif (clock'event and clock = '1') then
+                
+            elsif (clock'event and clock = '1') then  
                 if state_y = s2 then
-                    i <= i +'1';
-                elsif state_y = s1 then
-                    i <= "00000";
-                elsif state_y = s3 then
-                    i <= "00000";    
                 end if;
-                    
                 case state_y is
-                    when S1 => if s = '1' then state_y <= S2; else state_y <= S1; end if;
-                    when S2 => if i = "01111" then state_y <= S3; else state_y <= S2; end if;
+                    when S1 =>  if s = '1' then state_y <= S2;  end if;
+                    when S2 =>  if i = "01111" then state_y <= S3; else state_y <= S2; end if;
                     when S3 => if s = '1' then state_y <= S3; else state_y <= S1; end if;
                 end case;
             end if;
     end process;
     
-    Outputs: process (s, i, E, Z(15), Y(19), di, s_xyz)
+    Outputs: process (state_y,mode,Z(15),Y(19))
     begin
          -- Initialization of output signals
-        sclr <= '0'; done <= '0'; E <= '0';
+        done <= '0'; E <= '0'; sclr <= '0';
         case state_y is
             when S1 =>
-                sclr <= '1';
-                    E <= '1';
-                    s_xyz <= '1';
+                 E <= '1';
+                 s_xyz <= '1';                
+                 i <= "00000";
             when S2 =>
                 E <= '1';
-                s_xyz <= '0';
+               s_xyz <= '0';
+               i <= i + 1;
+                
+                
                 if mode = '0' then
                     di <= Z(15);
                 end if;
@@ -256,7 +255,12 @@ begin
                 if mode = '1' then
                     di <= Y(19);
                 end if;
-            when S3 => done <= '1';
+                
+            when S3 => 
+             i <= "00000";
+            done <= '1';
+            E <= '1';
+            sclr <= '1';
         end case;
     end process;
     
