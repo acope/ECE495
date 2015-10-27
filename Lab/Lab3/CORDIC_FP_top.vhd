@@ -137,7 +137,7 @@ begin
     X_addsub : my_addsub
         generic map(N => 20)
         port map(addsub => not(di),
-             x => result_x,
+             x => result_y,
              y => X,     
              s => next_x
              --overflow => 'U',
@@ -147,7 +147,7 @@ begin
     Y_addsub : my_addsub
          generic map(N => 20)
          port map(addsub => di,
-              x => result_y,
+              x => result_x,
               y => Y,     
               s => next_Y
               --overflow => 'U',
@@ -177,7 +177,7 @@ begin
     X_barrel_shifter : LPM_CLSHIFT
        generic map(lpm_width => 20,                              
                    lpm_widthdist => 5, 
-                   lpm_shifttype =>"LOGICAL",
+                   lpm_shifttype =>"arithmetic",
                    lpm_type      =>"LPM_CLSHIFT",
                    lpm_hint      =>"UNUSED")
                   
@@ -192,7 +192,7 @@ begin
      Y_barrel_shifter : LPM_CLSHIFT
                generic map(lpm_width => 20,                              
                            lpm_widthdist => 5, 
-                           lpm_shifttype =>"LOGICAL",
+                           lpm_shifttype =>"arithmetic",
                            lpm_type      =>"LPM_CLSHIFT",
                            lpm_hint      =>"UNUSED")
                           
@@ -207,38 +207,55 @@ begin
 --------------------------------------------------------------------------------------
 --OUT SIGNALS-------------------------------------------------------------------------
 -------------------------------------------------------------------------------------- 
-    Xout <= X(15 downto 0);
-    Yout <= Y(15 downto 0);
+    Xout <= X(19 downto 4);
+    Yout <= Y(19 downto 4);
     Zout <= Z;
     
 --------------------------------------------------------------------------------------
 --FINITE STATE MACHINE----------------------------------------------------------------
 -------------------------------------------------------------------------------------- 
-    Transitions: process (resetn, clock, s, i, mode)
+    
+    
+    Transitions: process (resetn, clock, s, s_xyz)
     begin
             if resetn = '0' then -- asynchronous signal
                 state_y <= S1; -- if resetn asserted, go to initial state: S1
             elsif (clock'event and clock = '1') then
+                if state_y = s2 then
+                    i <= i +'1';
+                elsif state_y = s1 then
+                    i <= "00000";
+                elsif state_y = s3 then
+                    i <= "00000";    
+                end if;
+                    
                 case state_y is
                     when S1 => if s = '1' then state_y <= S2; else state_y <= S1; end if;
-                    when S2 => if i = "10000" then state_y <= S3; else state_y <= S2; end if;
+                    when S2 => if i = "01111" then state_y <= S3; else state_y <= S2; end if;
                     when S3 => if s = '1' then state_y <= S3; else state_y <= S1; end if;
                 end case;
             end if;
     end process;
     
-    Outputs: process (y, s)
+    Outputs: process (s, i, E, Z(15), Y(19), di, s_xyz)
     begin
          -- Initialization of output signals
-        sclr <= '0'; done <= '0'; E <= '0'; i <= "00000"; di <= '0'; s_xyz <= '0';
+        sclr <= '0'; done <= '0'; E <= '0';
         case state_y is
             when S1 =>
-                s_xyz <= '1';
                 sclr <= '1';
+                    E <= '1';
+                    s_xyz <= '1';
             when S2 =>
                 E <= '1';
-                    --i <= i + 1;
-                    i <= i + "1";
+                s_xyz <= '0';
+                if mode = '0' then
+                    di <= Z(15);
+                end if;
+                
+                if mode = '1' then
+                    di <= Y(19);
+                end if;
             when S3 => done <= '1';
         end case;
     end process;

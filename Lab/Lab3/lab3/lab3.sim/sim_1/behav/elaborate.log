@@ -21,7 +21,7 @@ Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_defau
 Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
 Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
 Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
-Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"LOGICAL","LPM...]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"arithmetic","...]
 Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [cordic_fp_top_default]
 Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
 Waiting for 2 sub-compilation(s) to finish...

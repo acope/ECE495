@@ -1,0 +1,14 @@
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+Error: Illegal lpm_shifttype property value for LPM_CLSHIFT!
+Time: 0 ps  Iteration: 0  Process: /tb_cordic_fp/cordic/Y_barrel_shifter/line__83  File: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
+Error: Illegal lpm_shifttype property value for LPM_CLSHIFT!
+Time: 0 ps  Iteration: 0  Process: /tb_cordic_fp/cordic/X_barrel_shifter/line__83  File: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
+Error: Illegal lpm_shifttype property value for LPM_CLSHIFT!
+Time: 5 ns  Iteration: 2  Process: /tb_cordic_fp/cordic/X_barrel_shifter/line__83  File: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
+Error: Illegal lpm_shifttype property value for LPM_CLSHIFT!
+Time: 5 ns  Iteration: 2  Process: /tb_cordic_fp/cordic/Y_barrel_shifter/line__83  File: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
+Error: Illegal lpm_shifttype property value for LPM_CLSHIFT!
+Time: 5 ns  Iteration: 3  Process: /tb_cordic_fp/cordic/X_barrel_shifter/line__83  File: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
+Error: Illegal lpm_shifttype property value for LPM_CLSHIFT!
+Time: 5 ns  Iteration: 3  Process: /tb_cordic_fp/cordic/Y_barrel_shifter/line__83  File: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
