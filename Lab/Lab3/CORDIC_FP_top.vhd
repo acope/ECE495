@@ -68,7 +68,7 @@ architecture Behavioral of CORDIC_FP_top is
     signal xin_ext, yin_ext, data_X, data_Y, X, Y, result_x, result_Y, next_X, next_Y: std_logic_vector(19 downto 0);
     signal data_Z, next_Z, Z, e_i: std_logic_vector(15 downto 0);
     signal i: std_logic_vector(4 downto 0);
-    signal s_xyz, di, resetn : std_logic;
+    signal s_xyz, di, resetn,as : std_logic;
     
   signal sclr : std_logic :='1';
   signal E : std_logic :='0';
@@ -137,7 +137,7 @@ begin
 --------------------------------------------------------------------------------------  
     X_addsub : my_addsub
         generic map(N => 20)
-        port map(addsub => not(di),
+        port map(addsub =>as,
              x => x,
              y => result_y,     
              s => next_x
@@ -156,7 +156,7 @@ begin
               );
     Z_addsub : my_addsub
          generic map(N => 16)
-         port map(addsub => not(di),
+         port map(addsub => as,
               x => Z,
               y => e_i,     
               s => next_Z
@@ -238,7 +238,7 @@ begin
             end if;
     end process;
     
-    Outputs: process (state_y,mode,Z(15),Y(19))
+    Outputs: process (state_y,mode,Z(15),Y(19),di)
     begin
          -- Initialization of output signals
         done <= '0'; E <= '0'; sclr <= '0';
@@ -253,16 +253,18 @@ begin
                                
                 if mode = '0' then
                     di <= Z(15);
+                    as<= not(di);
                 end if;
                 
                 if mode = '1' then
-                    di <= Y(19);
+                    di <= not(Y(19));
+                    as<= not(di);
                 end if;
                 
             when S3 => 
                 done <= '1';
                --E <= '1';
-                --sclr <= '1';
+                sclr <= '1';
         end case;
     end process;
     

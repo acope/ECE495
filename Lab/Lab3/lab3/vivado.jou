@@ -86,3 +86,43 @@ restart
 run 800 ns
 restart
 run 800 ns
+restart
+run 800 ns
+launch_simulation
+source tb_cordic_fp.tcl
+restart
+run 800 ns
+restart
+run 800 ns
+restart
+run 800 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_cordic_fp.tcl
+restart
+run 800 ns
+launch_simulation
+source tb_cordic_fp.tcl
+add_wave {{/tb_cordic_fp/cordic/sclr}} 
+restart
+run 800 ns
+restart
+run 800 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_cordic_fp.tcl
