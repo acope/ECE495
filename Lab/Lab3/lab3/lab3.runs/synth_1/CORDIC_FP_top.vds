@@ -2,8 +2,8 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Mon Oct 26 15:32:43 2015
-# Process ID: 2372
+# Start of session at: Wed Oct 28 16:30:03 2015
+# Process ID: 6276
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1/CORDIC_FP_top.vds
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -13,37 +13,35 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 245.086 ; gain = 68.363
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 245.148 ; gain = 68.473
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-1565] actual for formal port addsub is neither a static name nor a globally static expression [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:134]
-WARNING: [Synth 8-1565] actual for formal port addsub is neither a static name nor a globally static expression [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:153]
-INFO: [Synth 8-638] synthesizing module 'CORDIC_FP_top' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_FP_top' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:16]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:77]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:83]
 INFO: [Synth 8-638] synthesizing module 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxY' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:84]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxY' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:90]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxZ' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:91]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:4' bound to instance 'muxZ' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:97]
 INFO: [Synth 8-638] synthesizing module 'mux_2to1__parameterized2' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:12]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'mux_2to1__parameterized2' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:102]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:108]
 INFO: [Synth 8-638] synthesizing module 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'my_rege' (2#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:111]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:117]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:120]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:126]
 INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized2' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:25]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized2' (2#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:132]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:138]
 INFO: [Synth 8-638] synthesizing module 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:23]
 	Parameter N bound to: 20 - type: integer 
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:40]
@@ -70,9 +68,9 @@ INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'my_addsub' (4#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:23]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:142]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:148]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:151]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:157]
 INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized2' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:23]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:40]
@@ -92,53 +90,49 @@ INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:40]
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized2' (4#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my_addsub.vhd:23]
-INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:164]
+INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:170]
 INFO: [Synth 8-638] synthesizing module 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:19]
 INFO: [Synth 8-256] done synthesizing module 'my4to1LUT' (5#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/my4to1LUT_atan.vhd:19]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
-	Parameter lpm_shifttype bound to: LOGICAL - type: string 
+	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:172]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:178]
 INFO: [Synth 8-638] synthesizing module 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:56]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
-	Parameter lpm_shifttype bound to: LOGICAL - type: string 
+	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
 INFO: [Synth 8-256] done synthesizing module 'LPM_CLSHIFT' (6#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:56]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
-	Parameter lpm_shifttype bound to: LOGICAL - type: string 
+	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:187]
-WARNING: [Synth 8-3848] Net done in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:9]
-WARNING: [Synth 8-3848] Net E in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:67]
-WARNING: [Synth 8-3848] Net s_xyz in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:67]
-WARNING: [Synth 8-3848] Net di in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:67]
-WARNING: [Synth 8-3848] Net i in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:66]
-INFO: [Synth 8-256] done synthesizing module 'CORDIC_FP_top' (7#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:14]
-WARNING: [Synth 8-3331] design CORDIC_FP_top has unconnected port done
-WARNING: [Synth 8-3331] design CORDIC_FP_top has unconnected port s
-WARNING: [Synth 8-3331] design CORDIC_FP_top has unconnected port mode
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_FP_top' (7#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:16]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 278.355 ; gain = 101.633
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 279.461 ; gain = 102.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 278.355 ; gain = 101.633
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 279.461 ; gain = 102.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 278.355 ; gain = 101.633
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 279.461 ; gain = 102.785
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 's_xyz_reg' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:85]
+WARNING: [Synth 8-327] inferring latch for variable 'as_reg' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:140]
+WARNING: [Synth 8-327] inferring latch for variable 'di_reg' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd:150]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 324.414 ; gain = 147.691
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 330.000 ; gain = 153.324
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -153,12 +147,15 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     32 Bit       Adders := 78    
+	   2 Input      5 Bit       Adders := 1     
 +---XORs : 
 	   3 Input      1 Bit         XORs := 56    
 	   2 Input      1 Bit         XORs := 59    
 +---Registers : 
 	               20 Bit    Registers := 2     
 	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input     24 Bit        Muxes := 2     
 	   2 Input     23 Bit        Muxes := 2     
@@ -180,7 +177,9 @@ Detailed RTL Component Info :
 	   2 Input      8 Bit        Muxes := 2     
 	   2 Input      7 Bit        Muxes := 2     
 	   2 Input      6 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 44    
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 89    
+	   4 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -188,6 +187,17 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+Module CORDIC_FP_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
 Module mux_2to1 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -248,7 +258,7 @@ Detailed RTL Component Info :
 	   2 Input      8 Bit        Muxes := 1     
 	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 22    
+	   2 Input      1 Bit        Muxes := 43    
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -261,17 +271,14 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 419.820 ; gain = 243.098
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 419.469 ; gain = 242.793
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3331] design CORDIC_FP_top has unconnected port done
-WARNING: [Synth 8-3331] design CORDIC_FP_top has unconnected port s
-WARNING: [Synth 8-3331] design CORDIC_FP_top has unconnected port mode
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 421.066 ; gain = 244.344
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 420.742 ; gain = 244.066
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 421.066 ; gain = 244.344
+Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 420.742 ; gain = 244.066
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -279,78 +286,26 @@ Report RTL Partitions:
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
 No constraint files found.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[9] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[8] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[7] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[6] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[5] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[4] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[3] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[2] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[1] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[0] ) is unused and will be removed from module CORDIC_FP_top.
 ---------------------------------------------------------------------------------
 Start Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\data_Y_reg/Qt_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\data_X_reg/Qt_reg[15] )
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[19] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[18] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[17] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[16] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[15] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[14] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[13] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[12] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[11] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[10] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[9] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[8] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[7] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[6] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[5] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[4] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[3] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[2] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[1] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_X_reg/Qt_reg[0] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[19] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[18] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[17] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[16] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[15] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[14] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[13] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[12] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[11] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[10] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[9] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[8] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[7] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[6] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[5] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[4] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[3] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[2] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[1] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Y_reg/Qt_reg[0] ) is unused and will be removed from module CORDIC_FP_top.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 454.246 ; gain = 277.570
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -361,14 +316,8 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[15] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[14] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[13] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[12] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[11] ) is unused and will be removed from module CORDIC_FP_top.
-WARNING: [Synth 8-3332] Sequential element (\data_Z_reg/Qt_reg[10] ) is unused and will be removed from module CORDIC_FP_top.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -386,7 +335,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -399,7 +348,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -411,13 +360,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Start Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -430,34 +379,50 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+------+------+
-|      |Cell  |Count |
-+------+------+------+
-|1     |OBUF  |    48|
-|2     |OBUFT |     1|
-+------+------+------+
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     2|
+|2     |LUT1 |     4|
+|3     |LUT2 |     4|
+|4     |LUT3 |    48|
+|5     |LUT4 |    19|
+|6     |LUT5 |    67|
+|7     |LUT6 |   120|
+|8     |FDCE |    58|
+|9     |FDRE |     5|
+|10    |LD   |     3|
+|11    |IBUF |    52|
+|12    |OBUF |    49|
++------+-----+------+
 
 Report Instance Areas: 
-+------+---------+-------+------+
-|      |Instance |Module |Cells |
-+------+---------+-------+------+
-|1     |top      |       |    49|
-+------+---------+-------+------+
++------+-------------+------------------------+------+
+|      |Instance     |Module                  |Cells |
++------+-------------+------------------------+------+
+|1     |top          |                        |   431|
+|2     |  data_X_reg |my_rege                 |   117|
+|3     |  data_Y_reg |my_rege_0               |   118|
+|4     |  data_Z_reg |my_rege__parameterized2 |    70|
++------+-------------+------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 69 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 439.723 ; gain = 247.625
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 439.723 ; gain = 263.000
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 454.246 ; gain = 262.086
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 454.246 ; gain = 277.570
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 3 instances were transformed.
+  LD => LDCE: 3 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-77 Infos, 69 Warnings, 0 Critical Warnings and 0 Errors encountered.
+78 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 496.641 ; gain = 305.945
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 496.641 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Oct 26 15:33:08 2015...
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 503.793 ; gain = 313.031
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 503.793 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 28 16:30:21 2015...

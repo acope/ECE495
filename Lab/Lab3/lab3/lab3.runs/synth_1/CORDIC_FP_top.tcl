@@ -22,6 +22,7 @@ read_vhdl -library xil_defaultlib {
   C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/mux_2to1.vhd
   C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lpm_clshift.vhd
   C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/CORDIC_FP_top.vhd
+  C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/LPM_COMMON_CONVERSION.vhd
 }
 synth_design -top CORDIC_FP_top -part xc7z010clg400-1
 write_checkpoint -noxdef CORDIC_FP_top.dcp

@@ -35,7 +35,7 @@ ARCHITECTURE behavior OF tb_cordic_fp IS
    signal clock : std_logic := '0';
    signal resetn : std_logic := '0';
    signal s : std_logic := '0';
-   signal sclr : std_logic := '0';
+  -- signal sclr : std_logic := '0';
    signal mode : std_logic := '0';
    signal Xin : std_logic_vector(15 downto 0) := (others => '0');
    signal Yin : std_logic_vector(15 downto 0) := (others => '0');
@@ -82,20 +82,22 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns; resetn <= '1';
+      -- resetn <= '0';
+       wait for 10 ns;
+       resetn <= '0';
 
       -- insert stimulus here 
-		      xin <= X"0001"; yin <= X"0000"; zin <= x"2183";  s <= '1'; mode <= '1'; wait for clock_period; --z = pi/6 = 0.5235987756 = 0x3F060A92
+		      xin <= X"26DC"; yin <= X"0000"; zin <= x"2183";  s <= '1'; mode <= '0'; wait for clock_period; --z = pi/6 =0x2183
 		      s <= '0';		
---	  wait for clock_period*(18);
---		      xin <= X"0001"; yin <= X"0001"; zin <= x"0A52";  s <= '1'; wait for clock_period; --z = -pi/3 = -1.047197551 = 0xBF860A52
---		      s <= '0';
---	  wait for clock_period*10;
---              xin <= X"0001"; yin <= X"0001"; zin <= X"0000";  s <= '1'; wait for clock_period;
---              s <= '0';
---      wait for clock_period*10;
---              xin <= x"0000"; yin <= X"0001"; zin <= X"0000";  s <= '1'; wait for clock_period; --x = 0.5 = 0x3F000000
---              s <= '0';         
+	  wait for clock_period*18;
+		      xin <= X"26DC"; yin <= X"0000"; zin <= x"BD03";  s <= '1'; mode <= '0'; wait for clock_period; --z = -pi/3 = BD03
+		      s <= '0';
+	  wait for clock_period*18;
+              xin <= X"3333"; yin <= X"3333"; zin <= X"0000";  s <= '1'; mode <= '1'; wait for clock_period;
+              s <= '0';
+      wait for clock_period*18;
+              xin <= x"2000"; yin <= X"4000"; zin <= X"0000";  s <= '1'; mode <= '1'; wait for clock_period; 
+              s <= '0';         
       wait;
    end process;
 
