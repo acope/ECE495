@@ -221,13 +221,18 @@ begin
     begin
             if resetn = '0' then -- asynchronous signal
                 state_y <= S1; -- if resetn asserted, go to initial state: S1
-                
-            elsif (clock'event and clock = '1') then  
+            elsif (clock'event and clock = '1') then
                 if state_y = s2 then
+                    i <= i +'1';
+                elsif state_y = s1 then
+                    i <= "00000";
+                elsif state_y = s3 then
+                    i <= "00000";    
                 end if;
+                    
                 case state_y is
-                    when S1 =>  if s = '1' then state_y <= S2;  end if;
-                    when S2 =>  if i = "01111" then state_y <= S3; else state_y <= S2; end if;
+                    when S1 => if s = '1' then state_y <= S2; else state_y <= S1; end if;
+                    when S2 => if i = "01111" then state_y <= S3; else state_y <= S2; end if;
                     when S3 => if s = '1' then state_y <= S3; else state_y <= S1; end if;
                 end case;
             end if;
@@ -240,14 +245,12 @@ begin
         case state_y is
             when S1 =>
                  E <= '1';
-                 s_xyz <= '1';                
-                 i <= "00000";
+                 s_xyz <= '1';  
+                               
             when S2 =>
                 E <= '1';
                s_xyz <= '0';
-               i <= i + 1;
-                
-                
+                               
                 if mode = '0' then
                     di <= Z(15);
                 end if;
@@ -257,10 +260,9 @@ begin
                 end if;
                 
             when S3 => 
-             i <= "00000";
-            done <= '1';
-            E <= '1';
-            sclr <= '1';
+                done <= '1';
+               --E <= '1';
+                --sclr <= '1';
         end case;
     end process;
     
