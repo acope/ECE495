@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 09 16:01:22 2015
+# Process ID: 7160
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.xpr
+INFO: [Project 1-313] Project file moved from 'D:/work/work_OU/Digital_Library/pix_proc' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:13 . Memory (MB): peak = 746.449 ; gain = 181.898
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Architecture|LUT_NIto1|recursive' - Instance 'p2.l9.ra' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:123] -->> 'xil_defaultlib:Architecture|LUT_NIto1|recursive' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:24]
+[Mon Nov 09 16:35:13 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Architecture|LUT_NIto1|recursive' - Instance 'p2.l9.ra' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:123] -->> 'xil_defaultlib:Architecture|LUT_NIto1|recursive' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:24]
+[Mon Nov 09 16:37:02 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Architecture|LUT_NIto1|recursive' - Instance 'p2.l9.ra' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:123] -->> 'xil_defaultlib:Architecture|LUT_NIto1|recursive' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:24]
+[Mon Nov 09 16:38:06 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Architecture|LUT_NIto1|recursive' - Instance 'p2.l9.ra' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:123] -->> 'xil_defaultlib:Architecture|LUT_NIto1|recursive' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:24]
+[Mon Nov 09 16:39:37 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Architecture|LUT_NIto1|recursive' - Instance 'p2.l9.ra' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:123] -->> 'xil_defaultlib:Architecture|LUT_NIto1|recursive' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:24]
+[Mon Nov 09 16:41:01 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Architecture|LUT_NIto1|recursive' - Instance 'p2.l9.ra' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:123] -->> 'xil_defaultlib:Architecture|LUT_NIto1|recursive' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd:24]
+[Mon Nov 09 16:42:05 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'atb_test' in fileset 'sim_1'...
+INFO: [USF-XSim-66] Exported 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/in_bench.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj atb_test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NIto1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NItoNO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_group
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity atb_test
+ERROR: [VRFC 10-719] formal port/generic <dyn_out> is not declared in <test> [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:63]
+ERROR: [VRFC 10-704] formal dyn_in has no actual or default value [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:63]
+ERROR: [VRFC 10-91] dyn_out is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:68]
+ERROR: [VRFC 10-91] dyn_out is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:142]
+ERROR: [VRFC 10-1504] unit behaviour ignored due to previous errors [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:24]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'atb_test' in fileset 'sim_1'...
+INFO: [USF-XSim-66] Exported 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/in_bench.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj atb_test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NIto1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NItoNO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_group
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity atb_test
+ERROR: [VRFC 10-91] data_outoa is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:68]
+ERROR: [VRFC 10-91] data_outob is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:69]
+ERROR: [VRFC 10-91] data_outoc is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:70]
+ERROR: [VRFC 10-91] dyn_out is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:144]
+ERROR: [VRFC 10-1504] unit behaviour ignored due to previous errors [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:24]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'atb_test' in fileset 'sim_1'...
+INFO: [USF-XSim-66] Exported 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/in_bench.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj atb_test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NIto1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NItoNO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_group
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity atb_test
+ERROR: [VRFC 10-91] dyn_out is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:144]
+ERROR: [VRFC 10-1504] unit behaviour ignored due to previous errors [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:24]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'atb_test' in fileset 'sim_1'...
+INFO: [USF-XSim-66] Exported 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/in_bench.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj atb_test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NIto1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NItoNO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_group
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity atb_test
+ERROR: [VRFC 10-91] dyn_out is not declared [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:144]
+ERROR: [VRFC 10-1504] unit behaviour ignored due to previous errors [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd:24]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 09 17:06:51 2015...

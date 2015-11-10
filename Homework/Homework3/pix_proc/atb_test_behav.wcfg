@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="atb_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="atb_test" />
+            <top_module name="pack_xtras" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject db_ref_id="1" fp_name="/atb_test/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atb_test/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atb_test/E" type="logic">
+      <obj_property name="ElementShortName">E</obj_property>
+      <obj_property name="ObjectShortName">E</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atb_test/dyn_in" type="array">
+      <obj_property name="ElementShortName">dyn_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dyn_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atb_test/v" type="logic">
+      <obj_property name="ElementShortName">v</obj_property>
+      <obj_property name="ObjectShortName">v</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/atb_test/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[0:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[0:0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

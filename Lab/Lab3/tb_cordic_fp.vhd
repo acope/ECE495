@@ -87,10 +87,10 @@ BEGIN
        resetn <= '0';
 
       -- insert stimulus here 
-		      xin <= X"26DC"; yin <= X"0000"; zin <= x"2183";  s <= '1'; mode <= '0'; wait for clock_period; --z = pi/6 =0x2183
+		      xin <= X"0000"; yin <= X"26DC"; zin <= x"2183";  s <= '1'; mode <= '0'; wait for clock_period; --z = pi/6 =0x2183
 		      s <= '0';		
 	  wait for clock_period*18;
-		      xin <= X"26DC"; yin <= X"0000"; zin <= x"BD03";  s <= '1'; mode <= '0'; wait for clock_period; --z = -pi/3 = BD03
+		      xin <= X"0000"; yin <= X"26DC"; zin <= x"BD03";  s <= '1'; mode <= '0'; wait for clock_period; --z = -pi/3 = BD03
 		      s <= '0';
 	  wait for clock_period*18;
               xin <= X"3333"; yin <= X"3333"; zin <= X"0000";  s <= '1'; mode <= '1'; wait for clock_period;

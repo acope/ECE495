@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cordic_fp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="lpm_components" />
+            <top_module name="tb_cordic_fp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/Xin" type="array">
+      <obj_property name="ElementShortName">Xin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Xin[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/Yin" type="array">
+      <obj_property name="ElementShortName">Yin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Yin[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/Zin" type="array">
+      <obj_property name="ElementShortName">Zin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Zin[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/Xout" type="array">
+      <obj_property name="ElementShortName">Xout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Xout[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/Yout" type="array">
+      <obj_property name="ElementShortName">Yout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Yout[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/Zout" type="array">
+      <obj_property name="ElementShortName">Zout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Zout[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

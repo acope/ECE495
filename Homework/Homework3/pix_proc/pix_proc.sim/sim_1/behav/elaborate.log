@@ -1,0 +1,62 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto ab4c5fdbf22e4e8bb2fff45112e66d9f --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot atb_test_behav xil_defaultlib.atb_test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.pack_xtras
+Compiling package unisim.vcomponents
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"110101001011010010...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"110011000111001110...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"011010010101101011...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"001001001100100110...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"010010010110110100...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"100011100111000111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111100000111111000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111000000000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111111111111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000000000000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111111111111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111111111111...]
+Compiling architecture structure of entity xil_defaultlib.LUT_NItoNO [\LUT_NItoNO(8,12,1,"NO","LUT_val...]
+Compiling architecture structure of entity xil_defaultlib.LUT_group [\LUT_group(1,8,12,1,"NO","LUT_va...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"110011100111000111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"100101001010010101...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"101100100110110011...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"001001001011011010...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"110001110011100011...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111110000011111100...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000011111111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000011111111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111100000000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111111111111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000000000000...]
+Compiling architecture structure of entity xil_defaultlib.LUT_NItoNO [\LUT_NItoNO(8,12,2,"NO","LUT_val...]
+Compiling architecture structure of entity xil_defaultlib.LUT_group [\LUT_group(1,8,12,2,"NO","LUT_va...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"001111100000111100...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"011010101010010101...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"010011001100100110...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"011100001111000111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"011111110000000111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"100000000000000111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111111111000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000000000000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"111111111111111111...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000000000000...]
+Compiling architecture recursive of entity xil_defaultlib.LUT_NIto1 [\LUT_NIto1(8,"000000000000000000...]
+Compiling architecture structure of entity xil_defaultlib.LUT_NItoNO [\LUT_NItoNO(8,12,3,"NO","LUT_val...]
+Compiling architecture structure of entity xil_defaultlib.LUT_group [\LUT_group(1,8,12,3,"NO","LUT_va...]
+Compiling architecture structure of entity xil_defaultlib.test [\test(1,8,12,"NO")(1,2)\]
+Compiling architecture behaviour of entity xil_defaultlib.atb_test
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot atb_test_behav

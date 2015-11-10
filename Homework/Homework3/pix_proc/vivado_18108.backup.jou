@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 09 16:01:22 2015
+# Process ID: 7160
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.xpr
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation

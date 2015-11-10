@@ -1,0 +1,11 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pack_xtras.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NIto1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NIto1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_NItoNO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_NItoNO
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/LUT_group.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_group
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity atb_test

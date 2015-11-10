@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../pack_xtras.vhd"
+vhdl xil_defaultlib  "../../../LUT_NIto1.vhd"
+vhdl xil_defaultlib  "../../../LUT_NItoNO.vhd"
+vhdl xil_defaultlib  "../../../LUT_group.vhd"
+vhdl xil_defaultlib  "../../../test.vhd"
+vhdl xil_defaultlib  "../../../atb_test.vhd"
+
+# Do not sort compile order
+nosort
