@@ -241,7 +241,7 @@ begin
     Outputs: process (state_y,mode,Z(15),Y(19),di)
     begin
          -- Initialization of output signals
-        done <= '0'; E <= '0'; sclr <= '0';
+        done <= '0'; E <= '0'; sclr <= '0'; s_xyz <= '0'; as <= '1'; di <= '0';
         case state_y is
             when S1 =>
                  E <= '1';

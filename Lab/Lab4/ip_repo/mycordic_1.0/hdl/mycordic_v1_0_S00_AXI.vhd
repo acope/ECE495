@@ -87,12 +87,12 @@ architecture arch_imp of mycordic_v1_0_S00_AXI is
 
 component Cordic_top 
   Port (S_AXI_ACLK : in std_logic;
-       slv_reg0 : in std_logic_vector(31 downto 0);
-       slv_reg1 : in std_logic_vector(31 downto 0);
-       slv_reg2 : out std_logic_vector(31 downto 0);
+        slv_reg0 : in std_logic_vector(31 downto 0);
+        slv_reg1 : in std_logic_vector(31 downto 0);
+        slv_reg2 : out std_logic_vector(31 downto 0);
+        slv_reg3 : out std_logic_vector(31 downto 0);
         S_AXI_ARESETN  : in std_logic;
-        slv_reg_wren : in std_logic;
-       slv_reg3 : out std_logic_vector(31 downto 0)
+        slv_reg_wren : in std_logic
         );
 end component;
 
@@ -221,8 +221,8 @@ begin
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
 	      slv_reg1 <= (others => '0');
-	      slv_reg2 <= (others => '0');
-	      slv_reg3 <= (others => '0');
+--	      slv_reg2 <= (others => '0');
+--	      slv_reg3 <= (others => '0');
 	    else
 	      loc_addr := axi_awaddr(ADDR_LSB + OPT_MEM_ADDR_BITS downto ADDR_LSB);
 	      if (slv_reg_wren = '1') then
@@ -243,27 +243,27 @@ begin
 	                slv_reg1(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
 	              end if;
 	            end loop;
-	          when b"10" =>
-	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
-	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
-	                -- Respective byte enables are asserted as per write strobes                   
-	                -- slave registor 2
-	                slv_reg2(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
-	              end if;
-	            end loop;
-	          when b"11" =>
-	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
-	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
-	                -- Respective byte enables are asserted as per write strobes                   
-	                -- slave registor 3
-	                slv_reg3(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
-	              end if;
-	            end loop;
+--	          when b"10" =>
+--	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+--	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
+--	                -- Respective byte enables are asserted as per write strobes                   
+--	                -- slave registor 2
+--	                slv_reg2(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+--	              end if;
+--	            end loop;
+--	          when b"11" =>
+--	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+--	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
+--	                -- Respective byte enables are asserted as per write strobes                   
+--	                -- slave registor 3
+--	                slv_reg3(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+--	              end if;
+	            --end loop;
 	          when others =>
 	            slv_reg0 <= slv_reg0;
 	            slv_reg1 <= slv_reg1;
-	            slv_reg2 <= slv_reg2;
-	            slv_reg3 <= slv_reg3;
+--	            slv_reg2 <= slv_reg2;
+--	            slv_reg3 <= slv_reg3;
 	        end case;
 	      end if;
 	    end if;
@@ -351,16 +351,17 @@ begin
 	-- and the slave is ready to accept the read address.
 	slv_reg_rden <= axi_arready and S_AXI_ARVALID and (not axi_rvalid) ;
 
-	process (slv_reg0, slv_reg1, slv_reg2, slv_reg3, axi_araddr, S_AXI_ARESETN, slv_reg_rden)
+--	process (slv_reg0, slv_reg1, slv_reg2, slv_reg3, axi_araddr, S_AXI_ARESETN, slv_reg_rden)
+	process (slv_reg2, slv_reg3, axi_araddr, S_AXI_ARESETN, slv_reg_rden)
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0);
 	begin
 	    -- Address decoding for reading registers
 	    loc_addr := axi_araddr(ADDR_LSB + OPT_MEM_ADDR_BITS downto ADDR_LSB);
 	    case loc_addr is
-	      when b"00" =>
-	        reg_data_out <= slv_reg0;
-	      when b"01" =>
-	        reg_data_out <= slv_reg1;
+--	      when b"00" =>
+--	        reg_data_out <= slv_reg0;
+--	      when b"01" =>
+--	        reg_data_out <= slv_reg1;
 	      when b"10" =>
 	        reg_data_out <= slv_reg2;
 	      when b"11" =>
@@ -389,16 +390,17 @@ begin
 	end process;
 
 
+   slv_reg1 (15 downto 0) <= (others => '0'); 
 	-- Add user logic here
-AxI_cordic : Cordic_top 
+    AXI_cordic : Cordic_top 
           Port map (S_AXI_ACLK => S_AXI_ACLK,
-               slv_reg0  => slv_reg0,
-               slv_reg1  => slv_reg1,
-               slv_reg2  =>  slv_reg2,
-                S_AXI_ARESETN   => S_AXI_ARESETN,
-                slv_reg_wren  => slv_reg_wren ,
-               slv_reg3  => slv_reg3
-                );
+                    slv_reg0  => slv_reg0,
+                    slv_reg1  => slv_reg1,
+                    slv_reg2  => slv_reg2,
+                    S_AXI_ARESETN => S_AXI_ARESETN,
+                    slv_reg_wren  => slv_reg_wren,
+                    slv_reg3 => slv_reg3
+                    );
 	-- User logic ends
 
 end arch_imp;

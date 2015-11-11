@@ -33,12 +33,12 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Cordic_top is
   Port (S_AXI_ACLK : in std_logic;
-       slv_reg0 : in std_logic_vector(31 downto 0);
-       slv_reg1 : in std_logic_vector(31 downto 0);
-       slv_reg2 : out std_logic_vector(31 downto 0);
+        slv_reg0 : in std_logic_vector(31 downto 0);
+        slv_reg1 : in std_logic_vector(31 downto 0);
+        slv_reg2 : out std_logic_vector(31 downto 0);
+        slv_reg3 : out std_logic_vector(31 downto 0);
         S_AXI_ARESETN  : in std_logic;
-        slv_reg_wren : in std_logic;
-       slv_reg3 : out std_logic_vector(31 downto 0)
+        slv_reg_wren : in std_logic
         );
 
 end Cordic_top;
@@ -51,15 +51,18 @@ component CORDIC_FP_top
 		   Xout, Yout, Zout: out std_logic_vector (15 downto 0)
 		   );
 end component;
+
 type state is (S1, S2);
   signal state_y: state:=S1;
   signal E: std_logic;
+  
 begin
 
-  process (S_AXI_ARESETN, S_AXI_ACLK, E,slv_reg_wren)
+  process (S_AXI_ARESETN, S_AXI_ACLK, E, slv_reg_wren)
     begin
             if S_AXI_ARESETN = '0' then -- asynchronous signal
                 state_y <= S1; -- if resetn asserted, go to initial state: S1
+                E <= '0';
             elsif (S_AXI_ACLK'event and S_AXI_ACLK = '1') then
           
                 case state_y is
@@ -71,19 +74,18 @@ begin
     end process;
 
 cordic : CORDIC_FP_top 
-	port map ( clock => S_AXI_ACLK ,
+	port map ( clock => S_AXI_ACLK,
 	           reset => S_AXI_ARESETN,
-	           s => E ,
+	           s => E,
 	           mode => slv_reg1(15),
-		   Xin=> slv_reg0(15 downto 0),
-		   Yin => slv_reg0(31 downto 16),
-		   Zin => slv_reg1(31 downto 16),
-		   done => slv_reg3(15),
-		   Xout => slv_reg2(15 downto 0),
-		   Yout => slv_reg2(31 downto 16),
-		   Zout => slv_reg3(31 downto 16)
-		   
-		   );
- slv_reg3(14 downto 0) <= "000000000000000";
+		       Xin => slv_reg0(15 downto 0),
+		       Yin => slv_reg0(31 downto 16),
+		       Zin => slv_reg1(31 downto 16),
+		       done => slv_reg3(15),
+		       Xout => slv_reg2(15 downto 0),
+		       Yout => slv_reg2(31 downto 16),
+		       Zout => slv_reg3(31 downto 16) 
+		     );
+
 
 end Behavioral;
