@@ -1,0 +1,73 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 15288
+
+Current time: 	11/10/15 8:04:23 PM EST
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	mr_co_000
+User directory: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/mr_co_000/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/mr_co_000/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 362 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1.5s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\lab4\lab4.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 49 MB (+49164kb) [00:00:09]
+// [Engine Memory]: 357 MB (+222796kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 384 MB. GUI used memory: 26 MB. Current time: 11/10/15 8:04:26 PM EST
+// [Engine Memory]: 391 MB (+17358kb) [00:00:14]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 411 MB (+324kb) [00:00:18]
+// [GUI Memory]: 66 MB (+15450kb) [00:00:19]
+// [Engine Memory]: 444 MB (+12425kb) [00:00:19]
+// [Engine Memory]: 470 MB (+4170kb) [00:00:23]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lab4; location: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:21 . Memory (MB): peak = 700.281 ; gain = 133.848 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
