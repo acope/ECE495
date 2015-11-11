@@ -1,0 +1,66 @@
+15:24:55 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+15:24:58 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper.hdf.
+15:25:01 INFO  : XSDB server has started successfully.
+15:27:43 INFO  : Saving repository preferences.
+15:27:43 INFO  : Reading in cores from local repositories: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\myip_1.0
+15:27:43 INFO  : Cleaning BSP projects in the workspace.
+15:27:44 INFO  : Saving repository preferences.
+15:32:43 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+15:32:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:33:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:33:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:34:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+15:34:05 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:34:35 INFO  : Processor reset is completed for ps7_cortexa9_1
+15:35:25 INFO  : ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:35:29 INFO  : System reset is completed.
+15:35:31 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:36:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0xf8000b40
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:486)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:36:29 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+15:36:29 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 352"
+15:37:03 INFO  : System reset is completed.
+15:37:08 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:37:12 INFO  : ps7_init is completed.
+15:37:12 INFO  : ps7_post_config is completed.
+15:38:32 INFO  : ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:38:42 INFO  : System reset is completed.
+15:38:47 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:38:52 INFO  : ps7_init is completed.
+15:38:52 INFO  : ps7_post_config is completed.
+15:40:08 INFO  : ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:40:11 INFO  : System reset is completed.
+15:40:20 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:40:23 INFO  : ps7_init is completed.
+15:40:23 INFO  : ps7_post_config is completed.
+15:42:24 INFO  : ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:42:30 INFO  : System reset is completed.
+15:42:36 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:42:42 INFO  : ps7_init is completed.
+15:42:43 INFO  : ps7_post_config is completed.
+15:44:18 INFO  : ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:44:27 INFO  : System reset is completed.
+15:44:32 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/test_reg/test_reg.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:44:36 INFO  : ps7_init is completed.
+15:44:36 INFO  : ps7_post_config is completed.
+16:09:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

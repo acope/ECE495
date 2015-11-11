@@ -25,9 +25,6 @@ set_property used_in_implementation false [get_files -all C:/Users/mr_co_000/Doc
 set_property is_locked true [get_files C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd]
 
 read_vhdl -library xil_defaultlib C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
-read_xdc {{C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc}}]
-
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 synth_design -top design_1_wrapper -part xc7z010clg400-1

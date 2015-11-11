@@ -13,140 +13,137 @@ source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 227.426 ; gain = 37.211
 Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 285.648 ; gain = 109.254
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 285.711 ; gain = 109.262
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:40]
 INFO: [Synth 8-3491] module 'design_1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:591' bound to instance 'design_1_i' of component 'design_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:67]
 INFO: [Synth 8-638] synthesizing module 'design_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:621]
 INFO: [Synth 8-113] binding component instance 'GND' to cell 'GND' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:851]
 INFO: [Synth 8-113] binding component instance 'VCC' to cell 'VCC' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:855]
-INFO: [Synth 8-3491] module 'design_1_mycordic_0_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_0/synth/design_1_mycordic_0_0.vhd:56' bound to instance 'mycordic_0' of component 'design_1_mycordic_0_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:859]
-INFO: [Synth 8-638] synthesizing module 'design_1_mycordic_0_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_0/synth/design_1_mycordic_0_0.vhd:82]
+INFO: [Synth 8-3491] module 'design_1_mycordic_0_1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_1/synth/design_1_mycordic_0_1.vhd:56' bound to instance 'mycordic_0' of component 'design_1_mycordic_0_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:859]
+INFO: [Synth 8-638] synthesizing module 'design_1_mycordic_0_1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_1/synth/design_1_mycordic_0_1.vhd:82]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'mycordic_v1_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0.vhd:5' bound to instance 'U0' of component 'mycordic_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_0/synth/design_1_mycordic_0_0.vhd:144]
-INFO: [Synth 8-638] synthesizing module 'mycordic_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0.vhd:49]
+INFO: [Synth 8-3491] module 'mycordic_v1_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0.vhd:5' bound to instance 'U0' of component 'mycordic_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_1/synth/design_1_mycordic_0_1.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'mycordic_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0.vhd:49]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'mycordic_v1_0_S00_AXI' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:5' bound to instance 'mycordic_v1_0_S00_AXI_inst' of component 'mycordic_v1_0_S00_AXI' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0.vhd:87]
-INFO: [Synth 8-638] synthesizing module 'mycordic_v1_0_S00_AXI' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-3491] module 'mycordic_v1_0_S00_AXI' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0_S00_AXI.vhd:5' bound to instance 'mycordic_v1_0_S00_AXI_inst' of component 'mycordic_v1_0_S00_AXI' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'mycordic_v1_0_S00_AXI' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0_S00_AXI.vhd:86]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-226] default block is never used [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:229]
-INFO: [Synth 8-226] default block is never used [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:359]
-INFO: [Synth 8-3491] module 'Cordic_top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/Cordic_top.vhd:34' bound to instance 'AxI_cordic' of component 'Cordic_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:393]
-INFO: [Synth 8-638] synthesizing module 'Cordic_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/Cordic_top.vhd:46]
-INFO: [Synth 8-3491] module 'CORDIC_FP_top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:8' bound to instance 'cordic' of component 'CORDIC_FP_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/Cordic_top.vhd:73]
-INFO: [Synth 8-638] synthesizing module 'CORDIC_FP_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:16]
+INFO: [Synth 8-3491] module 'Cordic_top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/Cordic_top.vhd:34' bound to instance 'AXI_cordic' of component 'Cordic_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0_S00_AXI.vhd:395]
+INFO: [Synth 8-638] synthesizing module 'Cordic_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/Cordic_top.vhd:46]
+INFO: [Synth 8-3491] module 'CORDIC_FP_top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:8' bound to instance 'cordic' of component 'CORDIC_FP_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/Cordic_top.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_FP_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:16]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:83]
-INFO: [Synth 8-638] synthesizing module 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:12]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (1#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (1#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:4' bound to instance 'muxY' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:90]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:4' bound to instance 'muxY' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:90]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:4' bound to instance 'muxZ' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:97]
-INFO: [Synth 8-638] synthesizing module 'mux_2to1__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:12]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:4' bound to instance 'muxZ' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:12]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'mux_2to1__parameterized2' (1#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mux_2to1.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1__parameterized2' (1#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:108]
-INFO: [Synth 8-638] synthesizing module 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:25]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'my_rege' (2#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'my_rege' (2#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:117]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:117]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:126]
-INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:25]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:25]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized2' (2#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized2' (2#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:138]
-INFO: [Synth 8-638] synthesizing module 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:23]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:23]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-638] synthesizing module 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'fulladd' (3#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:19]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'my_addsub' (4#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:23]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fulladd' (3#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:19]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'my_addsub' (4#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:23]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:148]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:148]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:157]
-INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:23]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:23]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized2' (4#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_addsub.vhd:23]
-INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:170]
-INFO: [Synth 8-638] synthesizing module 'my4to1LUT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my4to1LUT_atan.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'my4to1LUT' (5#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my4to1LUT_atan.vhd:19]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized2' (4#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my_addsub.vhd:23]
+INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'my4to1LUT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my4to1LUT_atan.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'my4to1LUT' (5#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/my4to1LUT_atan.vhd:19]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:178]
-INFO: [Synth 8-638] synthesizing module 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/lpm_clshift.vhd:56]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/lpm_clshift.vhd:56]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-256] done synthesizing module 'LPM_CLSHIFT' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/lpm_clshift.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'LPM_CLSHIFT' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/lpm_clshift.vhd:56]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:193]
-INFO: [Synth 8-256] done synthesizing module 'CORDIC_FP_top' (7#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:16]
-INFO: [Synth 8-256] done synthesizing module 'Cordic_top' (8#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/Cordic_top.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'mycordic_v1_0_S00_AXI' (9#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:86]
-INFO: [Synth 8-256] done synthesizing module 'mycordic_v1_0' (10#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0.vhd:49]
-INFO: [Synth 8-256] done synthesizing module 'design_1_mycordic_0_0' (11#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_0/synth/design_1_mycordic_0_0.vhd:82]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_FP_top' (7#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/CORDIC_FP_top.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Cordic_top' (8#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/Cordic_top.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'mycordic_v1_0_S00_AXI' (9#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'mycordic_v1_0' (10#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/782c5b61/hdl/mycordic_v1_0.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mycordic_0_1' (11#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_mycordic_0_1/synth/design_1_mycordic_0_1.vhd:82]
 INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:57' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:883]
 INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:57]
 INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
@@ -1019,7 +1016,7 @@ INFO: [Synth 8-256] done synthesizing module 'design_1_rst_processing_system7_0_
 INFO: [Synth 8-256] done synthesizing module 'design_1' (43#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:621]
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (44#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:40]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:25 ; elapsed = 00:01:30 . Memory (MB): peak = 412.176 ; gain = 235.781
+Finished RTL Elaboration : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 412.277 ; gain = 235.828
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1029,7 +1026,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:26 ; elapsed = 00:01:31 . Memory (MB): peak = 412.176 ; gain = 235.781
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 412.277 ; gain = 235.828
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1046,8 +1043,6 @@ Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.
 Finished Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
 Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
 Finished Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
-Parsing XDC File [C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc]
-Finished Parsing XDC File [C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc]
 Parsing XDC File [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/dont_touch.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
@@ -1059,21 +1054,21 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 12 instances
   SRL16 => SRL16E: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 635.633 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 629.137 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:46 ; elapsed = 00:01:55 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Constraint Validation : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:46 ; elapsed = 00:01:55 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/dont_touch.xdc, line 25).
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/dont_touch.xdc, line 23).
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/mycordic_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
@@ -1081,15 +1076,12 @@ Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0_axi_p
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/rst_processing_system7_0_100M. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:47 ; elapsed = 00:01:56 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:13 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:222]
-WARNING: [Synth 8-327] inferring latch for variable 's_xyz_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:85]
-WARNING: [Synth 8-327] inferring latch for variable 'as_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:140]
-WARNING: [Synth 8-327] inferring latch for variable 'di_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:150]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:52 ; elapsed = 00:02:01 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:11 ; elapsed = 00:01:16 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1117,7 +1109,7 @@ Detailed RTL Component Info :
 +---Registers : 
 	               66 Bit    Registers := 4     
 	               47 Bit    Registers := 2     
-	               32 Bit    Registers := 5     
+	               32 Bit    Registers := 3     
 	               20 Bit    Registers := 2     
 	               16 Bit    Registers := 1     
 	               14 Bit    Registers := 2     
@@ -1129,12 +1121,11 @@ Detailed RTL Component Info :
 	                4 Bit    Registers := 8     
 	                3 Bit    Registers := 3     
 	                2 Bit    Registers := 12    
-	                1 Bit    Registers := 48    
+	                1 Bit    Registers := 46    
 +---Muxes : 
 	   2 Input     66 Bit        Muxes := 4     
 	   2 Input     47 Bit        Muxes := 2     
-	   2 Input     32 Bit        Muxes := 12    
-	   4 Input     32 Bit        Muxes := 5     
+	   2 Input     32 Bit        Muxes := 16    
 	   2 Input     24 Bit        Muxes := 2     
 	   2 Input     23 Bit        Muxes := 2     
 	   2 Input     22 Bit        Muxes := 2     
@@ -1152,7 +1143,7 @@ Detailed RTL Component Info :
 	   2 Input     11 Bit        Muxes := 2     
 	   2 Input     10 Bit        Muxes := 2     
 	   2 Input      9 Bit        Muxes := 6     
-	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 6     
 	   2 Input      7 Bit        Muxes := 2     
 	   2 Input      6 Bit        Muxes := 3     
 	   2 Input      5 Bit        Muxes := 4     
@@ -1161,8 +1152,9 @@ Detailed RTL Component Info :
 	   2 Input      2 Bit        Muxes := 8     
 	   4 Input      2 Bit        Muxes := 1     
 	   5 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 123   
-	   4 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 119   
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -1240,24 +1232,19 @@ Detailed RTL Component Info :
 	                2 Bit    Registers := 1     
 +---Muxes : 
 	   6 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 3     
-	   4 Input      1 Bit        Muxes := 3     
-Module Cordic_top 
-Detailed RTL Component Info : 
-+---Registers : 
-	                1 Bit    Registers := 2     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 3     
 Module mycordic_v1_0_S00_AXI 
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 5     
+	               32 Bit    Registers := 3     
 	                4 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 5     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 4     
-	   4 Input     32 Bit        Muxes := 5     
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 4     
 	   2 Input      1 Bit        Muxes := 6     
 Module axi_register_slice_v2_1_axic_register_slice 
 Detailed RTL Component Info : 
@@ -1428,16 +1415,16 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:52 ; elapsed = 00:02:02 . Memory (MB): peak = 635.633 ; gain = 459.238
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:02:04 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:01:54 ; elapsed = 00:02:04 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Parallel Reinference  : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 629.137 ; gain = 452.688
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1448,16 +1435,16 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:14 ; elapsed = 00:02:25 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Area Optimization : Time (s): cpu = 00:01:25 ; elapsed = 00:01:31 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:02:14 ; elapsed = 00:02:25 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:25 ; elapsed = 00:01:31 . Memory (MB): peak = 629.137 ; gain = 452.688
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:14 ; elapsed = 00:02:25 . Memory (MB): peak = 635.633 ; gain = 459.238
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:25 ; elapsed = 00:01:31 . Memory (MB): peak = 629.137 ; gain = 452.688
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -1465,10 +1452,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:42 ; elapsed = 00:02:54 . Memory (MB): peak = 810.863 ; gain = 634.469
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:43 ; elapsed = 00:01:48 . Memory (MB): peak = 810.020 ; gain = 633.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:43 ; elapsed = 00:02:55 . Memory (MB): peak = 827.203 ; gain = 650.809
+Finished Timing Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:49 . Memory (MB): peak = 827.059 ; gain = 650.609
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1479,25 +1466,10 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[14] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[13] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[12] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[11] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[10] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[9] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[8] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[7] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[6] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[5] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[4] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[3] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[2] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[1] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[0] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module design_1_mycordic_0_0.
-INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module design_1_mycordic_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module design_1_mycordic_0_1.
+INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module design_1_mycordic_0_1.
+INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module design_1_mycordic_0_1.
+INFO: [Synth 8-3332] Sequential element (\U0/mycordic_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module design_1_mycordic_0_1.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] ) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] ) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] ) is unused and will be removed from module design_1_auto_pc_0.
@@ -1529,7 +1501,7 @@ INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/G
 INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5 ) is unused and will be removed from module design_1_rst_processing_system7_0_100M_0.
 INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6 ) is unused and will be removed from module design_1_rst_processing_system7_0_100M_0.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:54 ; elapsed = 00:03:10 . Memory (MB): peak = 864.293 ; gain = 687.898
+Finished Technology Mapping : Time (s): cpu = 00:01:49 ; elapsed = 00:01:57 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1569,118 +1541,20 @@ INFO: [Synth 8-4618] Found max_fanout attribute set to 10 on net \inst/gen_axili
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:58 ; elapsed = 00:03:14 . Memory (MB): peak = 864.293 ; gain = 687.898
+Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:01:59 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[10] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[14]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[10] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[10]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[11] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[15]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[11] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[11]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[8] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[12]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[8] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[8]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[9] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[13]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[9] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[9]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[6] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[10]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[6] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[6]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[7] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[11]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[7] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[7]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[4] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[8]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[4] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[4]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[5] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[9]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[5] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[5]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[2] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[6]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[2] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[2]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[3] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[7]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[3] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[3]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[0] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[4]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[0] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[0]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[1] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[5]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[1] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[1]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[14] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[18]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[14] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[14]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[15] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[19]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[15] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[15]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[12] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[16]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[12] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[12]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[13] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_X_reg/Qt_reg[17]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[13] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[13]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[26] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[14]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[26] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[26]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[27] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[15]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[27] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[27]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[24] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[12]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[24] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[24]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[25] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[13]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[25] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[25]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[22] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[10]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[22] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[22]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[23] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[11]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[23] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[23]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[20] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[8]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[20] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[20]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[21] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[9]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[21] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[21]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[18] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[6]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[18] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[18]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[19] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[7]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[19] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[19]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[16] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[4]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[16] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[16]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[17] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[5]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[17] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[17]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[30] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[18]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[30] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[30]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[31] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[19]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[31] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[31]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[28] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[16]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[28] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[28]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[29] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Y_reg/Qt_reg[17]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg2[29] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg2_reg[29]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:224]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[31] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[31]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[31] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[15]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[30] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[30]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[30] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[14]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[29] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[29]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[29] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[13]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[28] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[28]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[28] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[12]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[27] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[27]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[27] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[11]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[26] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[26]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[26] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[10]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[25] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[25]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[25] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[9]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[24] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[24]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[24] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[8]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[23] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[23]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[23] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[7]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[22] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[22]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[22] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[6]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[21] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[21]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[21] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[5]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[20] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[20]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[20] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[4]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[19] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[19]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[19] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[3]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[18] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[18]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[18] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[2]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[17] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[17]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[17] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[1]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[16] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[16]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[16] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/data_Z_reg/Qt_reg[0]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/my_rege.vhd:34]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[15] with 1st driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/AxI_cordic/cordic/state_y_reg[1]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/CORDIC_FP_top.vhd:223]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net U0/mycordic_v1_0_S00_AXI_inst/slv_reg3[15] with 2nd driver pin 'design_1_i/mycordic_0/U0/mycordic_v1_0_S00_AXI_inst/slv_reg3_reg[15]/Q' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/ipshared/xilinx.com/mycordic_v1_0/f2a7625b/hdl/mycordic_v1_0_S00_AXI.vhd:225]
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
 |      |Item              |Errors |Warnings |Status |Description       |
 +------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|       49|Failed |Multi driven nets |
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:58 ; elapsed = 00:03:15 . Memory (MB): peak = 864.293 ; gain = 687.898
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:52 ; elapsed = 00:01:59 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1692,13 +1566,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:59 ; elapsed = 00:03:16 . Memory (MB): peak = 864.293 ; gain = 687.898
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:01:59 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:02:59 ; elapsed = 00:03:16 . Memory (MB): peak = 864.293 ; gain = 687.898
+Start Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:01:59 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:59 ; elapsed = 00:03:16 . Memory (MB): peak = 864.293 ; gain = 687.898
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:01:59 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1732,15 +1606,15 @@ Report Cell Usage:
 |      |Cell    |Count |
 +------+--------+------+
 |1     |BIBUF   |   130|
-|2     |BUFG    |     2|
+|2     |BUFG    |     1|
 |3     |CARRY4  |    12|
 |4     |GND     |     1|
-|5     |LUT1    |   158|
+|5     |LUT1    |   156|
 |6     |LUT2    |    38|
-|7     |LUT3    |   295|
-|8     |LUT4    |   134|
-|9     |LUT5    |   209|
-|10    |LUT6    |   438|
+|7     |LUT3    |   303|
+|8     |LUT4    |   124|
+|9     |LUT5    |   211|
+|10    |LUT6    |   387|
 |11    |MUXCY_L |    22|
 |12    |PS7     |     1|
 |13    |SRL16   |     1|
@@ -1748,27 +1622,26 @@ Report Cell Usage:
 |15    |SRLC32E |    47|
 |16    |VCC     |     1|
 |17    |XORCY   |    24|
-|18    |FDCE    |    59|
+|18    |FDCE    |    58|
 |19    |FDR     |     8|
-|20    |FDRE    |   744|
+|20    |FDRE    |   680|
 |21    |FDSE    |    67|
-|22    |LD      |     3|
 +------+--------+------+
 
 Report Instance Areas: 
 +------+---------------------------------------------------+------------------------------------------------------------+------+
 |      |Instance                                           |Module                                                      |Cells |
 +------+---------------------------------------------------+------------------------------------------------------------+------+
-|1     |top                                                |                                                            |  2416|
-|2     |  design_1_i                                       |design_1                                                    |  2416|
-|3     |    mycordic_0                                     |design_1_mycordic_0_0                                       |   792|
-|4     |      U0                                           |mycordic_v1_0                                               |   790|
-|5     |        mycordic_v1_0_S00_AXI_inst                 |mycordic_v1_0_S00_AXI                                       |   790|
-|6     |          AxI_cordic                               |Cordic_top                                                  |   480|
-|7     |            cordic                                 |CORDIC_FP_top                                               |   474|
-|8     |              data_X_reg                           |my_rege                                                     |   193|
-|9     |              data_Y_reg                           |my_rege_5                                                   |   197|
-|10    |              data_Z_reg                           |my_rege__parameterized2                                     |    61|
+|1     |top                                                |                                                            |  2294|
+|2     |  design_1_i                                       |design_1                                                    |  2294|
+|3     |    mycordic_0                                     |design_1_mycordic_0_1                                       |   670|
+|4     |      U0                                           |mycordic_v1_0                                               |   670|
+|5     |        mycordic_v1_0_S00_AXI_inst                 |mycordic_v1_0_S00_AXI                                       |   670|
+|6     |          AXI_cordic                               |Cordic_top                                                  |   517|
+|7     |            cordic                                 |CORDIC_FP_top                                               |   517|
+|8     |              data_X_reg                           |my_rege                                                     |   195|
+|9     |              data_Y_reg                           |my_rege_5                                                   |   242|
+|10    |              data_Z_reg                           |my_rege__parameterized2                                     |    63|
 |11    |    processing_system7_0                           |design_1_processing_system7_0_0                             |   244|
 |12    |      inst                                         |processing_system7_v5_5_processing_system7                  |   244|
 |13    |    processing_system7_0_axi_periph                |design_1_processing_system7_0_axi_periph_0                  |  1310|
@@ -1806,26 +1679,25 @@ Report Instance Areas:
 |45    |          SEQ_COUNTER                              |upcnt_n                                                     |    14|
 +------+---------------------------------------------------+------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:00 ; elapsed = 00:03:16 . Memory (MB): peak = 864.293 ; gain = 687.898
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:02:00 . Memory (MB): peak = 861.418 ; gain = 684.969
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 98 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:20 ; elapsed = 00:02:49 . Memory (MB): peak = 864.293 ; gain = 412.465
-Synthesis Optimization Complete : Time (s): cpu = 00:03:00 ; elapsed = 00:03:17 . Memory (MB): peak = 864.293 ; gain = 687.898
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:01:42 . Memory (MB): peak = 861.418 ; gain = 416.133
+Synthesis Optimization Complete : Time (s): cpu = 00:01:53 ; elapsed = 00:02:00 . Memory (MB): peak = 861.418 ; gain = 684.969
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 70 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 18 instances were transformed.
+  A total of 15 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 6 instances
   FDR => FDRE: 8 instances
-  LD => LDCE: 3 instances
   SRL16 => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-288 Infos, 4 Warnings, 98 Critical Warnings and 0 Errors encountered.
+271 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:57 ; elapsed = 00:03:12 . Memory (MB): peak = 864.293 ; gain = 636.867
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.180 . Memory (MB): peak = 864.293 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Nov 10 17:24:19 2015...
+synth_design: Time (s): cpu = 00:01:51 ; elapsed = 00:01:56 . Memory (MB): peak = 861.418 ; gain = 633.934
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 861.418 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 11 17:00:46 2015...

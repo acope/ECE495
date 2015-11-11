@@ -1,0 +1,410 @@
+15:25:44 **** Build of project reg_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myip..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project reg_test ****
+
+Nothing to build for project reg_test
+15:26:59 **** Build of project test_reg_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myip..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project test_reg ****
+
+Nothing to build for project test_reg
+15:27:43 **** Clean-only build of project test_reg_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+15:27:43 **** Build of project test_reg_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myip..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+****  of configuration Debug for project test_reg ****
+
+Nothing to build for project test_reg
+15:28:22 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c:2:22: fatal error: mycordic.h: No such file or directory
+ #include "mycordic.h"
+                      ^
+compilation terminated.
+make: *** [src/cordic_test.o] Error 1
+15:28:40 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c:2:22: fatal error: test_reg.h: No such file or directory
+ #include "test_reg.h"
+                      ^
+compilation terminated.
+make: *** [src/cordic_test.o] Error 1
+15:29:50 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c:2:20: fatal error: myip_0.h: No such file or directory
+ #include "myip_0.h"
+                    ^
+compilation terminated.
+make: *** [src/cordic_test.o] Error 1
+15:29:59 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:33:2: warning: implicit declaration of function 'MYCORDIC_mWriteReg' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:19:18: error: 'MYCORDIC_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function)
+ #define SLV_REG0 MYCORDIC_S00_AXI_SLV_REG0_OFFSET
+                  ^
+../src/cordic_test.c:33:35: note: in expansion of macro 'SLV_REG0'
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+                                   ^
+../src/cordic_test.c:19:18: note: each undeclared identifier is reported only once for each function it appears in
+ #define SLV_REG0 MYCORDIC_S00_AXI_SLV_REG0_OFFSET
+                  ^
+../src/cordic_test.c:33:35: note: in expansion of macro 'SLV_REG0'
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+                                   ^
+../src/cordic_test.c:20:18: error: 'MYCORDIC_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function)
+ #define SLV_REG1 MYCORDIC_S00_AXI_SLV_REG1_OFFSET
+                  ^
+../src/cordic_test.c:34:35: note: in expansion of macro 'SLV_REG1'
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x21830000);
+                                   ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'MYCORDIC_mReadReg' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:21:18: error: 'MYCORDIC_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function)
+ #define SLV_REG2 MYCORDIC_S00_AXI_SLV_REG2_OFFSET
+                  ^
+../src/cordic_test.c:37:45: note: in expansion of macro 'SLV_REG2'
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+                                             ^
+../src/cordic_test.c:22:18: error: 'MYCORDIC_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function)
+ #define SLV_REG3 MYCORDIC_S00_AXI_SLV_REG3_OFFSET
+                  ^
+../src/cordic_test.c:38:44: note: in expansion of macro 'SLV_REG3'
+  valueZ = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG3);
+                                            ^
+../src/cordic_test.c:28:22: warning: unused variable 'Delay' [-Wunused-variable]
+  u32 valueXY, valueZ,Delay;
+                      ^
+make: *** [src/cordic_test.o] Error 1
+15:30:23 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'MYCORDIC_mWriteReg' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:36:2: warning: implicit declaration of function 'MYCORDIC_mReadReg' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:36:45: error: 'SLV_REG2' undeclared (first use in this function)
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+                                             ^
+../src/cordic_test.c:36:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/cordic_test.c:37:44: error: 'SLV_REG3' undeclared (first use in this function)
+  valueZ = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG3);
+                                            ^
+../src/cordic_test.c:27:22: warning: unused variable 'Delay' [-Wunused-variable]
+  u32 valueXY, valueZ,Delay;
+                      ^
+make: *** [src/cordic_test.o] Error 1
+15:31:51 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYIP_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYIP_mReadReg (MYCORDIC_BASE,SLV_REG1);
+  ^
+../src/cordic_test.c:27:22: warning: unused variable 'Delay' [-Wunused-variable]
+  u32 valueXY, valueZ,Delay;
+                      ^
+../src/cordic_test.c:38:2: warning: 'valueZ' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("ValueXY = %08X, ValueZ = %08X", valueXY, valueZ);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: test_reg.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_reg_bsp/ps7_cortexa9_0/lib -o "test_reg.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_reg.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test_reg.elf  |tee "test_reg.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22384	   1152	  22564	  46100	   b414	test_reg.elf
+'Finished building: test_reg.elf.size'
+' '
+15:32:11 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYIP_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYIP_mReadReg (MYCORDIC_BASE,SLV_REG1);
+  ^
+../src/cordic_test.c:38:55: error: 'valueZ' undeclared (first use in this function)
+  xil_printf("ValueXY = %08X, ValueZ = %08X", valueXY, valueZ);
+                                                       ^
+../src/cordic_test.c:38:55: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/cordic_test.o] Error 1
+15:32:27 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYIP_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYIP_mReadReg (MYCORDIC_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: test_reg.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_reg_bsp/ps7_cortexa9_0/lib -o "test_reg.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_reg.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test_reg.elf  |tee "test_reg.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22368	   1152	  22564	  46084	   b404	test_reg.elf
+'Finished building: test_reg.elf.size'
+' '
+15:32:42 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:33:33 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:34:33 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:35:24 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:36:11 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:36:25 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:36:56 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:38:09 **** Auto Build of configuration Debug for project test_reg ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../test_reg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYIP_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYIP_mReadReg (MYCORDIC_BASE,SLV_REG1);
+  ^
+../src/cordic_test.c:27:6: warning: variable 'valueXY' set but not used [-Wunused-but-set-variable]
+  u32 valueXY;
+      ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: test_reg.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_reg_bsp/ps7_cortexa9_0/lib -o "test_reg.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_reg.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test_reg.elf  |tee "test_reg.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22368	   1152	  22564	  46084	   b404	test_reg.elf
+'Finished building: test_reg.elf.size'
+' '
+15:38:32 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:40:07 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:42:22 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.
+15:44:17 **** Incremental Build of configuration Debug for project test_reg ****
+make all 
+make: Nothing to be done for `all'.

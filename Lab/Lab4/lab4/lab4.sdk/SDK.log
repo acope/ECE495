@@ -1,0 +1,352 @@
+10:46:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:46:09 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+10:46:15 INFO  : XSDB server has started successfully.
+13:07:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:07:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+13:07:51 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:08:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+13:08:46 INFO  : 'fpga -state' command is executed.
+13:08:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:47 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+13:08:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+13:08:48 INFO  : 'fpga -state' command is executed.
+13:08:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:49 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+13:11:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+----------------End of Script----------------
+
+13:11:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+----------------End of Script----------------
+
+13:12:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:12:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:13:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:13:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+13:13:55 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:31:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:31:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+13:31:06 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:32:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:33:59 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:34:04 INFO  : XSDB server has started successfully.
+13:34:05 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+13:34:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:35:08 INFO  : Saving repository preferences.
+13:35:08 INFO  : Reading in cores from local repositories: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0
+13:35:08 INFO  : Cleaning BSP projects in the workspace.
+13:35:29 INFO  : Saving repository preferences.
+13:36:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:36:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+13:36:13 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:36:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:33 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:37:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:38:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:38:30 INFO  : XSDB server has started successfully.
+13:38:32 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+13:38:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:38:41 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0
+13:39:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:39:32 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:42:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0xf8007080, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1073)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:486)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:45:34 INFO  : System reset is completed.
+13:45:35 ERROR : FPGA Configuration failed.Failed to download the bit file
+
+    Failed to configure device 2 (xc7z010) with bitstream C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+    Reason: Programming initialization failed
+
+
+13:45:35 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: Failed to download the bit file
+
+    Failed to configure device 2 (xc7z010) with bitstream C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+    Reason: Programming initialization failed
+
+
+13:45:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download the bit file
+
+    Failed to configure device 2 (xc7z010) with bitstream C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+    Reason: Programming initialization failed
+
+
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:458)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:46:22 INFO  : System reset is completed.
+13:46:27 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:46:35 INFO  : ps7_init is completed.
+13:46:35 INFO  : ps7_post_config is completed.
+14:03:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:03:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+14:03:40 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:04:08 INFO  : System reset is completed.
+14:04:14 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:04:18 INFO  : ps7_init is completed.
+14:04:18 INFO  : ps7_post_config is completed.
+14:06:34 INFO  : System reset is completed.
+14:06:41 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:06:45 INFO  : ps7_init is completed.
+14:06:45 INFO  : ps7_post_config is completed.
+14:17:56 INFO  : System reset is completed.
+14:18:03 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:18:07 INFO  : ps7_init is completed.
+14:18:07 INFO  : ps7_post_config is completed.
+14:32:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447270259890,  Project:1447256603931
+14:32:42 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:32:55 INFO  : Copied contents of C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:33:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:33:16 INFO  : 
+14:33:17 INFO  : Updating hardware inferred compiler options for lab4_C.
+14:33:17 INFO  : Clearing existing target manager status.
+14:33:17 INFO  : Closing and re-opening the MSS file of ther project lab4_C_bsp
+14:33:18 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:33:19 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:37:31 INFO  : System reset is completed.
+14:37:36 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:37:40 INFO  : ps7_init is completed.
+14:37:40 INFO  : ps7_post_config is completed.
+14:40:04 INFO  : System reset is completed.
+14:40:08 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:40:13 INFO  : ps7_init is completed.
+14:40:13 INFO  : ps7_post_config is completed.
+14:49:19 INFO  : System reset is completed.
+14:49:25 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:49:30 INFO  : ps7_init is completed.
+14:49:30 INFO  : ps7_post_config is completed.
+15:39:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:436)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:40:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:10:27 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:10:32 INFO  : XSDB server has started successfully.
+16:10:33 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+16:10:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:10:42 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0
+16:10:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447276139623,  Project:1447270259890
+16:10:42 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+16:10:42 INFO  : Copied contents of C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:10:56 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:11:05 INFO  : 
+16:11:06 INFO  : Updating hardware inferred compiler options for lab4_C.
+16:11:06 INFO  : Clearing existing target manager status.
+16:12:04 INFO  : System reset is completed.
+16:12:11 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:12:18 INFO  : ps7_init is completed.
+16:12:18 INFO  : ps7_post_config is completed.
+16:14:23 INFO  : System reset is completed.
+16:14:29 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:14:34 INFO  : ps7_init is completed.
+16:14:34 INFO  : ps7_post_config is completed.
+16:16:17 INFO  : System reset is completed.
+16:16:23 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:16:28 INFO  : ps7_init is completed.
+16:16:28 INFO  : ps7_post_config is completed.
+16:21:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:21:44 INFO  : System reset is completed.
+16:21:48 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:21:55 INFO  : ps7_init is completed.
+16:21:55 INFO  : ps7_post_config is completed.
+16:31:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:33:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:34:02 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.sourceTcl(TM.java:1003)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:413)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:34:32 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:34:39 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+16:34:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:34:45 INFO  : XSDB server has started successfully.
+16:34:49 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0
+16:36:10 INFO  : System reset is completed.
+16:36:16 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:36:23 INFO  : ps7_init is completed.
+16:36:23 INFO  : ps7_post_config is completed.
+16:58:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:03:59 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:04:03 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+17:04:04 INFO  : XSDB server has started successfully.
+17:04:05 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:04:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1447279393024,  Project:1447276139623
+17:04:08 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+17:04:08 INFO  : Copied contents of C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:04:09 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0
+17:04:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:04:21 INFO  : 
+17:04:22 INFO  : Updating hardware inferred compiler options for lab4_C.
+17:04:22 INFO  : Clearing existing target manager status.
+17:04:53 INFO  : System reset is completed.
+17:04:55 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:04:58 INFO  : ps7_init is completed.
+17:04:58 INFO  : ps7_post_config is completed.
+17:11:08 INFO  : System reset is completed.
+17:11:11 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:11:13 INFO  : ps7_init is completed.
+17:11:13 INFO  : ps7_post_config is completed.
+17:13:19 INFO  : System reset is completed.
+17:13:20 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:13:22 INFO  : ps7_init is completed.
+17:13:22 INFO  : ps7_post_config is completed.
+17:13:22 ERROR : Port COM10 is already in use.
+17:14:00 INFO  : System reset is completed.
+17:14:03 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:14:04 INFO  : ps7_init is completed.
+17:14:05 INFO  : ps7_post_config is completed.
+17:17:14 INFO  : System reset is completed.
+17:17:17 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:17:18 INFO  : ps7_init is completed.
+17:17:18 INFO  : ps7_post_config is completed.
+17:18:46 INFO  : System reset is completed.
+17:18:50 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:18:52 INFO  : ps7_init is completed.
+17:18:52 INFO  : ps7_post_config is completed.
+17:21:53 INFO  : System reset is completed.
+17:21:57 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:21:58 INFO  : ps7_init is completed.
+17:21:58 INFO  : ps7_post_config is completed.

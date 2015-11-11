@@ -1100,3 +1100,1990 @@ collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synt
 selectCodeEditor("CORDIC_FP_top.vhd", 237, 348); // bj:J (JPanel:JComponent, cl:JFrame)
 // [GUI Memory]: 137 MB (+6295kb) [13:59:58]
 // HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 77 MB. Current time: 11/11/15 10:05:34 AM EST
+// Elapsed time: 1567 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 11 10:26:44 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 173 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Power 33-232] No user defined clocks were found in the design!. ]", 6, false); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Power 33-232] No user defined clocks were found in the design!. ]", 6, false, false, false, false, false, true); // ae:k (JViewport:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 26, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Nov 11 10:29:50 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 95 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // Q:ap (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_CHANGE
+// cp:P (cl:JFrame):  Package IP : addNotify
+// Elapsed time: 17 seconds
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 76 MB. Current time: 11/11/15 10:32:09 AM EST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // i:l (JPanel:JComponent, cl:JFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Tcl Message: close_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 945.113 ; gain = 0.000 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // i:l (JPanel:JComponent, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_0 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false, false, false, false, false, true); // C:av (JViewport:JComponent, cl:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 605, 138, 1307, 593, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 665, 130, 1307, 593, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells mycordic_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 612, 209, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mycor"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:mycordic:1.0 mycordic_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins mycordic_0/S00_AXI] 
+// Tcl Message: </mycordic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+dismissDialog("Run Connection Automation"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// [GUI Memory]: 147 MB (+2980kb) [14:28:51]
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 11 10:34:39 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/runme.log [Wed Nov 11 10:34:39 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:01:20 ; elapsed = 00:01:32 . Memory (MB): peak = 1047.695 ; gain = 102.582 
+// Elapsed time: 94 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+expandTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 0x40000000 [ 1G ]) ;  ;  ;  ;  ; ", 1); // c:av (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 155 MB (+526kb) [14:31:31]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 390 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Nov 11 10:42:07 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 80 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Design", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 4, false); // A:k (H:JPanel, cl:JFrame)
+// [GUI Memory]: 163 MB (+189kb) [14:39:38]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+// Elapsed time: 23 seconds
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// Elapsed time: 21 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, G:ag): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// 'n' command handler elapsed time: 3 seconds
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+// Tcl Message: file mkdir C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk 
+// cp:P (cl:JFrame):  Export Hardware : addNotify
+// Tcl Message: file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf  
+dismissDialog("Export Hardware"); // cp:P (cl:JFrame)
+// Elapsed time: 40 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// cp:P (cl:JFrame):  Launch SDK : addNotify
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Launch SDK"); // cp:P (cl:JFrame)
+// Elapsed time: 435 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "mycordic_0 ; S00_AXI ; S00_AXI_reg ; 0x43C0_0000 ; 64K ; 0x43C0_FFFF", 2, "0x43C0_0000", 3, false); // c:av (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 94 MB. Current time: 11/11/15 11:02:16 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 90 MB. Current time: 11/11/15 12:52:17 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 92 MB. Current time: 11/11/15 1:22:01 PM EST
+// Elapsed time: 8991 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd)]", 2); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd)]", 3); // A:k (H:JPanel, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 668, 152, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mycordic_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.tmp/mycordic_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1100.391 ; gain = 0.000 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1100.391 ; gain = 0.000 
+// 'i' command handler elapsed time: 14 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 172 MB (+1195kb) [17:19:10]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [GUI Memory]: 181 MB (+153kb) [17:19:40]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 81 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// [GUI Memory]: 191 MB (+1108kb) [17:21:03]
+// Elapsed time: 80 seconds
+selectCodeEditor("Cordic_top.vhd", 261, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 261, 178, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Cordic_top.vhd", 447, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 447, 176, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Cordic_top.vhd", 269, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 268, 184, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 21 seconds
+typeControlKey((HResource) null, "Cordic_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mycordic_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 656, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "slv_reg_wren"); // o:ao (f:JComboBox, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 137, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 191, 404); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 146, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 146, 406, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 167, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 167, 399, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 293, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 293, 398, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 395, 400); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 395, 400, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 503, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 504, 392, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 263 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, J:ag)
+// 'p' command handler elapsed time: 8 seconds
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, G:ag): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// HOptionPane Warning: 'The hardware handoff file(.sysdef) does not exist. It may not have generated because<br><br> 1. Bitstream might nothave generated. Generate bitstream and export otherwise do<br>not include bitstream in export. <br> 2. There are no IPI design hardware handoff files. Check the log messages for more details <br> (Cannot Export Hardware)'
+selectButton("PAResourceItoN.NewExportHardwareDialog_CANNOT_EXPORT_HARDWARE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// 'n' command handler elapsed time: 8 seconds
+// [GUI Memory]: 201 MB (+168kb) [17:29:05]
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+closeMainWindow("mycordic_v1_0_project - [c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// ap:bI (cl:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // ap:bI (cl:JFrame)
+// TclEventType: PROJECT_CLOSE
+// 'b' command handler elapsed time: 4 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 121 MB. Current time: 11/11/15 1:33:25 PM EST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // cp:P (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf 
+// cp:P (cl:JFrame):  Launch SDK : addNotify
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Launch SDK"); // cp:P (cl:JFrame)
+// Elapsed time: 270 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// cp:P (cl:JFrame):  Launch SDK : addNotify
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Launch SDK"); // cp:P (cl:JFrame)
+// Elapsed time: 822 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 616, 182, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mycordic_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.tmp/mycordic_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1120.566 ; gain = 20.176 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1120.566 ; gain = 20.176 
+// 'i' command handler elapsed time: 13 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), muxX - mux_2to1 - Behavioral (mux_2to1.vhd)]", 5, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("Cordic_top.vhd", 12, 187); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 775, 246, false, true, false, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Control Key
+selectCodeEditor("Cordic_top.vhd", 170, 130); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 49, 80); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Cordic_top.vhd", 42, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectCodeEditor("Cordic_top.vhd", 247, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Cordic_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 147, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 164, 400); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Cordic_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 108, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 128, 400); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Cordic_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 241, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 244, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Cordic_top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 141, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 141, 414, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Cordic_top.vhd", 147, 415); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Cordic_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 215, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - mycordic", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// cp:P (cl:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// cp:P (cl:JFrame):  Package IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 125 MB. Current time: 11/11/15 1:55:09 PM EST
+// Tcl Message: close_project -delete 
+// Elapsed time: 42 seconds
+dismissDialog("Package IP"); // cp:P (cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false, false, false, false, true, false); // C:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false, false, false, false, false, true); // C:av (JViewport:JComponent, cl:JFrame) - Double Click
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk)", 2, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "/mycordic_0", 0, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "/mycordic_0", 0, false, false, false, false, true, false); // C:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "/mycordic_0", 0, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "/mycordic_0", 0, false, false, false, false, true, false); // C:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk"); // M:i (C:av, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "IP Status", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // i:l (JPanel:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "true", 1, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "true", 1, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "true", 1, false, false, false, false, false, true); // C:av (JViewport:JComponent, cl:JFrame) - Double Click
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "design_1 ; true ;  ; design_1 ;  ;  ;  ;  ;  ;  ; ", 0, "true", 1, true); // C:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "true", 1, false, false, false, false, true, false); // C:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; true ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ; design_1_mycordic_0_1 [mycordic_v1.0] (Incompatible IP data detected. IP definition 'mycordic_v1.0 (1.0)' changed on disk) ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "mycordic_v1.0", 6, false, false, false, false, true, false); // C:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "design_1 ; true ;  ; design_1 ;  ;  ;  ;  ;  ;  ; ", 0, (String) null, 8, true); // C:av (JViewport:JComponent, cl:JFrame) - Node
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells mycordic_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 645, 189, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:mycordic:1.0 mycordic_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// cp:P (cl:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins mycordic_0/S00_AXI] 
+// Tcl Message: </mycordic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+dismissDialog("Run Connection Automation"); // cp:P (cl:JFrame)
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// cp:P (cl:JFrame):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+dismissDialog("Save Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 11 13:56:19 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/runme.log [Wed Nov 11 13:56:19 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1140.313 ; gain = 19.746 
+// Elapsed time: 10 seconds
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 414 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Elapsed time: 447 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 975, 174, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mycordic_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.tmp/mycordic_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.082 ; gain = 1.918 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1143.082 ; gain = 1.918 
+// 'i' command handler elapsed time: 12 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 30 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 32 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 67, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 287, 343); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 16, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 173, 250); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 435 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("Cordic_top.vhd", 197, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 140, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Cordic_top.vhd", 184, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 105, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mycordic_v1_0_S00_AXI.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 18 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 134, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 134, 333, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 58, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 58, 329, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 576, 354); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 393, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 100, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 103, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 110, 355); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Cordic_top.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 141, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 158, 407); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - mycordic", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// cp:P (cl:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 134 MB. Current time: 11/11/15 2:22:55 PM EST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // cp:P (cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // i:l (JPanel:JComponent, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells mycordic_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 971, 179, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:mycordic:1.0 mycordic_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins mycordic_0/S00_AXI] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </mycordic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+dismissDialog("Run Connection Automation"); // cp:P (cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// cp:P (cl:JFrame):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+dismissDialog("Save Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 11 14:23:38 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/runme.log [Wed Nov 11 14:23:38 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1171.434 ; gain = 25.707 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 518 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+// ax:bI (cl:JFrame): Feedback Request: addNotify
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectButton(RDIResource.BaseDialog_NO, "No"); // a:JButton (JPanel:JComponent, ax:bI)
+dismissDialog("Feedback Request"); // ax:bI (cl:JFrame)
+selectButton("PAResourceTtoZ.TouchpointSurveyDialog_USE_TOOLS_OPTIONS_WINDOWS_BEHAVIOR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// 'n' command handler elapsed time: 4 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+// Tcl Message: file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Elapsed time: 99 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+expandTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 0x40000000 [ 1G ]) ;  ;  ;  ;  ; ", 1); // c:av (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 392 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_1 (design_1_mycordic_0_1.xci)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_1 (design_1_mycordic_0_1.xci)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''design_1_mycordic_0_1.xci' IP is part of a block design. Please use the block design<br>'design_1' to customize the IP. (Re-customize IP)'
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd)]", 3); // A:k (H:JPanel, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// cp:P (cl:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // cp:P (cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 982, 268, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mycordic_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.tmp/mycordic_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1186.133 ; gain = 13.277 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1186.133 ; gain = 13.277 
+// 'i' command handler elapsed time: 12 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 141 MB. Current time: 11/11/15 2:52:58 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 137 MB. Current time: 11/11/15 3:23:01 PM EST
+// Elapsed time: 3986 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 4); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), muxX - mux_2to1 - Behavioral (mux_2to1.vhd)]", 5, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 161 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 23 seconds
+selectCodeEditor("Cordic_top.vhd", 117, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("Cordic_top.vhd", 112, 456); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 107, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 124, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 166, 110); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mycordic_v1_0_S00_AXI.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 103, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Cordic_top.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mycordic_v1_0_S00_AXI.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 137, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 134 MB. Current time: 11/11/15 3:53:02 PM EST
+// Elapsed time: 165 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mycordic_v1_0_S00_AXI.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 326, 383); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 22, 381); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 363, 391); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 347, 381); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 85 seconds
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 17, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 11 15:58:26 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 50 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (\\mycordic_v1_0_S00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module mycordic_v1_0.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - mycordic", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// cp:P (cl:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_CHANGE
+// cp:P (cl:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 133 MB. Current time: 11/11/15 4:00:02 PM EST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // cp:P (cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells mycordic_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 944, 181, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:mycordic:1.0 mycordic_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// cp:P (cl:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins mycordic_0/S00_AXI] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </mycordic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+dismissDialog("Run Connection Automation"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Nov 11 16:01:08 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/runme.log [Wed Nov 11 16:01:08 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1219.070 ; gain = 28.555 
+// Elapsed time: 10 seconds
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 386 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/mycordic_0 ; false ; design_1_mycordic_0_0 [mycordic_v1.0] (Up-to-date) ; No changes required ;  ;  ; mycordic_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 3, "/mycordic_0", 0, false); // C:av (JViewport:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 105 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// 'n' command handler elapsed time: 5 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+// Tcl Message: file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf  
+// Elapsed time: 21 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 129 MB. Current time: 11/11/15 4:30:07 PM EST
+// Elapsed time: 1439 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// cp:P (cl:JFrame):  Launch SDK : addNotify
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Launch SDK"); // cp:P (cl:JFrame)
+// Elapsed time: 503 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+expandTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data (32 address bits : 0x40000000 [ 1G ]) ;  ;  ;  ;  ; ", 1); // c:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "mycordic_0 ; S00_AXI ; S00_AXI_reg ; 0x43C0_0000 ; 64K ; 0x43C0_FFFF", 2, "0x43C0_0000", 3, false); // c:av (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 186 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd)]", 2); // A:k (H:JPanel, cl:JFrame)
+// Elapsed time: 29 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd)]", 3); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), processing_system7_0 - design_1_processing_system7_0_0 (design_1_processing_system7_0_0.xci)]", 5); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), processing_system7_0 - design_1_processing_system7_0_0 (design_1_processing_system7_0_0.xci), design_1_processing_system7_0_0 (design_1_processing_system7_0_0.v)]", 6); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), processing_system7_0 - design_1_processing_system7_0_0 (design_1_processing_system7_0_0.xci), design_1_processing_system7_0_0 (design_1_processing_system7_0_0.v), inst - processing_system7_v5_5_processing_system7 (processing_system7_v5_5_processing_system7.v)]", 7); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), processing_system7_0 - design_1_processing_system7_0_0 (design_1_processing_system7_0_0.xci), design_1_processing_system7_0_0 (design_1_processing_system7_0_0.v)]", 6); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci)]", 4); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd)]", 5); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 6); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 6, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 6, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [GUI Memory]: 211 MB (+551kb) [20:42:36]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 7, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectCodeEditor("mycordic_v1_0_S00_AXI.vhd", 178, 139); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 7); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 8, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("Cordic_top.vhd", 108, 174); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 150, 148); // H:bj (JPanel:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 8); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd)]", 9, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), mycordic_0 - design_1_mycordic_0_0 (design_1_mycordic_0_0.xci), design_1_mycordic_0_0 - design_1_mycordic_0_0_arch (design_1_mycordic_0_0.vhd), U0 - mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd), cordic - CORDIC_FP_top - Behavioral (CORDIC_FP_top.vhd), Y_addsub - my_addsub - structure (my_addsub.vhd)]", 17, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("CORDIC_FP_top.vhd", 145, 176); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("CORDIC_FP_top.vhd", 128, 146); // H:bj (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 140, 150); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 166, 147); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 82 seconds
+selectCodeEditor("Cordic_top.vhd", 176, 154); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 143, 142); // H:bj (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Cordic_top.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 216, 267); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 160, 147); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 65, 113); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 69, 112); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 148, 149); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 119, 151); // H:bj (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CORDIC_FP_top.vhd", 130, 110); // H:bj (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CORDIC_FP_top.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 169, 140); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Cordic_top.vhd", 222, 184); // H:bj (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Cordic_top.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 770, 177, 923, 401, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+// Elapsed time: 97 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 766, 178, 923, 401, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mycordic_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.tmp/mycordic_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project' 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+/*
+java.lang.NullPointerException (See C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/vivado_pid15288.debug)
+*/
+/*
+java.lang.NullPointerException (See C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/vivado_pid15288.debug)
+*/
+/*
+java.lang.NullPointerException (See C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/vivado_pid15288.debug)
+*/
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1376.984 ; gain = 144.156 
+// 'i' command handler elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd)]", 2); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mycordic_v1_0 - arch_imp (mycordic_v1_0.vhd), mycordic_v1_0_S00_AXI_inst - mycordic_v1_0_S00_AXI - arch_imp (mycordic_v1_0_S00_AXI.vhd), AXI_cordic - Cordic_top - Behavioral (Cordic_top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("Cordic_top.vhd", 165, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Wed Nov 11 16:53:16 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.runs/synth_1/runme.log [Wed Nov 11 16:53:16 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 223 MB (+1416kb) [20:49:53]
+// Elapsed time: 95 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1565] actual for formal port reset is neither a static name nor a globally static expression [c:/users/mr_co_000/documents/github/ece495/lab/lab4/ip_repo/mycordic_1.0/hdl/Cordic_top.vhd:78]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1565] actual for formal port reset is neither a static name nor a globally static expression [c:/users/mr_co_000/documents/github/ece495/lab/lab4/ip_repo/mycordic_1.0/hdl/Cordic_top.vhd:78]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\mr_co_000\documents\github\ece495\lab\lab4\ip_repo\mycordic_1.0\hdl\Cordic_top.vhd;-;;-;16;-;line;-;78;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design mycordic_v1_0 has unconnected port s00_axi_awprot[2]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1565] actual for formal port reset is neither a static name nor a globally static expression [c:/users/mr_co_000/documents/github/ece495/lab/lab4/ip_repo/mycordic_1.0/hdl/Cordic_top.vhd:78]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Cordic_top.vhd", 20, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Cordic_top.vhd", 6, 480); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("Cordic_top.vhd", 292, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Cordic_top.vhd", 21, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Cordic_top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+// [GUI Memory]: 235 MB (+312kb) [20:52:17]
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed Nov 11 16:56:48 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/lab/lab4/lab4/lab4.tmp/mycordic_v1_0_project/mycordic_v1_0_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 38 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - mycordic", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// cp:P (cl:JFrame):  Package IP : addNotify
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 163 MB. Current time: 11/11/15 4:57:44 PM EST
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // cp:P (cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/ip_repo/mycordic_1.0' 
+// TclEventType: CREATE_IP_CATALOG
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells mycordic_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 754, 137, 923, 401, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+/*
+java.lang.NullPointerException (See C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/vivado_pid15288.debug)
+*/
+// Elapsed time: 17 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 814, 162, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "mycordic_v1.0", 0, "mycordic_v1.0", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:mycordic:1.0 mycordic_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins mycordic_0/S00_AXI] 
+// Tcl Message: </mycordic_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 250 MB (+3638kb) [20:54:18]
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_processing_system7_0_0'. Target already exists and is up to date. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/hdl/design_1.hwdef [Wed Nov 11 16:58:40 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/synth_1/runme.log [Wed Nov 11 16:58:40 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1417.000 ; gain = 27.820 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 222 seconds
+selectTab((HResource) null, (HResource) null, "IP Status", 5); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 60 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+// Tcl Message: file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 263 MB (+363kb) [21:00:27]

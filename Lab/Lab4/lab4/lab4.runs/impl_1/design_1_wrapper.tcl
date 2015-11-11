@@ -64,7 +64,6 @@ set rc [catch {
   set_property processing_order EARLY [get_files c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc]
   read_xdc -ref design_1_rst_processing_system7_0_100M_0 c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc
   set_property processing_order EARLY [get_files c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc]
-  read_xdc {{C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc}}
   link_design -top design_1_wrapper -part xc7z010clg400-1
   close_msg_db -file init_design.pb
 } RESULT]
