@@ -350,3 +350,66 @@ java.lang.NullPointerException
 17:21:57 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 17:21:58 INFO  : ps7_init is completed.
 17:21:58 INFO  : ps7_post_config is completed.
+21:55:11 INFO  : System reset is completed.
+21:55:15 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:55:17 INFO  : ps7_init is completed.
+21:55:17 INFO  : ps7_post_config is completed.
+21:56:30 INFO  : System reset is completed.
+21:56:33 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:56:34 INFO  : ps7_init is completed.
+21:56:35 INFO  : ps7_post_config is completed.
+21:57:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:57:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:03:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:06:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:07:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:07:43 INFO  : System reset is completed.
+22:07:47 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:07:49 INFO  : ps7_init is completed.
+22:07:49 INFO  : ps7_post_config is completed.
+22:08:56 INFO  : System reset is completed.
+22:08:59 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:09:00 INFO  : ps7_init is completed.
+22:09:01 INFO  : ps7_post_config is completed.
+22:09:42 INFO  : System reset is completed.
+22:09:46 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:09:48 INFO  : ps7_init is completed.
+22:09:48 INFO  : ps7_post_config is completed.
+22:11:23 INFO  : System reset is completed.
+22:11:25 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:11:27 INFO  : ps7_init is completed.
+22:11:27 INFO  : ps7_post_config is completed.
+22:14:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:15:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:17:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:18:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:18:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:19:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:19:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:21:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:25:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:26:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:26:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:27:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:28:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:32:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:35:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:36:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:53:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+14:53:58 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+14:53:59 INFO  : XSDB server has started successfully.
+14:53:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:54:04 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0
+14:55:13 INFO  : System reset is completed.
+14:55:15 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:55:17 INFO  : ps7_init is completed.
+14:55:17 INFO  : ps7_post_config is completed.
+15:05:54 INFO  : System reset is completed.
+15:05:57 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:05:59 INFO  : ps7_init is completed.
+15:05:59 INFO  : ps7_post_config is completed.
+15:46:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

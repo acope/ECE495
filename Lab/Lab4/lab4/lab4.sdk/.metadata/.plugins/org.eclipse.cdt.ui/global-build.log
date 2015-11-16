@@ -2059,3 +2059,1294 @@ arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
 17:21:45 **** Incremental Build of configuration Debug for project lab4_C ****
 make all 
 make: Nothing to be done for `all'.
+19:28:34 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:29:22: warning: unused variable 'Delay' [-Wunused-variable]
+  u32 valueXY, valueZ,Delay,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                      ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22896	   1152	  22564	  46612	   b614	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+19:34:30 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22896	   1152	  22564	  46612	   b614	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+21:55:06 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+21:56:02 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22896	   1152	  22564	  46612	   b614	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+21:56:19 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:68:2: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat=]
+  printf("ValueXY = %08X, ValueZ = %08X/r/n", valueXY, valueZ);
+  ^
+../src/cordic_test.c:68:2: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'u32' [-Wformat=]
+../src/cordic_test.c:68:2: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat=]
+../src/cordic_test.c:68:2: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'u32' [-Wformat=]
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60500	   2320	  22636	  85456	  14dd0	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+21:56:22 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+21:57:19 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+21:57:28 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22928	   1152	  22564	  46644	   b634	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+21:57:33 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+21:57:53 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22896	   1152	  22564	  46612	   b614	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:02:25 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:68:2: error: 'X1' undeclared (first use in this function)
+  X1 = (valueXY & 0x0000FFFF)/0x(10000);
+  ^
+../src/cordic_test.c:68:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/cordic_test.c:68:30: error: invalid suffix "x" on integer constant
+  X1 = (valueXY & 0x0000FFFF)/0x(10000);
+                              ^
+../src/cordic_test.c:69:2: error: 'Y1' undeclared (first use in this function)
+  Y1 = (valueXY & 0xFFFF0000)/0x(10000);
+  ^
+../src/cordic_test.c:69:30: error: invalid suffix "x" on integer constant
+  Y1 = (valueXY & 0xFFFF0000)/0x(10000);
+                              ^
+../src/cordic_test.c:70:2: error: 'Z1' undeclared (first use in this function)
+  Z1 = (valueZ & 0x0000FFFF)/0x(10000);
+  ^
+../src/cordic_test.c:70:29: error: invalid suffix "x" on integer constant
+  Z1 = (valueZ & 0x0000FFFF)/0x(10000);
+                             ^
+../src/cordic_test.c:30:12: warning: unused variable 'z1' [-Wunused-variable]
+  u16 x1,y1,z1;
+            ^
+../src/cordic_test.c:30:9: warning: unused variable 'y1' [-Wunused-variable]
+  u16 x1,y1,z1;
+         ^
+../src/cordic_test.c:30:6: warning: unused variable 'x1' [-Wunused-variable]
+  u16 x1,y1,z1;
+      ^
+make: *** [src/cordic_test.o] Error 1
+22:02:45 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:68:30: error: invalid suffix "x" on integer constant
+  X1 = (valueXY & 0x0000FFFF)/0x(10000);
+                              ^
+../src/cordic_test.c:69:30: error: invalid suffix "x" on integer constant
+  Y1 = (valueXY & 0xFFFF0000)/0x(10000);
+                              ^
+../src/cordic_test.c:70:29: error: invalid suffix "x" on integer constant
+  Z1 = (valueZ & 0x0000FFFF)/0x(10000);
+                             ^
+make: *** [src/cordic_test.o] Error 1
+22:03:10 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:68:30: error: invalid suffix "x" on integer constant
+  X1 = (valueXY & 0x0000FFFF)/0x(10000);
+                              ^
+../src/cordic_test.c:69:30: error: invalid suffix "x" on integer constant
+  Y1 = (valueXY & 0xFFFF0000)/0x(10000);
+                              ^
+../src/cordic_test.c:70:29: error: invalid suffix "x" on integer constant
+  Z1 = (valueZ & 0x0000FFFF)/0x(10000);
+                             ^
+make: *** [src/cordic_test.o] Error 1
+22:03:37 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23000	   1152	  22564	  46716	   b67c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:03:46 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:06:29 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22896	   1152	  22564	  46612	   b614	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:06:32 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:07:07 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:29:22: warning: unused variable 'Delay' [-Wunused-variable]
+  u32 valueXY, valueZ,Delay,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                      ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22896	   1152	  22564	  46612	   b614	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:07:09 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:07:35 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:08:23 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:35:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+  ^
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23000	   1152	  22564	  46716	   b67c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:08:42 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23064	   1152	  22564	  46780	   b6bc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:08:48 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:09:32 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23064	   1152	  22564	  46780	   b6bc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:09:35 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:10:36 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23128	   1152	  22564	  46844	   b6fc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:10:54 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23064	   1152	  22564	  46780	   b6bc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:11:10 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23064	   1152	  22564	  46780	   b6bc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:11:14 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:11:48 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23064	   1152	  22564	  46780	   b6bc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:13:02 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:82:2: warning: 'X2' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("Xout = %04X, Yout = %04X, Zout = %04X",X2,Y2,Z2);
+  ^
+../src/cordic_test.c:82:2: warning: 'Y2' is used uninitialized in this function [-Wuninitialized]
+../src/cordic_test.c:82:2: warning: 'Z2' is used uninitialized in this function [-Wuninitialized]
+../src/cordic_test.c:83:2: warning: 'X3' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("Xout = %04X, Yout = %04X, Zout = %04X",X3,Y3,Z3);
+  ^
+../src/cordic_test.c:83:2: warning: 'Y3' is used uninitialized in this function [-Wuninitialized]
+../src/cordic_test.c:83:2: warning: 'Z3' is used uninitialized in this function [-Wuninitialized]
+../src/cordic_test.c:84:2: warning: 'X4' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("Xout = %04X, Yout = %04X, Zout = %04X",X4,Y4,Z4);
+  ^
+../src/cordic_test.c:84:2: warning: 'Y4' is used uninitialized in this function [-Wuninitialized]
+../src/cordic_test.c:84:2: warning: 'Z4' is used uninitialized in this function [-Wuninitialized]
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23128	   1152	  22564	  46844	   b6fc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:14:06 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:14:21 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:14:55 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:14:57 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:15:49 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:15:52 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:16:36 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23320	   1152	  22564	  47036	   b7bc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:16:37 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:17:29 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:17:34 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:18:10 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:18:12 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:18:31 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:18:34 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:18:51 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:18:53 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:19:24 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23192	   1152	  22564	  46908	   b73c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:19:29 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:21:08 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:34:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23192	   1152	  22564	  46908	   b73c	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:21:11 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:23:59 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:43:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/cordic_test.c:92:2: error: unknown type name 'xil'
+  xil
+  ^
+../src/cordic_test.c:93:13: error: expected declaration specifiers or '...' before string constant
+  xil_printf("ValueXY = %08X, ValueZ = %08X\r\n", valueXY, valueZ);
+             ^
+../src/cordic_test.c:93:50: error: expected declaration specifiers or '...' before 'valueXY'
+  xil_printf("ValueXY = %08X, ValueZ = %08X\r\n", valueXY, valueZ);
+                                                  ^
+../src/cordic_test.c:93:59: error: expected declaration specifiers or '...' before 'valueZ'
+  xil_printf("ValueXY = %08X, ValueZ = %08X\r\n", valueXY, valueZ);
+                                                           ^
+make: *** [src/cordic_test.o] Error 1
+22:25:14 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:43:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23456	   1152	  22564	  47172	   b844	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:25:16 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:25:46 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:43:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23468	   1152	  22564	  47184	   b850	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:25:52 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:43:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23472	   1152	  22564	  47188	   b854	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:25:54 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:26:29 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:43:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23468	   1152	  22564	  47184	   b850	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:26:32 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:27:02 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:38:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:43:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23472	   1152	  22564	  47188	   b854	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:27:04 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:27:54 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:39:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:44:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23424	   1152	  22564	  47140	   b824	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:27:56 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:31:52 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23596	   1152	  22564	  47312	   b8d0	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:32:01 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:35:36 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23640	   1152	  22564	  47356	   b8fc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:35:45 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23640	   1152	  22564	  47356	   b8fc	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:35:47 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:36:43 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1152	  22564	  47364	   b904	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+22:36:46 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+22:38:02 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1152	  22564	  47364	   b904	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+14:54:03 **** Auto Build of project lab4_C_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/mycordic_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mycordic_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/mycordic_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/mycordic_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling mycordic..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+14:54:26 **** Auto Build of configuration Debug for project lab4_C ****
+make all 
+'Building file: ../src/cordic_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cordic_test.o" -I../../lab4_C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cordic_test.d" -MT"src/cordic_test.d" -o "src/cordic_test.o" "../src/cordic_test.c"
+../src/cordic_test.c: In function 'main':
+../src/cordic_test.c:32:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/cordic_test.c:37:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+'Finished building: ../src/cordic_test.c'
+' '
+'Building target: lab4_C.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab4_C_bsp/ps7_cortexa9_0/lib -o "lab4_C.elf"  ./src/cordic_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4_C.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size lab4_C.elf  |tee "lab4_C.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1152	  22564	  47364	   b904	lab4_C.elf
+'Finished building: lab4_C.elf.size'
+' '
+14:54:35 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+14:55:02 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
+15:05:48 **** Incremental Build of configuration Debug for project lab4_C ****
+make all 
+make: Nothing to be done for `all'.
