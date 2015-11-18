@@ -23,7 +23,7 @@ ARCHITECTURE behavior OF tb_cordic_fp IS
  
     -- Component Declaration for the Unit Under Test (UUT)   
     component CORDIC_FP_top is
-        generic (N: INTEGER:= 16; --number of interations (i)
+        generic (N: INTEGER:= 0; --number of interations (i)
                 M: INTEGER:= 16; --Z bits
                 K: INTEGER:= 20); --X,Y bits
        port ( clock, reset: in std_logic;
@@ -92,7 +92,8 @@ BEGIN
        resetn <= '0';
 
       -- insert stimulus here 
-		      xin <= X"00000"; yin <= X"026DC"; zin <= x"2183"; mode(0) <= '1'; wait for clock_period; --z = pi/6 =0x2183	
+		      xin <= X"00000"; yin <= X"26DC0"; zin <= x"2183"; mode(0) <= '1'; wait for clock_period; --z = pi/6 =0x218
+		      
    end process;
 
 END;

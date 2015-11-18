@@ -30,26 +30,32 @@
    <wvobject db_ref_id="1" fp_name="/pipe_tb/Xin" type="array">
       <obj_property name="ElementShortName">Xin[15:0]</obj_property>
       <obj_property name="ObjectShortName">Xin[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" fp_name="/pipe_tb/Yin" type="array">
       <obj_property name="ElementShortName">Yin[15:0]</obj_property>
       <obj_property name="ObjectShortName">Yin[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" fp_name="/pipe_tb/Zin" type="array">
       <obj_property name="ElementShortName">Zin[15:0]</obj_property>
       <obj_property name="ObjectShortName">Zin[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" fp_name="/pipe_tb/Xout" type="array">
       <obj_property name="ElementShortName">Xout[15:0]</obj_property>
       <obj_property name="ObjectShortName">Xout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" fp_name="/pipe_tb/Yout" type="array">
       <obj_property name="ElementShortName">Yout[15:0]</obj_property>
       <obj_property name="ObjectShortName">Yout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" fp_name="/pipe_tb/Zout" type="array">
       <obj_property name="ElementShortName">Zout[15:0]</obj_property>
       <obj_property name="ObjectShortName">Zout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject db_ref_id="1" fp_name="/pipe_tb/mode_out" type="array">
       <obj_property name="ElementShortName">mode_out[0:0]</obj_property>
