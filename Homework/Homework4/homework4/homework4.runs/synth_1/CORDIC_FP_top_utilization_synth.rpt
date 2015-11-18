@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date         : Mon Nov 16 16:49:19 2015
+| Date         : Mon Nov 16 18:12:15 2015
 | Host         : Austin running 64-bit major release  (build 9200)
 | Command      : report_utilization -file CORDIC_FP_top_utilization_synth.rpt -pb CORDIC_FP_top_utilization_synth.pb
 | Design       : CORDIC_FP_top

@@ -107,3 +107,1681 @@ source tb_cordic_fp.tcl
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 764.582 ; gain = 12.664
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5320 ns
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 806.523 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5320 ns
+run 5320 ns
+run 5320 ns
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ":=". [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:67]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:05:00 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ":=". [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:67]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:06:00 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:06:30 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:09:02 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:12:05 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "{". [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:70]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:14:01 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:14:44 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 862.055 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 1 elements ; expected 20 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:70]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_cordic_fp in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 4 elements ; expected 20 [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:70]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_cordic_fp in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Nov 16 17:17:27 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:17:27 2015...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 862.055 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 862.055 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:20:35 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:23:34 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:25:17 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:27:46 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 252690469 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:29:03 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 4289814513 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:29:55 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 141646244 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:31:32 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 878.129 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5320 ns
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:37:39 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 17:38:16 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 60971916 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4...."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:39:33 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 878.129 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 2949883478 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:42:27 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3024252432 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:45:55 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 878.129 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 2800116657 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:47:39 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 878.129 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 878.129 ; gain = 0.000
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg}
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 881.332 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 4231538736 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:50:55 2015...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 881.332 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 881.543 ; gain = 0.211
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg}
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 882.215 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3887181197 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework..."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 17:52:57 2015...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 882.215 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 913.711 ; gain = 31.496
+update_compile_order -fileset sources_1
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 967.469 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+ERROR: [VRFC 10-1412] syntax error near ; [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:84]
+ERROR: [VRFC 10-724] found '0' definitions of operator "&", cannot determine exact overloaded matching definition for "&" [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:85]
+ERROR: [VRFC 10-1412] syntax error near generate [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:87]
+ERROR: [VRFC 10-1472] type error near input ; expected type  void [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:87]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [XSIM 43-3294] Signal EXCEPTION_ACCESS_VIOLATION received.
+Printing stacktrace...
+
+[0] (KiUserExceptionDispatcher+0x3a) [0x7ffe8187544a]
+[1] (Verific::VhdlScope::FindAllLocal+0x5a) [0x7ffe2e57e5aa]
+[2] (Verific::VhdlScope::FindAll+0x3a) [0x7ffe2e57ddda]
+[3] (Verific::VhdlIdRef::TypeInfer+0x279) [0x7ffe2e548d29]
+[4] (Verific::VhdlOperator::TypeInfer+0x5b1) [0x7ffe2e51b6f1]
+[5] (Verific::VhdlOperator::TypeInfer+0x4d3) [0x7ffe2e51b613]
+[6] (Verific::VhdlIfScheme::VhdlIfScheme+0x90) [0x7ffe2e53a850]
+[7] (Verific::vhdl_file::StartYacc+0x45c4) [0x7ffe2e5ee214]
+[8] (Verific::vhdl_file::Analyze+0xc0) [0x7ffe2e5cf1c0]
+[9] (ISIMC::VhdlCompiler::analyze+0x5a) [0x7ff67ef4db4a]
+[10]  [0x7ff67ef455c5]
+[11] (ISIMC::Options::parseVlogcompCommandLine+0xac36b) [0x7ff67f17bcbb]
+[12] (BaseThreadInitThunk+0x22) [0x7ffe7f182d92]
+
+Done
+INFO: [Common 17-344] 'run_program' was cancelled
+1
+    while executing
+"catch {rdi::run_program $scr_file} error_log"
+    (procedure "::tclapp::xilinx::xsim::usf_launch_script" line 35)
+    invoked from within
+"::tclapp::xilinx::xsim::usf_launch_script "xsim" $step"
+    (procedure "tclapp::xilinx::xsim::compile" line 13)
+    invoked from within
+"tclapp::xilinx::xsim::compile { -simset sim_1 -mode behavioral -run_dir C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homewo..."
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:1]
+[Mon Nov 16 18:11:18 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Nov 16 18:12:37 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 18:12:37 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 967.469 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Nov 16 18:13:25 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 18:13:25 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 967.469 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Nov 16 18:14:24 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 18:14:24 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 967.469 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/tb_cordic_fp_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'tb_cordic_fp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_cordic_fp_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/tb_cordic_fp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_cordic_fp
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 6c2d3770b6ce4615b0517e52f3cc8254 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cordic_fp_behav xil_defaultlib.tb_cordic_fp -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16)\]
+Compiling architecture behavior of entity xil_defaultlib.tb_cordic_fp
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_cordic_fp_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 90404693 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4...."
+    (file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav/xsim.dir/tb_cordic_fp_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 18:16:36 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cordic_fp_behav -key {Behavioral:sim_1:Functional:tb_cordic_fp} -tclbatch {tb_cordic_fp.tcl} -view {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/tb_cordic_fp_behav.wcfg
+source tb_cordic_fp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 967.469 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cordic_fp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 967.469 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 967.469 ; gain = 0.000
+close_project
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Nov 16 18:31:31 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 16 18:31:31 2015...
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 967.469 ; gain = 0.000
+create_project homework4_v2 C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/homework4_v2 -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+set_property target_language VHDL [current_project]
+add_files -norecurse {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/fulladd.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/mux_2to1.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_pack.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_addsub.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my4to1LUT_atan.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/LPM_COMMON_CONVERSION.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/CORDIC_FP_top.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_clshift.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_rege.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_rege.vhd:1]
+[Mon Nov 16 19:06:51 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/homework4_v2/homework4_v2.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 19:09:22 2015...

@@ -2,8 +2,8 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Mon Nov 16 16:48:39 2015
-# Process ID: 14832
+# Start of session at: Mon Nov 16 18:11:20 2015
+# Process ID: 3564
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1/CORDIC_FP_top.vds
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/homework4/homework4.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -13,27 +13,27 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 244.766 ; gain = 68.473
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 245.125 ; gain = 68.605
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'CORDIC_FP_top' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:17]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:114]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:107]
 INFO: [Synth 8-638] synthesizing module 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:12]
 INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:12]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:122]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:115]
 INFO: [Synth 8-638] synthesizing module 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'my_rege' (2#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:126]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:119]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:130]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:123]
 INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized2' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized2' (2#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:138]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:131]
 INFO: [Synth 8-638] synthesizing module 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
 	Parameter N bound to: 20 - type: integer 
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
@@ -60,9 +60,9 @@ INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'my_addsub' (4#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:142]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:135]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:146]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:139]
 INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized2' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
@@ -82,7 +82,7 @@ INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized2' (4#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
-INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:154]
+INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:147]
 INFO: [Synth 8-638] synthesizing module 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:19]
 INFO: [Synth 8-256] done synthesizing module 'my4to1LUT' (5#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:19]
 	Parameter lpm_width bound to: 20 - type: integer 
@@ -90,7 +90,7 @@ INFO: [Synth 8-256] done synthesizing module 'my4to1LUT' (5#1) [C:/Users/mr_co_0
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:162]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:155]
 INFO: [Synth 8-638] synthesizing module 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:56]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
@@ -103,23 +103,23 @@ INFO: [Synth 8-256] done synthesizing module 'LPM_CLSHIFT' (6#1) [C:/Users/mr_co
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:177]
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:114]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:170]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:107]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:122]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:115]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:126]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:119]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:130]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:123]
 INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized6' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized6' (6#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:138]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:131]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:142]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:135]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:146]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:139]
 INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized6' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
@@ -139,35 +139,35 @@ INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized6' (6#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
-INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:154]
+INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:147]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:162]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:155]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:177]
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:114]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:170]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:107]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:122]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:115]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:126]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:119]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:130]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:123]
 INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized10' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized10' (6#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:25]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:138]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:131]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:142]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:135]
 	Parameter N bound to: 16 - type: integer 
-INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:146]
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:139]
 INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized10' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
 	Parameter N bound to: 16 - type: integer 
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
@@ -187,22 +187,22 @@ INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized10' (6#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_addsub.vhd:23]
-INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:154]
+INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:147]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:162]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:155]
 	Parameter lpm_width bound to: 20 - type: integer 
 	Parameter lpm_widthdist bound to: 5 - type: integer 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:177]
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:114]
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:170]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/mux_2to1.vhd:4' bound to instance 'mux_di' of component 'mux_2to1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:107]
 	Parameter N bound to: 20 - type: integer 
-INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:122]
+INFO: [Synth 8-3491] module 'my_rege' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:115]
 INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 	Parameter N bound to: 20 - type: integer 
 	Parameter N bound to: 16 - type: integer 
@@ -489,29 +489,26 @@ INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized62' (6#1) 
 	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
 	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
 	Parameter lpm_hint bound to: UNUSED - type: string 
-WARNING: [Synth 8-3848] Net XS[15] in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:68]
-WARNING: [Synth 8-3848] Net YS[15] in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:68]
-WARNING: [Synth 8-3848] Net ZS[15] in module/entity CORDIC_FP_top does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:70]
 INFO: [Synth 8-256] done synthesizing module 'CORDIC_FP_top' (7#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4/CORDIC_FP_top.vhd:17]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 281.949 ; gain = 105.656
+Finished Synthesize : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 282.336 ; gain = 105.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 281.949 ; gain = 105.656
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 282.336 ; gain = 105.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 281.949 ; gain = 105.656
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 282.336 ; gain = 105.816
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 335.176 ; gain = 158.883
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 337.414 ; gain = 160.895
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-223] decloning instance '\test[15].data_X_reg ' (my_rege) to '\test[15].data_Y_reg '
-INFO: [Synth 8-223] decloning instance '\test[15].X_barrel_shifter ' (LPM_CLSHIFT) to '\test[15].Y_barrel_shifter '
+INFO: [Synth 8-223] decloning instance '\pipeline[15].data_X_reg ' (my_rege) to '\pipeline[15].data_Y_reg '
+INFO: [Synth 8-223] decloning instance '\pipeline[15].X_barrel_shifter ' (LPM_CLSHIFT) to '\pipeline[15].Y_barrel_shifter '
 
 Report RTL Partitions: 
 +------+-------------------+------------+----------+
@@ -4785,14 +4782,14 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:30 ; elapsed = 00:00:28 . Memory (MB): peak = 432.426 ; gain = 256.133
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 432.699 ; gain = 256.180
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:30 . Memory (MB): peak = 433.797 ; gain = 257.504
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 434.078 ; gain = 257.559
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:30 . Memory (MB): peak = 433.797 ; gain = 257.504
+Finished Parallel Reinference  : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 434.078 ; gain = 257.559
 
 Report RTL Partitions: 
 +------+-------------------+------------+----------+
@@ -4821,154 +4818,123 @@ WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be r
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized2.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized2.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized2.
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[14].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[13].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[12].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[11].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[10].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[9].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[8].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[7].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[6].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[5].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[4].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[3].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[2].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[1].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[15].data_Z_reg /\Qt_reg[15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[15].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[14].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[14].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[13].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[13].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[12].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[12].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[11].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[11].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[10].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[10].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[9].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[9].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[8].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[8].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[7].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[7].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[6].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[6].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[5].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[5].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[4].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[4].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[3].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[3].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[2].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[2].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[1].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[1].data_X_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[0].data_Y_reg /\Qt_reg[19] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\test[0].data_X_reg /\Qt_reg[19] )
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[19] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[18] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[17] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[16] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[11] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[10] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[9] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__1.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[13].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[12].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[11].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[10].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[9].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[8].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[7].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[6].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[5].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[2].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[1].data_Z_reg /\Qt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[15].data_Z_reg /\Qt_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[15].data_X_reg /\Qt_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[0].data_Y_reg /\Qt_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pipeline[0].data_X_reg /\Qt_reg[3] )
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__1.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__1.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__1.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__1.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[19] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[18] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[17] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[16] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[11] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[10] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[9] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__2.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__2.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__2.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__2.
 WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__2.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[19] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[18] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[17] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[16] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[11] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[10] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[9] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__3.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[19] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[18] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[17] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[16] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[11] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[10] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[9] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__4.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege__parameterized6.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege__parameterized6.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege__parameterized6.
-WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege__parameterized6.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized6.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized6.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized10.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized22.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized26.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized30.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege__parameterized34.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__parameterized34.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__parameterized34.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized34.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized34.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized34.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege__parameterized38.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__parameterized38.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized38.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized38.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized38.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege__parameterized42.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized42.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized42.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized42.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege__parameterized46.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized46.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized46.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege__parameterized50.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized50.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege__parameterized54.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[19] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[18] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[17] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[16] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[11] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[10] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[9] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[7] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[6] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[5] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[4] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[3] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[2] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[1] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[0] ) is unused and will be removed from module my_rege.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[15] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[14] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[13] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[12] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[11] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[10] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[9] ) is unused and will be removed from module my_rege__parameterized62.
+WARNING: [Synth 8-3332] Sequential element (\Qt_reg[8] ) is unused and will be removed from module my_rege__parameterized62.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 456.246 ; gain = 279.727
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4980,7 +4946,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4998,7 +4964,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -5011,7 +4977,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -5023,13 +4989,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Start Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -5056,11 +5022,11 @@ Report Instance Areas:
 |1     |top      |       |    52|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 879 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 452.555 ; gain = 260.793
-Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 452.555 ; gain = 276.262
+Synthesis finished with 0 errors, 0 critical warnings and 876 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 456.246 ; gain = 265.117
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 456.246 ; gain = 279.727
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -5070,8 +5036,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-237 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+206 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:34 . Memory (MB): peak = 498.375 ; gain = 308.012
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 498.375 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 16:49:19 2015...
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 499.641 ; gain = 308.777
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 499.641 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 18:12:15 2015...

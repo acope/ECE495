@@ -85,7 +85,7 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      resetn <= '1';
+      --resetn <= '1';
        wait for 10 ns;
        resetn <= '0';
 

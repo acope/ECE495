@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipe_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="lpm_components" />
+            <top_module name="pipe_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/mode" type="array">
+      <obj_property name="ElementShortName">mode[0:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/E" type="array">
+      <obj_property name="ElementShortName">E[0:0]</obj_property>
+      <obj_property name="ObjectShortName">E[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/Xin" type="array">
+      <obj_property name="ElementShortName">Xin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Xin[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/Yin" type="array">
+      <obj_property name="ElementShortName">Yin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Yin[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/Zin" type="array">
+      <obj_property name="ElementShortName">Zin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Zin[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/Xout" type="array">
+      <obj_property name="ElementShortName">Xout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Xout[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/Yout" type="array">
+      <obj_property name="ElementShortName">Yout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Yout[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/Zout" type="array">
+      <obj_property name="ElementShortName">Zout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Zout[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/mode_out" type="array">
+      <obj_property name="ElementShortName">mode_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/V" type="array">
+      <obj_property name="ElementShortName">V[0:0]</obj_property>
+      <obj_property name="ObjectShortName">V[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/pipe_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -65,47 +65,40 @@ architecture Behavioral of CORDIC_FP_top is
     
 
    type array1 is array (integer range N-1 downto 0) of std_logic_vector(19 downto 0); 
-     signal XS,YS,data_X, data_Y, X, Y, result_x, result_Y, next_X, next_Y: array1;
    type array2 is array (integer range N-1 downto 0) of std_logic_vector(15 downto 0); 
-     signal ZS,Z, next_z,e_i: array2; 
    type array3 is array (integer range N-1 downto 0) of std_logic; 
-     signal di, din,yn: array3;   
-
-    signal resetn: std_logic;
-    
-  signal sclr : std_logic :='1';
+   signal XS, YS, data_X, data_Y, X, Y, result_x, result_Y, next_X, next_Y: array1 := (others => "00000000000000000000");
+   signal ZS, Z, next_z, e_i: array2 := (others => "0000000000000000");   
+   signal di, din, yn: array3;
+   signal resetn: std_logic;   
+   signal sclr : std_logic :='0';
 begin
 
     resetn <= not(reset);
-  -- XS(0) <= (others=>'0');
-  -- YS(0) <= (others=>'0');
-  -- ZS(0) <= (others=>'0');
- test: for i in 0 to N-1 generate 
+ pipeline: for i in 0 to N-1 generate 
 
     yn(i) <= not(y(i)(19));
     din(i) <= not(di(i));
  
-        input: if (i = 0) generate
+    input: if (i = 0) generate
                XS(0) <= xin& x"0";
                yS(0) <= yin& x"0";
                zS(0) <= zin;
-        end generate input ;
+           end generate input ;
         
-      none:  if ((i>0) and (i<N-1)) generate
-                       --E <= E;
-                        XS(i) <= next_x(i);
-                        YS(i) <= next_y(i);
-                        ZS(i) <= next_z(i);
-            end generate none;
-            
-                 
-       output:  if i = N-1 generate
+    other: if ((i > 0) and (i < N-1)) generate
+               XS(i) <= next_x(i);
+               YS(i) <= next_y(i);
+               ZS(i) <= next_z(i);
+           end generate other;
+                           
+    output: if i = N-1 generate
                v <= E;
                x_out <= next_x(i)(19 downto 4);
                y_out <= next_y(i)(19 downto 4);
                z_out <= next_z(i);
                mode_out <= mode;
-          end generate output ;         
+            end generate output ;         
           
 --------------------------------------------------------------------------------------
 --MUX PORT MAP------------------------------------------------------------------------
@@ -188,7 +181,7 @@ begin
                         --underflow => '-',
                         --overflow  => '-'); 
                         );   
- end generate test;
+ end generate pipeline;
 
 
 end Behavioral;

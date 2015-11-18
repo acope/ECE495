@@ -3,14 +3,14 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="tb_cordic_fp_behav.wdb" id="1">
+      <db_ref path="tb_cordic_fp_behav1.wdb" id="1">
          <top_modules>
             <top_module name="lpm_components" />
             <top_module name="tb_cordic_fp" />
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="14" />
+   <WVObjectSize size="25" />
    <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/clock" type="logic">
       <obj_property name="ElementShortName">clock</obj_property>
       <obj_property name="ObjectShortName">clock</obj_property>
@@ -63,8 +63,64 @@
       <obj_property name="ElementShortName">clock_period</obj_property>
       <obj_property name="ObjectShortName">clock_period</obj_property>
    </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/XS" type="array">
+      <obj_property name="ElementShortName">XS[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">XS[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
    <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/YS" type="array">
-      <obj_property name="ElementShortName">YS[15:0][19:0]</obj_property>
-      <obj_property name="ObjectShortName">YS[15:0][19:0]</obj_property>
+      <obj_property name="ElementShortName">YS[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">YS[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/ZS" type="array">
+      <obj_property name="ElementShortName">ZS[5:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">ZS[5:0][15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/X" type="array">
+      <obj_property name="ElementShortName">X[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">X[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/Y" type="array">
+      <obj_property name="ElementShortName">Y[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/Z" type="array">
+      <obj_property name="ElementShortName">Z[5:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">Z[5:0][15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/result_x" type="array">
+      <obj_property name="ElementShortName">result_x[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">result_x[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/result_Y" type="array">
+      <obj_property name="ElementShortName">result_Y[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">result_Y[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/e_i" type="array">
+      <obj_property name="ElementShortName">e_i[5:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">e_i[5:0][15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/next_X" type="array">
+      <obj_property name="ElementShortName">next_X[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">next_X[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/next_Y" type="array">
+      <obj_property name="ElementShortName">next_Y[5:0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">next_Y[5:0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_cordic_fp/cordic/next_z" type="array">
+      <obj_property name="ElementShortName">next_z[5:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">next_z[5:0][15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
 </wave_config>

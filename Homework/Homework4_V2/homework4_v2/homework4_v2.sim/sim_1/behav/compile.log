@@ -1,0 +1,19 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/homework4_v2/homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb

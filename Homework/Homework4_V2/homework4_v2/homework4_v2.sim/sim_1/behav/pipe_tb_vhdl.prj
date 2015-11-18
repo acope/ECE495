@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../lpm_pack.vhd"
+vhdl xil_defaultlib  "../../../../fulladd.vhd"
+vhdl xil_defaultlib  "../../../../my_rege.vhd"
+vhdl xil_defaultlib  "../../../../my4to1LUT_atan.vhd"
+vhdl xil_defaultlib  "../../../../mux_2to1.vhd"
+vhdl xil_defaultlib  "../../../../lpm_clshift.vhd"
+vhdl xil_defaultlib  "../../../../my_addsub.vhd"
+vhdl xil_defaultlib  "../../../../CORDIC_FP_top.vhd"
+vhdl xil_defaultlib  "../../../homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd"
+vhdl xil_defaultlib  "../../../homework4_v2.srcs/sim_1/new/pipe_tb.vhd"
+
+# Do not sort compile order
+nosort
