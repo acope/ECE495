@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1447867787">
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1447974818">
   <File Type="RDS-DCP" Name="CORDIC_Pipeline_Top.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
   <File Type="RDS-UTIL-PB" Name="CORDIC_Pipeline_Top_utilization_synth.pb"/>

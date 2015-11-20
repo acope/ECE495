@@ -2,92 +2,10 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Mon Nov 09 17:09:09 2015
-# Process ID: 18108
+# Start of session at: Thu Nov 19 18:18:49 2015
+# Process ID: 9504
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/vivado.log
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/pix_proc.xpr
-launch_simulation
-launch_simulation
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-restart
-run 800 ns
-restart
-run 1 ms
-restart
-run 1000 ms
-restart
-run 1 s
-close_sim
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-restart
-run 800 ns
-restart
-run 800 ns
-run 800 ns
-run 800 ns
-run 800 ns
-run 800 ns
-run 800 ns
-run 800 ns
-close_sim
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-run 800 ns
-run 800 ns
-restart
-run 1500 ns
-restart
-run 3000 ns
-restart
-run 4000 ns
-restart
-run 5000 ns
-restart
-run 5200 ns
-restart
-run 5400 ns
-save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg}
-close_sim
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-restart
-run 5400 ns
-restart
-run 5396 ns
-restart
-run 5320 ns
-close_sim
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-restart
-run 5320 ns
-close_sim
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-restart
-run 5320 ns
-close_sim
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-close_sim
-launch_simulation
-open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework3/pix_proc/atb_test_behav.wcfg
-source atb_test.tcl
-restart
-run 5320 ns
-close_sim

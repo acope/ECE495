@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_cordic_fp_behav/xsimk.exe -simmode gui -wdb tb_cordic_fp_behav.wdb -simrunnum 0 -socket 52175
+Running: xsim.dir/tb_cordic_fp_behav/xsimk.exe -simmode gui -wdb tb_cordic_fp_behav.wdb -simrunnum 0 -socket 57594
 Design successfully loaded
-Design Loading Memory Usage: 20156 KB (Peak: 20156 KB)
-Design Loading CPU Usage: 156 ms
+Design Loading Memory Usage: 20192 KB (Peak: 20192 KB)
+Design Loading CPU Usage: 155 ms
 Simulation completed
-Simulation Memory Usage: 21140 KB (Peak: 21140 KB)
-Simulation CPU Usage: 202 ms
+Simulation Memory Usage: 20628 KB (Peak: 20628 KB)
+Simulation CPU Usage: 203 ms

@@ -8,7 +8,7 @@ vhdl xil_defaultlib  "../../../../lpm_clshift.vhd"
 vhdl xil_defaultlib  "../../../../my_addsub.vhd"
 vhdl xil_defaultlib  "../../../../CORDIC_FP_top.vhd"
 vhdl xil_defaultlib  "../../../homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd"
-vhdl xil_defaultlib  "../../../homework4_v2.srcs/sim_1/new/pipe_tb.vhd"
+vhdl xil_defaultlib  "../../../homework4_v2.srcs/sim_1/new/pipe_tb_text.vhd"
 
 # Do not sort compile order
 nosort

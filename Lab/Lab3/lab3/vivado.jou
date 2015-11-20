@@ -2,8 +2,8 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Tue Nov 17 21:28:57 2015
-# Process ID: 18484
+# Start of session at: Thu Nov 19 19:04:37 2015
+# Process ID: 13084
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/vivado.log
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3\vivado.jou
 #-----------------------------------------------------------
@@ -12,6 +12,4 @@ open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/lab3.xpr
 launch_simulation
 open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab3/lab3/tb_cordic_fp_behav.wcfg
 source tb_cordic_fp.tcl
-restart
-run 5320 ns
 close_sim
