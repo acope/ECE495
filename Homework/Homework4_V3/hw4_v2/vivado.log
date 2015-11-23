@@ -1,0 +1,1444 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Nov 20 11:41:31 2015
+# Process ID: 14384
+# Log file: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/vivado.log
+# Journal file: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7k70tfbv676-1 C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FALL2015_course/hw4_v2' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/lpm_pack.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/lpm_pack.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/fulladd.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/fulladd.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/lpm_clshift.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/lpm_clshift.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_addsub.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/my_addsub.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my4to1LUT_atan.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/my4to1LUT_atan.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_rege.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/my_rege.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/mux_2to1.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/mux_2to1.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/CORDIC_FP_top.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/CORDIC_FP_top.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/atb_test.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/atb_test.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_pashiftreg.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/my_pashiftreg.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/LPM_COMMON_CONVERSION.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/LPM_COMMON_CONVERSION.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/pack_xtras.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/pack_xtras.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb_text.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb_text.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb.vhd', nor could it be found using path 'D:/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-573] Overriding 'synth_1' run's part, 'xc7vx485tffg1157-1', with new part: 'xc7k70tfbv676-1'.
+INFO: [Project 1-573] Overriding 'impl_1' run's part, 'xc7vx485tffg1157-1', with new part: 'xc7k70tfbv676-1'.
+INFO: [Project 1-563] Overriding project part, 'xc7vx485tffg1157-1', with new part: 'xc7k70tfbv676-1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 669.074 ; gain = 97.766
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -norecurse {C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_pashiftreg.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pack_xtras.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/LPM_COMMON_CONVERSION.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files {C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/CORDIC_FP_top.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/LPM_COMMON_CONVERSION.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/atb_test.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/fulladd.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/lpm_clshift.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/lpm_pack.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/mux_2to1.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my4to1LUT_atan.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_addsub.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_pashiftreg.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_rege.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/pack_xtras.vhd}
+remove_files C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_pashiftreg.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+ERROR: [VRFC 10-91] c_width is not declared [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:114]
+ERROR: [VRFC 10-91] c_width is not declared [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:141]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:40]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+ERROR: [VRFC 10-91] c_width is not declared [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:114]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:40]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/LPM_COMMON_CONVERSION.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/LPM_COMMON_CONVERSION.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pack_xtras.vhd" into library xil_defaultlib [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pack_xtras.vhd:1]
+[Fri Nov 20 11:48:26 2015] Launched synth_1...
+Run output will be captured here: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.runs/synth_1/runme.log
+reset_run synth_1 -noclean_dir 
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 11:48:51 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 11:48:51 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 801.164 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/file_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+ERROR: File hw4_rotation.txt is not open. Cannot call endfile on it
+Time: 10 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc
+  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+
+HDL Line: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:126
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 804.293 ; gain = 3.129
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 11:49:27 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 11:49:27 2015...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 809.566 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/file_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+ERROR: File C:\Users\mr_co_000\Desktop\hw4_v2\hw4_rotation.txt is not open. Cannot call endfile on it
+Time: 10 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc
+  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+
+HDL Line: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:126
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 813.867 ; gain = 4.301
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 11:51:37 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 11:51:37 2015...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 818.777 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/file_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 830.938 ; gain = 12.160
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 11:55:23 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 11:55:23 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 830.938 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/file_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 830.938 ; gain = 0.000
+run 5320 ns
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+run 5320 ns
+run 5320 ns
+run 5320 ns
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19210 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19400 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19590 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19780 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19970 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 20160 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 20350 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+run 5320 ns
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+ERROR: [VRFC 10-91] file_results is not declared [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:155]
+ERROR: [VRFC 10-275] actual  of formal f must be a file [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:155]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd:40]
+INFO: [VRFC 10-240] VHDL file C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 12:06:19 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 12:06:19 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 890.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/X_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Z_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Y_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 890.242 ; gain = 0.000
+run 5320 ns
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+run 5320 ns
+run 5320 ns
+run 5320 ns
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19210 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19400 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19590 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19780 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19970 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 20160 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 20350 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 12000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 20000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19210 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19400 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19590 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19780 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19970 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 18000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 19000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 890.242 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 12:10:43 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 12:10:43 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 890.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/X_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Z_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Y_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 890.242 ; gain = 0.000
+run 19000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19210 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19400 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19590 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19780 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 19970 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 19000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 12:12:15 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 12:12:15 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 890.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/X_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Z_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Y_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 890.242 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 19000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 200 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 390 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 580 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 770 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 960 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1150 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1340 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Nov 20 12:22:30 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 12:22:30 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 890.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/X_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Z_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Y_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 890.242 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 19000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'pipe_tb_text' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj pipe_tb_text_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my4to1LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addsub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LPM_CLSHIFT
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_rege
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_FP_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CORDIC_Pipeline_Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pipe_tb_text
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto cdef7005dfde48f2908e87215d57a821 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pipe_tb_text_behav xil_defaultlib.pipe_tb_text -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.lpm_components
+Compiling architecture struct of entity xil_defaultlib.my4to1LUT [my4to1lut_default]
+Compiling architecture lpm_syn of entity xil_defaultlib.LPM_CLSHIFT [\LPM_CLSHIFT(20,5,"ARITHMETIC","...]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(20)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(1)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(20)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(0,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(1,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(2,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(3,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(4,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(5,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(6,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(7,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(8,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(9,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(10,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(11,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(12,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(13,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(14,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(15,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_FP_top [\CORDIC_FP_top(16,16,20)\]
+Compiling architecture behavioral of entity xil_defaultlib.CORDIC_Pipeline_Top [\CORDIC_Pipeline_Top(16,16,16)\]
+Compiling architecture behavioral of entity xil_defaultlib.pipe_tb_text
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot pipe_tb_text_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1458547555 -regid "210943894_0_0_125" -xml C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb..."
+    (file "C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav/xsim.dir/pipe_tb_text_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 20 12:24:35 2015...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 890.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipe_tb_text_behav -key {Behavioral:sim_1:Functional:pipe_tb_text} -tclbatch {pipe_tb_text.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source pipe_tb_text.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /pipe_tb_text/file_VECTORS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/X_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Z_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /pipe_tb_text/Y_RESULTS was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipe_tb_text_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 890.242 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 19000 ns
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 20 21:34:57 2015...

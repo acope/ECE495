@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Nov 20 11:41:31 2015
+# Process ID: 14384
+# Log file: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/vivado.log
+# Journal file: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7k70tfbv676-1 C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/hw4_v2.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -norecurse {C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my4to1LUT_atan.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/fulladd.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_pashiftreg.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_Pipeline_Top.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pack_xtras.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/mux_2to1.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/LPM_COMMON_CONVERSION.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_pack.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_addsub.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/lpm_clshift.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_rege.vhd C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/CORDIC_FP_top.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files {C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/CORDIC_FP_top.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sources_1/new/CORDIC_Pipeline_Top.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/LPM_COMMON_CONVERSION.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/atb_test.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/fulladd.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/lpm_clshift.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/lpm_pack.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/mux_2to1.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my4to1LUT_atan.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_addsub.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_pashiftreg.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/my_rege.vhd C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/pack_xtras.vhd}
+remove_files C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/my_pashiftreg.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1 -noclean_dir 
+launch_simulation
+source pipe_tb_text.tcl
+launch_simulation
+source pipe_tb_text.tcl
+launch_simulation
+source pipe_tb_text.tcl
+launch_simulation
+source pipe_tb_text.tcl
+run 5320 ns
+run 5320 ns
+run 5320 ns
+run 5320 ns
+run 5320 ns
+launch_simulation
+launch_simulation
+source pipe_tb_text.tcl
+run 5320 ns
+run 5320 ns
+run 5320 ns
+run 5320 ns
+restart
+run 12000 ns
+restart
+run 20000 ns
+restart
+run 18000 ns
+restart
+run 19000 ns
+launch_simulation
+source pipe_tb_text.tcl
+run 19000 ns
+restart
+run 19000 ns
+launch_simulation
+source pipe_tb_text.tcl
+restart
+run 19000 ns
+launch_simulation
+source pipe_tb_text.tcl
+restart
+run 19000 ns
+launch_simulation
+source pipe_tb_text.tcl
+restart
+run 19000 ns
+close_sim

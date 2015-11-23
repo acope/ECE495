@@ -1,0 +1,4 @@
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+Warning: TEXTIO function READ: line is empty
+Time: 18820 ns  Iteration: 0  Process: /pipe_tb_text/stim_proc  File: C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2/pipe_tb_text.vhd

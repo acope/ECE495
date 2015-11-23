@@ -1,0 +1,19 @@
+
+*** Running vivado
+    with args -log CORDIC_Pipeline_Top.vds -m64 -mode batch -messageDb vivado.pb -notrace -source CORDIC_Pipeline_Top.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source CORDIC_Pipeline_Top.tcl -notrace
+Command: synth_design -top CORDIC_Pipeline_Top -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 244.180 ; gain = 67.906
+---------------------------------------------------------------------------------
