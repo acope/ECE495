@@ -1,0 +1,534 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 23 12:32:04 2015
+# Process ID: 21016
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/Pix_proc_full_examp/Pix_proc_full_examp.runs/synth_1/mypixfull_v1_0.vds
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/Pix_proc_full_examp/Pix_proc_full_examp.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mypixfull_v1_0.tcl -notrace
+Command: synth_design -top mypixfull_v1_0 -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 244.926 ; gain = 68.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mypixfull_v1_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:80]
+	Parameter C_S00_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S00_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S00_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+WARNING: [Synth 8-506] null port 's00_axi_awuser' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:43]
+WARNING: [Synth 8-506] null port 's00_axi_wuser' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:49]
+WARNING: [Synth 8-506] null port 's00_axi_buser' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:54]
+WARNING: [Synth 8-506] null port 's00_axi_aruser' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:67]
+WARNING: [Synth 8-506] null port 's00_axi_ruser' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:74]
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+WARNING: [Synth 8-506] null port 'S_AXI_AWUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:107]
+WARNING: [Synth 8-506] null port 'S_AXI_WUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:113]
+WARNING: [Synth 8-506] null port 'S_AXI_BUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:118]
+WARNING: [Synth 8-506] null port 'S_AXI_ARUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:131]
+WARNING: [Synth 8-506] null port 'S_AXI_RUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:138]
+INFO: [Synth 8-3491] module 'mypixfull_v1_0_S00_AXI' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:5' bound to instance 'mypixfull_v1_0_S00_AXI_inst' of component 'mypixfull_v1_0_S00_AXI' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'mypixfull_v1_0_S00_AXI' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:168]
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+WARNING: [Synth 8-506] null port 'S_AXI_AWUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:67]
+WARNING: [Synth 8-506] null port 'S_AXI_WUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:86]
+WARNING: [Synth 8-506] null port 'S_AXI_BUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:100]
+WARNING: [Synth 8-506] null port 'S_AXI_ARUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:137]
+WARNING: [Synth 8-506] null port 'S_AXI_RUSER' ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:158]
+WARNING: [Synth 8-3919] null assignment ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:273]
+WARNING: [Synth 8-3919] null assignment ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:279]
+WARNING: [Synth 8-3919] null assignment ignored [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:287]
+	Parameter TYPO bound to: FIFO - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'myAXI_IP' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/myAXI_IP.vhd:5' bound to instance 'gIP' of component 'myAXI_IP' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:578]
+INFO: [Synth 8-638] synthesizing module 'myAXI_IP' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/myAXI_IP.vhd:46]
+	Parameter TYPO bound to: FIFO - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'my_AXIfifo' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:10' bound to instance 'th' of component 'my_AXIfifo' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/myAXI_IP.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'my_AXIfifo' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:49]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:97]
+	Parameter NC bound to: 4 - type: integer 
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'static_ip' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/static_ip.vhd:9' bound to instance 'ji' of component 'static_ip' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'static_ip' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/static_ip.vhd:18]
+	Parameter NC bound to: 4 - type: integer 
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter NC bound to: 4 - type: integer 
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+INFO: [Synth 8-3491] module 'LUT_group' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:9' bound to instance 'gL' of component 'LUT_group' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/static_ip.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'LUT_group' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:20]
+	Parameter NC bound to: 4 - type: integer 
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+INFO: [Synth 8-3491] module 'LUT_NItoNO' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:19' bound to instance 'gi' of component 'LUT_NItoNO' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'LUT_NItoNO' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:36]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1100110011001100110011001100110110011001100100110011011001101100110110010011011001001101100100100100110110110110110110110110100100101101101001011010010100101001010110101001010101011010101010101010101010010101011010010110110110011000111000000001110101000100 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1100110011001100110011001100110110011001100100110011011001101100110110010011011001001101100100100100110110110110110110110110100100101101101001011010010100101001010110101001010101011010101010101010101010010101011010010110110110011000111000000001110101000100 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111000011110000111100001111000111100001111000111100011110001111000111100011100001110001111000111000111000111000111000111000111000110001110001100011100111001110011000110001100110011100110011001100110011011001101100100100100100101101010010101011010011000100 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111000011110000111100001111000111100001111000111100011110001111000111100011100001110001111000111000111000111000111000111000111000110001110001100011100111001110011000110001100110011100110011001100110011011001101100100100100100101101010010101011010011000100 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized1' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111100000000111111110000000111111110000000111111100000001111111000000011111110000001111111000000111111000000111111000000111111000001111110000011111000001111100000111110000111100000111100001111000011100001110000111000111000110001100011001101100101101100 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized3' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111100000000111111110000000111111110000000111111100000001111111000000011111110000001111111000000111111000000111111000000111111000001111110000011111000001111100000111110000111100000111100001111000011100001110000111000111000110001100011001101100101101100 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized3' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111000000000000000111111111111111000000000000001111111111111100000000000001111111111111000000000000111111111111000000000001111111111100000000001111111111000000000111111111000000001111111100000001111111000000111111000001111100001110000110001000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized5' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111000000000000000111111111111111000000000000001111111111111100000000000001111111111111000000000000111111111111000000000001111111111100000000001111111111000000000111111111000000001111111100000001111111000000111111000001111100001110000110001000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized5' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111000000000000000000000000000001111111111111111111111111110000000000000000000000000111111111111111111111110000000000000000000001111111111111111111000000000000000001111111111111110000000000000111111111110000000001111111000001110 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized7' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111000000000000000000000000000001111111111111111111111111110000000000000000000000000111111111111111111111110000000000000000000001111111111111111111000000000000000001111111111111110000000000000111111111110000000001111111000001110 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized7' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111110000000000000000000000000000000000001111111111111111111111111111000000000000000000001111111111110000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized9' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111110000000000000000000000000000000000001111111111111111111111111111000000000000000000001111111111110000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized9' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111110000000000000000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized11' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111110000000000000000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized11' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-3491] module 'LUT_NIto1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:16' bound to instance 'lut_NI' of component 'LUT_NIto1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'LUT_NIto1__parameterized13' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter data bound to: 256'b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000 
+	Parameter USE_PRIM bound to: NO - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LUT_NIto1__parameterized13' (1#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NIto1.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'LUT_NItoNO' (2#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:36]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+INFO: [Synth 8-3491] module 'LUT_NItoNO' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:19' bound to instance 'gi' of component 'LUT_NItoNO' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:40]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+INFO: [Synth 8-3491] module 'LUT_NItoNO' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:19' bound to instance 'gi' of component 'LUT_NItoNO' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:40]
+	Parameter NI bound to: 8 - type: integer 
+	Parameter NO bound to: 8 - type: integer 
+	Parameter F bound to: 1 - type: integer 
+	Parameter USE_PRIM bound to: NO - type: string 
+	Parameter file_LUT bound to: LUT_values8to8.txt - type: string 
+INFO: [Synth 8-3491] module 'LUT_NItoNO' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_NItoNO.vhd:19' bound to instance 'gi' of component 'LUT_NItoNO' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_group' (3#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/LUT_group.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'static_ip' (4#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/static_ip.vhd:18]
+	Parameter COUNT bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'my_genpulse_sclr' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_genpulse_sclr.vhd:18' bound to instance 'c1' of component 'my_genpulse_sclr' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'my_genpulse_sclr' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_genpulse_sclr.vhd:26]
+	Parameter COUNT bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_genpulse_sclr' (5#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_genpulse_sclr.vhd:26]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 16'b0000000010000000 
+	Parameter ALMOST_FULL_OFFSET bound to: 16'b0000000010000000 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: 0 - type: bool 
+	Parameter FIFO_MODE bound to: FIFO18_36 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: 1 - type: bool 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'FIFO18E1_inst' to cell 'FIFO18E1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:237]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 16'b0000000010000000 
+	Parameter ALMOST_FULL_OFFSET bound to: 16'b0000000010000000 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: 0 - type: bool 
+	Parameter FIFO_MODE bound to: FIFO18_36 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: 1 - type: bool 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'FIFO18E1_inst' to cell 'FIFO18E1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:332]
+INFO: [Synth 8-256] done synthesizing module 'my_AXIfifo' (6#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/my_AXIfifo.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'myAXI_IP' (7#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/myAXI_IP.vhd:46]
+WARNING: [Synth 8-3848] Net axi_rresp in module/entity mypixfull_v1_0_S00_AXI does not have driver. [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:180]
+INFO: [Synth 8-256] done synthesizing module 'mypixfull_v1_0_S00_AXI' (8#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0_S00_AXI.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'mypixfull_v1_0' (9#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Examples/pix_proc_full/mypixfull_v1_0.vhd:80]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 281.148 ; gain = 104.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 281.148 ; gain = 104.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 281.148 ; gain = 104.313
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-5546] ROM "aw_wrap_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ar_wrap_en" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 301.348 ; gain = 124.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      6 Bit         XORs := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 33    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module my_genpulse_sclr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module my_AXIfifo 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 10    
+Module mypixfull_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      6 Bit         XORs := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 23    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 416.668 ; gain = 239.832
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 417.953 ; gain = 241.117
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 417.953 ; gain = 241.117
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mypixfull_v1_0_S00_AXI_inst/gIP/pc.th/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/gIP/pc.th/axi_rresp_reg[1] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/gIP/pc.th/axi_rresp_reg[0] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[7] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[6] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[5] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[4] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[3] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[2] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[1] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[0] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awaddr_reg[5] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awaddr_reg[4] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awaddr_reg[3] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awaddr_reg[2] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_araddr_reg[5] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_araddr_reg[4] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_araddr_reg[3] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_araddr_reg[2] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module mypixfull_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\mypixfull_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module mypixfull_v1_0.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 438.332 ; gain = 261.496
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     1|
+|3     |FIFO18E1 |     2|
+|4     |LUT1     |     3|
+|5     |LUT2     |    10|
+|6     |LUT3     |    10|
+|7     |LUT4     |    20|
+|8     |LUT5     |    11|
+|9     |LUT6     |    90|
+|10    |MUXF7    |    32|
+|11    |MUXF8    |    16|
+|12    |FDCE     |     7|
+|13    |FDRE     |    16|
+|14    |IBUF     |    50|
+|15    |OBUF     |    44|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------------------------+-----------------------+------+
+|      |Instance                      |Module                 |Cells |
++------+------------------------------+-----------------------+------+
+|1     |top                           |                       |   313|
+|2     |  mypixfull_v1_0_S00_AXI_inst |mypixfull_v1_0_S00_AXI |   218|
+|3     |    gIP                       |myAXI_IP               |   172|
+|4     |      \pc.th                  |my_AXIfifo             |   172|
+|5     |        c1                    |my_genpulse_sclr       |    11|
++------+------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 44 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 438.332 ; gain = 246.480
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 438.332 ; gain = 261.496
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 44 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 496.969 ; gain = 305.402
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 496.969 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 23 12:32:27 2015...

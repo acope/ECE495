@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER myCORDIC_full
+	OPTION supported_peripherals = (myCORDIC_full);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = myCORDIC_full;
+END DRIVER
