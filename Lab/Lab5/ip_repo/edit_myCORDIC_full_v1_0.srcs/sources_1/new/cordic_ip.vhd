@@ -169,8 +169,8 @@ s <= CO; --From Output FSM
 				end case;		
 		end process; 
 
-        cC: my_counter generic map (COUNT => N)
-            port map (clock => clock, resetn => resetn, clk_en => '1', cnt_en => E_C, sclr => sclr_C, Q => C, z => cout_C);
+--        cC: my_counter generic map (COUNT => 3)
+--            port map (clock => clock, resetn => resetn, clk_en => '1', cnt_en => E_C, sclr => sclr_C, Q => C, z => cout_C);
 
 
 --Output FSM

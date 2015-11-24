@@ -38,3 +38,4 @@ update_compile_order -fileset sources_1
 set_property is_enabled true [get_files  C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/ip_repo/myCORDIC_full_1.0/hdl/my_counter.vhd]
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
