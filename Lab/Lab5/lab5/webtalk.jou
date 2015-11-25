@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 24 16:46:07 2015
+# Process ID: 10172
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/webtalk.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/mr_co_000/documents/github/ece495/lab/lab5/ip_repo/edit_my_cordicfull_v1_0.hw/webtalk/labtool_webtalk.tcl -notrace

@@ -413,3 +413,9 @@ java.lang.NullPointerException
 15:05:59 INFO  : ps7_init is completed.
 15:05:59 INFO  : ps7_post_config is completed.
 15:46:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:21:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+18:21:07 INFO  : XSDB server has started successfully.
+18:21:09 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab4/lab4/lab4.sdk/design_1_wrapper.hdf.
+18:21:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:21:15 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab4\ip_repo\mycordic_1.0

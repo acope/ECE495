@@ -1,0 +1,970 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 24 20:11:53 2015
+# Process ID: 10180
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/ip_repo/my_cordicfull_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/ip_repo/myCORDIC_full_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 286.043 ; gain = 109.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:40]
+INFO: [Synth 8-3491] module 'design_1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:771' bound to instance 'design_1_i' of component 'design_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'design_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:801]
+INFO: [Synth 8-113] binding component instance 'GND' to cell 'GND' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1071]
+INFO: [Synth 8-113] binding component instance 'VCC' to cell 'VCC' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1075]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_mem_intercon_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:518]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_7HNO1D' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:100]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:57' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:343]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_M_AXI_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_IGNORE_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_SUPPORTS_WRITE bound to: 1 - type: integer 
+	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
+	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_TRANSLATION_MODE bound to: 2 - type: integer 
+	Parameter P_AXI4 bound to: 0 - type: integer 
+	Parameter P_AXI3 bound to: 1 - type: integer 
+	Parameter P_AXILITE bound to: 2 - type: integer 
+	Parameter P_AXILITE_SIZE bound to: 3'b010 
+	Parameter P_INCR bound to: 2'b01 
+	Parameter P_DECERR bound to: 2'b11 
+	Parameter P_SLVERR bound to: 2'b10 
+	Parameter P_PROTECTION bound to: 1 - type: integer 
+	Parameter P_CONVERSION bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (1#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/axi_protocol_converter_v2_1/017861a2/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_0' (2#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_7HNO1D' (3#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_mem_intercon_0' (4#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:518]
+INFO: [Synth 8-3491] module 'design_1_my_cordicfull_0_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_my_cordicfull_0_0/synth/design_1_my_cordicfull_0_0.vhd:56' bound to instance 'my_cordicfull_0' of component 'design_1_my_cordicfull_0_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1165]
+INFO: [Synth 8-638] synthesizing module 'design_1_my_cordicfull_0_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_my_cordicfull_0_0/synth/design_1_my_cordicfull_0_0.vhd:102]
+	Parameter C_S00_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S00_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'my_cordicfull_v1_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0.vhd:5' bound to instance 'U0' of component 'my_cordicfull_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_my_cordicfull_0_0/synth/design_1_my_cordicfull_0_0.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'my_cordicfull_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0.vhd:80]
+	Parameter C_S00_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S00_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'my_cordicfull_v1_0_S00_AXI' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:5' bound to instance 'my_cordicfull_v1_0_S00_AXI_inst' of component 'my_cordicfull_v1_0_S00_AXI' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'my_cordicfull_v1_0_S00_AXI' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:168]
+	Parameter C_S_AXI_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'myAXI_IP' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/myAXI_IP.vhd:5' bound to instance 'gIP' of component 'myAXI_IP' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:577]
+INFO: [Synth 8-638] synthesizing module 'myAXI_IP' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/myAXI_IP.vhd:45]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'my_AXIfifo' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:10' bound to instance 'th' of component 'my_AXIfifo' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/myAXI_IP.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'my_AXIfifo' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:49]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:126]
+INFO: [Synth 8-3491] module 'cordic_ip' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:6' bound to instance 'ci' of component 'cordic_ip' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'cordic_ip' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:15]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:17' bound to instance 'II_Reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_rege' (5#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+INFO: [Synth 8-3491] module 'CORDIC_FP_top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:8' bound to instance 'CORDIC' of component 'CORDIC_FP_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_FP_top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:16]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:4' bound to instance 'muxX' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:12]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:12]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:4' bound to instance 'muxY' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:90]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:4' bound to instance 'muxZ' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:12]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1__parameterized2' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:12]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:17' bound to instance 'data_X_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized1' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:17' bound to instance 'data_Y_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized3' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized3' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:17' bound to instance 'data_Z_reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized5' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized5' (6#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:14' bound to instance 'X_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:23]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fulladd' (7#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:19]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'my_addsub' (8#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:23]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:14' bound to instance 'Y_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:148]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'my_addsub' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:14' bound to instance 'Z_addsub' of component 'my_addsub' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'my_addsub__parameterized2' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:23]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/fulladd.vhd:14' bound to instance 'fi' of component 'fulladd' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'my_addsub__parameterized2' (8#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_addsub.vhd:23]
+INFO: [Synth 8-3491] module 'my4to1LUT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my4to1LUT_atan.vhd:14' bound to instance 'LUT_aTan' of component 'my4to1LUT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'my4to1LUT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my4to1LUT_atan.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'my4to1LUT' (9#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my4to1LUT_atan.vhd:19]
+	Parameter lpm_width bound to: 20 - type: integer 
+	Parameter lpm_widthdist bound to: 5 - type: integer 
+	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
+	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
+	Parameter lpm_hint bound to: UNUSED - type: string 
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/lpm_clshift.vhd:23' bound to instance 'X_barrel_shifter' of component 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/lpm_clshift.vhd:56]
+	Parameter lpm_width bound to: 20 - type: integer 
+	Parameter lpm_widthdist bound to: 5 - type: integer 
+	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
+	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
+	Parameter lpm_hint bound to: UNUSED - type: string 
+INFO: [Synth 8-256] done synthesizing module 'LPM_CLSHIFT' (10#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/lpm_clshift.vhd:56]
+	Parameter lpm_width bound to: 20 - type: integer 
+	Parameter lpm_widthdist bound to: 5 - type: integer 
+	Parameter lpm_shifttype bound to: ARITHMETIC - type: string 
+	Parameter lpm_type bound to: LPM_CLSHIFT - type: string 
+	Parameter lpm_hint bound to: UNUSED - type: string 
+INFO: [Synth 8-3491] module 'LPM_CLSHIFT' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/lpm_clshift.vhd:23' bound to instance 'Y_barrel_shifter' of component 'LPM_CLSHIFT' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_FP_top' (11#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/CORDIC_FP_top.vhd:16]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'my_rege' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:17' bound to instance 'OI_Reg' of component 'my_rege' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'my_rege__parameterized7' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_rege__parameterized7' (11#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_rege.vhd:25]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:4' bound to instance 'OI_Mux' of component 'mux_2to1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1__parameterized4' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:12]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1__parameterized4' (11#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/mux_2to1.vhd:12]
+INFO: [Synth 8-226] default block is never used [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:140]
+WARNING: [Synth 8-614] signal 'done' is read in the process but is not in the sensitivity list [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'cordic_ip' (12#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:15]
+	Parameter COUNT bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'my_genpulse_sclr' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_genpulse_sclr.vhd:18' bound to instance 'c1' of component 'my_genpulse_sclr' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'my_genpulse_sclr' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_genpulse_sclr.vhd:26]
+	Parameter COUNT bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_genpulse_sclr' (13#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_genpulse_sclr.vhd:26]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 16'b0000000010000000 
+	Parameter ALMOST_FULL_OFFSET bound to: 16'b0000000010000000 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: 0 - type: bool 
+	Parameter FIFO_MODE bound to: FIFO18_36 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: 1 - type: bool 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'FIFO18E1_inst' to cell 'FIFO18E1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:246]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 16'b0000000010000000 
+	Parameter ALMOST_FULL_OFFSET bound to: 16'b0000000010000000 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_SYN bound to: 0 - type: bool 
+	Parameter FIFO_MODE bound to: FIFO18_36 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: 1 - type: bool 
+	Parameter INIT bound to: 36'b000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 36'b000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'FIFO18E1_inst' to cell 'FIFO18E1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:341]
+INFO: [Synth 8-256] done synthesizing module 'my_AXIfifo' (14#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_AXIfifo.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'myAXI_IP' (15#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/myAXI_IP.vhd:45]
+WARNING: [Synth 8-3848] Net axi_buser in module/entity my_cordicfull_v1_0_S00_AXI does not have driver. [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:175]
+WARNING: [Synth 8-3848] Net axi_rresp in module/entity my_cordicfull_v1_0_S00_AXI does not have driver. [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:180]
+WARNING: [Synth 8-3848] Net axi_ruser in module/entity my_cordicfull_v1_0_S00_AXI does not have driver. [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:182]
+INFO: [Synth 8-256] done synthesizing module 'my_cordicfull_v1_0_S00_AXI' (16#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0_S00_AXI.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'my_cordicfull_v1_0' (17#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/my_cordicfull_v1_0.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'design_1_my_cordicfull_0_0' (18#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_my_cordicfull_0_0/synth/design_1_my_cordicfull_0_0.vhd:102]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:57' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1209]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
+	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
+	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
+	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
+	Parameter C_M_AXI_GP0_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP0_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP1_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP0_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_GP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_GP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP2_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP3_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_ACP_ID_WIDTH bound to: 3 - type: integer 
+	Parameter C_S_AXI_HP0_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP1_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP2_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP3_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_ACP_TRANS_CHECK bound to: 0 - type: integer 
+	Parameter C_NUM_F2P_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_FCLK_CLK0_BUF bound to: true - type: string 
+	Parameter C_FCLK_CLK1_BUF bound to: false - type: string 
+	Parameter C_FCLK_CLK2_BUF bound to: false - type: string 
+	Parameter C_FCLK_CLK3_BUF bound to: false - type: string 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_TRACE_BUFFER bound to: 0 - type: integer 
+	Parameter C_TRACE_BUFFER_FIFO_SIZE bound to: 128 - type: integer 
+	Parameter C_TRACE_BUFFER_CLOCK_DELAY bound to: 12 - type: integer 
+	Parameter USE_TRACE_DATA_EDGE_DETECTOR bound to: 0 - type: integer 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_PS7_SI_REV bound to: PRODUCTION - type: string 
+	Parameter C_EN_EMIO_ENET0 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_ENET1 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_DQ_WIDTH bound to: 32 - type: integer 
+	Parameter C_DQS_WIDTH bound to: 4 - type: integer 
+	Parameter C_DM_WIDTH bound to: 4 - type: integer 
+	Parameter C_MIO_PRIMITIVE bound to: 54 - type: integer 
+	Parameter C_PACKAGE_NAME bound to: clg400 - type: string 
+	Parameter C_IRQ_F2P_MODE bound to: DIRECT - type: string 
+	Parameter C_TRACE_INTERNAL_WIDTH bound to: 2 - type: integer 
+	Parameter C_EN_EMIO_PJTAG bound to: 0 - type: integer 
+	Parameter C_USE_AXI_NONSECURE bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP2 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP3 bound to: 0 - type: integer 
+	Parameter C_USE_M_AXI_GP0 bound to: 1 - type: integer 
+	Parameter C_USE_M_AXI_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_ACP bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1350]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1351]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (19#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BIBUF' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-256] done synthesizing module 'BIBUF' (20#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-638] synthesizing module 'PS7' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26467]
+INFO: [Synth 8-256] done synthesizing module 'PS7' (21#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:26467]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (22#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
+WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:361]
+INFO: [Synth 8-256] done synthesizing module 'design_1_processing_system7_0_0' (23#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:57]
+INFO: [Synth 8-3491] module 'design_1_rst_processing_system7_0_50M_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/synth/design_1_rst_processing_system7_0_50M_0.vhd:59' bound to instance 'rst_processing_system7_0_50M' of component 'design_1_rst_processing_system7_0_50M_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_processing_system7_0_50M_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/synth/design_1_rst_processing_system7_0_50M_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:140' bound to instance 'U0' of component 'proc_sys_reset' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/synth/design_1_rst_processing_system7_0_50M_0.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:199]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:138]
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522]
+	Parameter INIT bound to: 16'b0000000000000000 
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (24#1) [C:/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:34522]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+	Parameter C_CDC_TYPE bound to: 1 - type: integer 
+	Parameter C_RESET_STATE bound to: 0 - type: integer 
+	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
+	Parameter C_FLOP_INPUT bound to: 0 - type: integer 
+	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
+	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (25#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/lib_cdc_v1_0/ea79928f/hdl/src/vhdl/cdc_sync.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (26#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/lpf.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'sequence' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd:125]
+	Parameter C_SIZE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (27#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/upcnt_n.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence' (28#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (29#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/proc_sys_reset.vhd:199]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rst_processing_system7_0_50M_0' (30#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/synth/design_1_rst_processing_system7_0_50M_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (31#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1.vhd:801]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (32#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 408.563 ; gain = 232.238
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 408.563 ; gain = 232.238
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/design_1_rst_processing_system7_0_50M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_50M'
+Finished Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/design_1_rst_processing_system7_0_50M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_50M'
+Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/design_1_rst_processing_system7_0_50M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_50M'
+Finished Parsing XDC File [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/design_1_rst_processing_system7_0_50M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_50M'
+Parsing XDC File [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  FDR => FDRE: 12 instances
+  SRL16 => SRL16E: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 595.613 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.runs/synth_1/dont_touch.xdc, line 23).
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_mem_intercon. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_mem_intercon/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/my_cordicfull_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_processing_system7_0_50M. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:17 ; elapsed = 00:01:24 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "aw_wrap_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ar_wrap_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:222]
+WARNING: [Synth 8-327] inferring latch for variable 'CO_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:56]
+WARNING: [Synth 8-327] inferring latch for variable 'irden_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:147]
+WARNING: [Synth 8-327] inferring latch for variable 'start_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:74]
+WARNING: [Synth 8-327] inferring latch for variable 'C_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:110]
+WARNING: [Synth 8-327] inferring latch for variable 'T_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/ipshared/xilinx.com/my_cordicfull_v1_0/65e0ee67/hdl/cordic_ip.vhd:126]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 78    
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      6 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 56    
+	   2 Input      1 Bit         XORs := 59    
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 2     
+	   2 Input     23 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 2     
+	   2 Input     21 Bit        Muxes := 2     
+	   2 Input     20 Bit        Muxes := 6     
+	   2 Input     19 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 4     
+	  18 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 7     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 121   
+	   4 Input      1 Bit        Muxes := 20    
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module my_rege 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module mux_2to1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module mux_2to1__parameterized2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module my_rege__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module my_rege__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module my_rege__parameterized5 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module fulladd 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module my_addsub 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 21    
+Module my_addsub__parameterized2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 17    
+Module my4to1LUT 
+Detailed RTL Component Info : 
++---Muxes : 
+	  18 Input     16 Bit        Muxes := 1     
+Module LPM_CLSHIFT 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 39    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 43    
+Module CORDIC_FP_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 3     
+Module my_rege__parameterized7 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module mux_2to1__parameterized4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module cordic_ip 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 1     
+Module my_genpulse_sclr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module my_AXIfifo 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module my_cordicfull_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      6 Bit         XORs := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 23    
+	   4 Input      1 Bit        Muxes := 2     
+Module lpf 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module upcnt_n 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module sequence 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
+Module proc_sys_reset 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:20 ; elapsed = 00:01:27 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:28 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:01:21 ; elapsed = 00:01:28 . Memory (MB): peak = 595.613 ; gain = 419.289
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 595.613 ; gain = 419.289
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:31 ; elapsed = 00:01:39 . Memory (MB): peak = 595.613 ; gain = 419.289
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:48 ; elapsed = 00:01:56 . Memory (MB): peak = 805.512 ; gain = 629.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:49 ; elapsed = 00:01:57 . Memory (MB): peak = 821.891 ; gain = 645.566
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awaddr_reg[5] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awaddr_reg[4] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awaddr_reg[3] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awaddr_reg[2] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_araddr_reg[5] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_araddr_reg[4] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_araddr_reg[3] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_araddr_reg[2] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[7] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[6] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[5] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[4] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[3] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[2] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[1] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_awlen_cntr_reg[0] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[15] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[14] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[13] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[12] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[11] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[10] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[9] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[8] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[7] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[6] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[5] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[4] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[3] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[2] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[1] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/OI_Reg/Qt_reg[0] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/axi_rresp_reg[1] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/axi_rresp_reg[0] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/my_cordicfull_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module design_1_my_cordicfull_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
+INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
+INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
+INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:53 ; elapsed = 00:02:03 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:55 ; elapsed = 00:02:05 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:55 ; elapsed = 00:02:05 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:56 ; elapsed = 00:02:05 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:05 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:05 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BIBUF    |   130|
+|2     |BUFG     |     1|
+|3     |CARRY4   |     1|
+|4     |FIFO18E1 |     2|
+|5     |GND      |     1|
+|6     |LUT1     |   123|
+|7     |LUT2     |    47|
+|8     |LUT3     |    55|
+|9     |LUT4     |    73|
+|10    |LUT5     |   128|
+|11    |LUT6     |   227|
+|12    |PS7      |     1|
+|13    |SRL16    |     1|
+|14    |VCC      |     1|
+|15    |FDCE     |   144|
+|16    |FDR      |     8|
+|17    |FDRE     |    55|
+|18    |FDSE     |     4|
+|19    |LD       |     6|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+-------------------------------------------+------+
+|      |Instance                                |Module                                     |Cells |
++------+----------------------------------------+-------------------------------------------+------+
+|1     |top                                     |                                           |  1008|
+|2     |  design_1_i                            |design_1                                   |  1008|
+|3     |    axi_mem_intercon                    |design_1_axi_mem_intercon_0                |     0|
+|4     |      s00_couplers                      |s00_couplers_imp_7HNO1D                    |     0|
+|5     |        auto_pc                         |design_1_auto_pc_0                         |     0|
+|6     |    my_cordicfull_0                     |design_1_my_cordicfull_0_0                 |   694|
+|7     |      U0                                |my_cordicfull_v1_0                         |   694|
+|8     |        my_cordicfull_v1_0_S00_AXI_inst |my_cordicfull_v1_0_S00_AXI                 |   694|
+|9     |          gIP                           |myAXI_IP                                   |   649|
+|10    |            th                          |my_AXIfifo                                 |   649|
+|11    |              c1                        |my_genpulse_sclr                           |    11|
+|12    |              ci                        |cordic_ip                                  |   625|
+|13    |                CORDIC                  |CORDIC_FP_top                              |   488|
+|14    |                  data_X_reg            |my_rege__parameterized1                    |   191|
+|15    |                  data_Y_reg            |my_rege__parameterized3                    |   215|
+|16    |                  data_Z_reg            |my_rege__parameterized5                    |    62|
+|17    |                II_Reg                  |my_rege                                    |    33|
+|18    |                OI_Reg                  |my_rege__parameterized7                    |    80|
+|19    |    processing_system7_0                |design_1_processing_system7_0_0            |   244|
+|20    |      inst                              |processing_system7_v5_5_processing_system7 |   244|
+|21    |    rst_processing_system7_0_50M        |design_1_rst_processing_system7_0_50M_0    |    68|
+|22    |      U0                                |proc_sys_reset                             |    68|
+|23    |        EXT_LPF                         |lpf                                        |    23|
+|24    |          \ACTIVE_LOW_AUX.ACT_LO_AUX    |cdc_sync                                   |     5|
+|25    |          \ACTIVE_LOW_EXT.ACT_LO_EXT    |cdc_sync_0                                 |     5|
+|26    |        SEQ                             |sequence                                   |    40|
+|27    |          SEQ_COUNTER                   |upcnt_n                                    |    14|
++------+----------------------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:56 ; elapsed = 00:02:05 . Memory (MB): peak = 855.910 ; gain = 679.586
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:47 . Memory (MB): peak = 855.910 ; gain = 440.066
+Synthesis Optimization Complete : Time (s): cpu = 00:01:56 ; elapsed = 00:02:06 . Memory (MB): peak = 855.910 ; gain = 679.586
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 15 instances were transformed.
+  FDR => FDRE: 8 instances
+  LD => LDCE: 5 instances
+  LD => LDCE (inverted pins: G): 1 instances
+  SRL16 => SRL16E: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+223 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:54 ; elapsed = 00:02:01 . Memory (MB): peak = 855.910 ; gain = 628.164
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 855.910 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 24 20:14:03 2015...

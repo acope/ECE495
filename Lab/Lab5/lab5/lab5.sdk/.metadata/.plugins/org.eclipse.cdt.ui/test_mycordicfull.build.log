@@ -1,0 +1,6 @@
+20:17:39 **** Incremental Build of configuration Debug for project test_mycordicfull ****
+make all 
+make: Nothing to be done for `all'.
+
+20:17:39 Build Finished (took 234ms)
+
