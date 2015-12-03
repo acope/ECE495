@@ -2,15 +2,15 @@
 # Webtalk v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # 
-# Start of session at: Tue Nov 24 18:12:39 2015
-# Process ID: 9364
+# Start of session at: Wed Nov 25 10:39:40 2015
+# Process ID: 5500
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.sdk/webtalk/webtalk.log
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl
 # webtalk_init -webtalk_dir C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk
 # webtalk_register_client -client project
-# webtalk_add_data -client project -key date_generated -value "Tue Nov 24 18:12:38 2015" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key date_generated -value "Wed Nov 25 10:39:39 2015" -context "software_version_and_target_device"
 # webtalk_add_data -client project -key product_version -value "SDK v2015.2" -context "software_version_and_target_device"
 # webtalk_add_data -client project -key build_version -value "2015.2" -context "software_version_and_target_device"
 # webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
@@ -22,9 +22,9 @@ source sdk_webtalk.tcl
 # webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
 # webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
 # webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
-# webtalk_add_data -client project -key random_id -value "9btcjqpnolcibp9826kj9cbtnl" -context "software_version_and_target_device"
-# webtalk_add_data -client project -key project_id -value "2015.2_5" -context "software_version_and_target_device"
-# webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "naaevf5h478n1dnmg4e4fmvilq" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2015.2_6" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "6" -context "software_version_and_target_device"
 # webtalk_add_data -client project -key os_name -value "" -context "user_environment"
 # webtalk_add_data -client project -key os_release -value "" -context "user_environment"
 # webtalk_add_data -client project -key cpu_name -value "" -context "user_environment"
@@ -32,26 +32,24 @@ source sdk_webtalk.tcl
 # webtalk_add_data -client project -key total_processors -value "" -context "user_environment"
 # webtalk_add_data -client project -key system_ram -value "" -context "user_environment"
 # webtalk_register_client -client sdk
-# webtalk_add_data -client sdk -key uid -value "1448402045326" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key VivadoVersion -value "2015.2" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key Device -value "7z010" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1448402045326"
-# webtalk_add_data -client sdk -key uid -value "1448402201697" -context "sdk\\\\bsp/1448402201697"
-# webtalk_add_data -client sdk -key hwid -value "1448402045326" -context "sdk\\\\bsp/1448402201697"
-# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\bsp/1448402201697"
-# webtalk_add_data -client sdk -key apptemplate -value "hello_world" -context "sdk\\\\bsp/1448402201697"
-# webtalk_add_data -client sdk -key uid -value "1448402206585" -context "sdk\\\\application/1448402206585"
-# webtalk_add_data -client sdk -key hwid -value "1448402045326" -context "sdk\\\\application/1448402206585"
-# webtalk_add_data -client sdk -key bspid -value "1448402201697" -context "sdk\\\\application/1448402206585"
-# webtalk_add_data -client sdk -key newbsp -value "true" -context "sdk\\\\application/1448402206585"
-# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\application/1448402206585"
-# webtalk_add_data -client sdk -key apptemplate -value "hello_world" -context "sdk\\\\application/1448402206585"
-# webtalk_transmit -clientid 427044703 -regid "" -xml C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
-
-    while executing
-"webtalk_transmit -clientid 427044703 -regid "" -xml C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\usage_statist..."
-    (file "sdk_webtalk.tcl" line 42)
-INFO: [Common 17-206] Exiting Webtalk at Tue Nov 24 18:12:46 2015...
+# webtalk_add_data -client sdk -key uid -value "1448462964372" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key isZynq -value "true" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key Processors -value "2" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key VivadoVersion -value "2015.2" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key Arch -value "zynq" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key Device -value "7z010" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key IsHandoff -value "true" -context "sdk\\\\hardware/1448462964372"
+# webtalk_add_data -client sdk -key uid -value "1448463001806" -context "sdk\\\\bsp/1448463001806"
+# webtalk_add_data -client sdk -key hwid -value "1448462964372" -context "sdk\\\\bsp/1448463001806"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\bsp/1448463001806"
+# webtalk_add_data -client sdk -key apptemplate -value "empty_application" -context "sdk\\\\bsp/1448463001806"
+# webtalk_add_data -client sdk -key uid -value "1448463006600" -context "sdk\\\\application/1448463006600"
+# webtalk_add_data -client sdk -key hwid -value "1448462964372" -context "sdk\\\\application/1448463006600"
+# webtalk_add_data -client sdk -key bspid -value "1448463001806" -context "sdk\\\\application/1448463006600"
+# webtalk_add_data -client sdk -key newbsp -value "true" -context "sdk\\\\application/1448463006600"
+# webtalk_add_data -client sdk -key os -value "standalone" -context "sdk\\\\application/1448463006600"
+# webtalk_add_data -client sdk -key apptemplate -value "empty_application" -context "sdk\\\\application/1448463006600"
+# webtalk_transmit -clientid 2014868193 -regid "" -xml C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm C:\\Users\\mr_co_000\\Documents\\GitHub\\ECE495\\Lab\\Lab5\\lab5\\lab5.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"
+INFO: [Common 17-186] 'C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\webtalk\usage_statistics_ext_sdk.xml' has been successfully sent to Xilinx on Wed Nov 25 10:39:47 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/SDK/2015.2/doc/webtalk_introduction.html.
+# webtalk_terminate
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov 25 10:39:47 2015...

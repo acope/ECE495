@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 30 16:08:09 2015
+# Process ID: 20012
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.xpr
+import_files -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/custom/custom_pkg.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:div_gen:5.1 div_gen_0
+endgroup
+delete_bd_objs [get_bd_cells div_gen_0]
+close_bd_design [get_bd_designs design_1]

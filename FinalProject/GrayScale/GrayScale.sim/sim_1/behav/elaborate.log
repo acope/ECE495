@@ -1,0 +1,33 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 4bb1d7d09c9a4260ae4ed380a493cf3f --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_grayscaletop_behav xil_defaultlib.tb_grayscaletop -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.custom_pkg
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.pack_xtras
+Compiling architecture structure of entity xil_defaultlib.my_busmux3to1 [\my_busmux3to1(8)\]
+Compiling architecture structure of entity xil_defaultlib.fulladd [fulladd_default]
+Compiling architecture structure of entity xil_defaultlib.my_mult [\my_mult(8)\]
+Compiling architecture structure of entity xil_defaultlib.my_addsub [\my_addsub(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_counter [\my_counter(16)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_pashiftreg [\my_pashiftreg(16,"LEFT")(1,4)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_rege [\my_rege(8)\]
+Compiling architecture structure of entity xil_defaultlib.my_sub [\my_sub(9)\]
+Compiling architecture behavioral of entity xil_defaultlib.my_pashiftreg_sclr [\my_pashiftreg_sclr(8,"LEFT")(1,...]
+Compiling architecture structure of entity xil_defaultlib.res_div_iter [\res_div_iter(16,8)\]
+Compiling architecture behavioral of entity xil_defaultlib.Grayscale [\Grayscale(8)\]
+Compiling architecture behavioral of entity xil_defaultlib.Grayscale_Top [\Grayscale_Top(8)\]
+Compiling architecture behavioral of entity xil_defaultlib.tb_grayscaletop
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_grayscaletop_behav

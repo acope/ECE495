@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/my_mult/fulladd.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/pack_xtras.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/my_sub.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/my_rege.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/my_pashiftreg_sclr.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/my_pashiftreg.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/my_counter.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/my_mult/my_mult.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/my_busmux3to1/my_busmux3to1.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/my_addsub/my_addsub.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/custom/custom_pkg.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/res_div_iter.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/new/Grayscale.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sources_1/new/Grayscale_Top.vhd"
+vhdl xil_defaultlib  "../../../GrayScale.srcs/sim_1/new/tb_grayscaletop.vhd"
+
+# Do not sort compile order
+nosort

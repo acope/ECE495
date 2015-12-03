@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date         : Tue Nov 24 20:15:01 2015
+| Date         : Wed Nov 25 09:45:26 2015
 | Host         : Austin running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
 | Design       : design_1_wrapper
@@ -22,8 +22,8 @@ Table of Contents
 +-------------------------------------------------------------------+-------+
 |                               Status                              | Count |
 +-------------------------------------------------------------------+-------+
-| Number of unique control sets                                     |    16 |
-| Minimum Number of register sites lost to control set restrictions |    63 |
+| Number of unique control sets                                     |    11 |
+| Minimum Number of register sites lost to control set restrictions |    24 |
 +-------------------------------------------------------------------+-------+
 
 
@@ -33,37 +33,32 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              34 |           15 |
-| No           | No                    | Yes                    |               4 |            2 |
+| No           | No                    | No                     |              24 |            9 |
+| No           | No                    | Yes                    |              13 |            7 |
 | No           | Yes                   | No                     |               4 |            2 |
 | Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |             140 |           59 |
-| Yes          | Yes                   | No                     |              19 |            7 |
+| Yes          | No                    | Yes                    |             140 |           60 |
+| Yes          | Yes                   | No                     |              19 |            6 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+----------------+
-|                                           Clock Signal                                           |                                          Enable Signal                                         |                                            Set/Reset Signal                                           | Slice Load Count | Bel Load Count |
-+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+----------------+
-|  design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/irden_reg_i_2_n_0       |                                                                                                |                                                                                                       |                1 |              1 |
-| ~design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/ys[0]                   |                                                                                                |                                                                                                       |                1 |              1 |
-|  design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/C_reg_i_2_n_0           |                                                                                                |                                                                                                       |                1 |              1 |
-|  design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/state_y_reg[0]_0 |                                                                                                |                                                                                                       |                1 |              1 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  |                                                                                                | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/c1/Qt_reg[3]_0                   |                1 |              2 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  |                                                                                                | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |                1 |              2 |
-|  design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/T_reg[1]_i_2_n_0        |                                                                                                |                                                                                                       |                1 |              2 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  |                                                                                                | design_1_i/rst_processing_system7_0_50M/U0/EXT_LPF/lpf_int                                            |                2 |              4 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/c1/E[0]                   | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/c1/Qt_reg[3]_0                   |                1 |              4 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/i[4]_i_2_n_0    | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/i[4]_i_1_n_0           |                3 |              5 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/rst_processing_system7_0_50M/U0/SEQ/seq_cnt_en                                      | design_1_i/rst_processing_system7_0_50M/U0/SEQ/SEQ_COUNTER/clear                                      |                2 |              6 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/E[0]                      | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/axi_arlen_cntr[7]_i_1_n_0               |                2 |              8 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  |                                                                                                |                                                                                                       |               11 |             29 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/II_Reg/Qt[31]_i_1_n_0  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |               10 |             32 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/E[0]            | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |               19 |             48 |
-|  design_1_i/processing_system7_0/inst/FCLK_CLK0                                                  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_X_reg/E[0] | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |               29 |             56 |
-+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+----------------+
++-------------------------------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+----------------+
+|                   Clock Signal                  |                                          Enable Signal                                         |                                            Set/Reset Signal                                           | Slice Load Count | Bel Load Count |
++-------------------------------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+----------------+
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/c1/Qt_reg[3]_0                   |                1 |              2 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                | design_1_i/rst_processing_system7_0_50M/U0/EXT_LPF/lpf_int                                            |                2 |              4 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/c1/E[0]                   | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/c1/Qt_reg[3]_0                   |                1 |              4 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/i[4]_i_2_n_0    | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/i[4]_i_1_n_0           |                2 |              5 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/rst_processing_system7_0_50M/U0/SEQ/seq_cnt_en                                      | design_1_i/rst_processing_system7_0_50M/U0/SEQ/SEQ_COUNTER/clear                                      |                1 |              6 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/E[0]                      | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/axi_arlen_cntr[7]_i_1_n_0               |                3 |              8 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |                6 |             11 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                |                                                                                                       |               10 |             25 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/II_Reg/Qt[31]_i_1_n_0  | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |               12 |             32 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/E[0]            | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |               14 |             48 |
+|  design_1_i/processing_system7_0/inst/FCLK_CLK0 | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_X_reg/E[0] | design_1_i/my_cordicfull_0/U0/my_cordicfull_v1_0_S00_AXI_inst/gIP/th/ci/CORDIC/data_Y_reg/Qt_reg[0]_0 |               33 |             56 |
++-------------------------------------------------+------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+------------------+----------------+
 
 

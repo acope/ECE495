@@ -72,7 +72,7 @@
         <spirit:instanceName>my_cordicfull_0</spirit:instanceName>
         <spirit:componentRef spirit:library="user" spirit:name="my_cordicfull" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_my_cordicfull_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_my_cordicfull_0_1</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>

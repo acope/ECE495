@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_grayscaletop_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="custom_pkg" />
+            <top_module name="pack_xtras" />
+            <top_module name="tb_grayscaletop" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/RGBin" type="array">
+      <obj_property name="ElementShortName">RGBin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RGBin[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/Rp" type="array">
+      <obj_property name="ElementShortName">Rp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Rp[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/Gp" type="array">
+      <obj_property name="ElementShortName">Gp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Gp[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/Bp" type="array">
+      <obj_property name="ElementShortName">Bp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Bp[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/RGBout" type="array">
+      <obj_property name="ElementShortName">RGBout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RGBout[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/P" type="other">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_grayscaletop/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

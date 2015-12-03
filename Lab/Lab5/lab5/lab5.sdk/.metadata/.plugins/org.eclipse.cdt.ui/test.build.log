@@ -1,0 +1,34 @@
+10:26:08 **** Incremental Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/test_pixi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+../src/test_pixi.c: In function 'main':
+../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
+     Xil_DCacheEnable();
+     ^
+../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
+     Xil_ICacheEnable();
+     ^
+../src/test_pixi.c:142:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+     Xil_DCacheDisable();
+     ^
+../src/test_pixi.c:143:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
+     Xil_ICacheDisable();
+     ^
+'Finished building: ../src/test_pixi.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25776	   1152	  22564	  49492	   c154	test.elf
+'Finished building: test.elf.size'
+' '
+
+10:26:09 Build Finished (took 671ms)
+

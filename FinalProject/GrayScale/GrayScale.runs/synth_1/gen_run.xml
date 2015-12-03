@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1449101113">
+  <File Type="RDS-DCP" Name="Grayscale_Top.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="Grayscale_Top_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="Grayscale_Top_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Grayscale_Top.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="Grayscale_Top.vds"/>
+  <File Type="RDS-UTIL" Name="Grayscale_Top_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Grayscale_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Grayscale_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/my_mult/fulladd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../my_mult/fulladd.vhd"/>
+        <Attr Name="ImportTime" Val="1448654573"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/pack_xtras.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/pack_xtras.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/my_sub.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/my_sub.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/my_rege.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/my_rege.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/my_pashiftreg_sclr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/my_pashiftreg_sclr.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/my_pashiftreg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/my_pashiftreg.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/my_counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/my_counter.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/my_mult/my_mult.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../my_mult/my_mult.vhd"/>
+        <Attr Name="ImportTime" Val="1448654573"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/my_busmux3to1/my_busmux3to1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../my_busmux3to1/my_busmux3to1.vhd"/>
+        <Attr Name="ImportTime" Val="1448657314"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/my_addsub/my_addsub.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../my_addsub/my_addsub.vhd"/>
+        <Attr Name="ImportTime" Val="1448655391"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/custom/custom_pkg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../custom/custom_pkg.vhd"/>
+        <Attr Name="ImportTime" Val="1448918683"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rest_integer_iter_v1/res_div_iter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rest_integer_iter_v1/res_div_iter.vhd"/>
+        <Attr Name="ImportTime" Val="1448925981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Grayscale.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Grayscale_Top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Grayscale_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

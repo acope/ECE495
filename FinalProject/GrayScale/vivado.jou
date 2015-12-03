@@ -1,0 +1,301 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Dec 02 14:57:15 2015
+# Process ID: 12216
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.xpr
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+add_wave {{/tb_grayscale}} 
+restart
+run 5320 ns
+add_wave {{/tb_grayscale/gray/ys}} 
+restart
+run 5320 ns
+add_wave {{/tb_grayscale/gray/RGBmul}} 
+add_wave {{/tb_grayscale/gray/RGBadd}} 
+add_wave {{/tb_grayscale/gray/RGBaddreg}} 
+restart
+run 5320 ns
+run all
+restart
+run 5320 ns
+restart
+run 100 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 100 ns
+restart
+run 200 ns
+restart
+run 1000 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 1000 ns
+restart
+run 1000 ns
+restart
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 1000 ns
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 1000 ns
+run 1000 ns
+restart
+run 1000 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 1000 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 1000 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+restart
+run 1000 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+close [ open C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sources_1/new/Grayscale_Top.vhd w ]
+add_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sources_1/new/Grayscale_Top.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new/tb_grayscaletop.vhd w ]
+add_files -fileset sim_1 C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new/tb_grayscaletop.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscaletop.tcl
+add_wave {{/tb_grayscaletop}} 
+restart
+run 1000 ns
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_grayscale [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_grayscaletop [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscaletop.tcl
+add_wave {{/tb_grayscaletop}} 
+restart
+run 1000 ns
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscaletop.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscaletop.tcl
+close_sim
+close_sim

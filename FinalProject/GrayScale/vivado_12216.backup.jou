@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Dec 02 13:19:37 2015
+# Process ID: 1400
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.xpr
+remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sources_1/bd/design_1/design_1.bd
+file delete -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sources_1/bd/design_1
+import_files -norecurse {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/my_rege.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/pack_xtras.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/my_counter.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/my_sub.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/fulladd.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/my_pashiftreg_sclr.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/res_div_iter.vhd C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/rest_integer_iter_v1/my_pashiftreg.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sources_1/imports/rest_integer_iter_v1/fulladd.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+delete_fileset sim_2
+reset_simulation -simset sim_1 -mode behavioral
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+file mkdir C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new/tb_grayscale.vhd w ]
+add_files -fileset sim_1 C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new/tb_grayscale.vhd
+update_compile_order -fileset sim_1
+remove_files -fileset sim_1 C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/imports/my_busmux3to1/tb_my_busmux4to1.vhd
+file delete -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/imports/my_busmux3to1/tb_my_busmux4to1.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+remove_files -fileset sim_1 C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/imports/my_mult/tb_my_mult.vhd
+file delete -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/imports/my_mult/tb_my_mult.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+set_property -name {xsim.simulate.saif_all_signals} -value {true} -objects [current_fileset -simset]
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale.tcl
+set_property -name {xsim.simulate.saif_all_signals} -value {false} -objects [current_fileset -simset]
+close_sim

@@ -36,7 +36,7 @@
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\design_1_my_cordicfull_0_0\design_1_my_cordicfull_0_0.xci" Type="IP">
+      <File Name="ip\design_1_my_cordicfull_0_1\design_1_my_cordicfull_0_1.xci" Type="IP">
         <Instance HierarchyPath="my_cordicfull_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>

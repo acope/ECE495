@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date             : Tue Nov 24 20:15:41 2015
+| Date             : Wed Nov 25 09:46:07 2015
 | Host             : Austin running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb
 | Design           : design_1_wrapper
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.697 |
-| Dynamic (W)              | 1.565 |
+| Total On-Chip Power (W)  | 1.694 |
+| Dynamic (W)              | 1.562 |
 | Device Static (W)        | 0.132 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 65.4  |
-| Junction Temperature (C) | 44.6  |
+| Max Ambient (C)          | 65.5  |
+| Junction Temperature (C) | 44.5  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -50,17 +50,17 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.002 |        3 |       --- |             --- |
-| Slice Logic             |     0.003 |      889 |       --- |             --- |
-|   LUT as Logic          |     0.003 |      434 |     17600 |            2.47 |
-|   Register              |    <0.001 |      201 |     35200 |            0.57 |
+| Slice Logic             |     0.002 |      884 |       --- |             --- |
+|   LUT as Logic          |     0.002 |      435 |     17600 |            2.47 |
+|   Register              |    <0.001 |      200 |     35200 |            0.57 |
 |   CARRY4                |    <0.001 |        1 |      4400 |            0.02 |
-|   Others                |     0.000 |      154 |       --- |             --- |
+|   Others                |     0.000 |      151 |       --- |             --- |
 |   LUT as Shift Register |     0.000 |        1 |      6000 |            0.02 |
-| Signals                 |     0.004 |      765 |       --- |             --- |
-| Block RAM               |     0.001 |        1 |        60 |            1.67 |
+| Signals                 |     0.002 |      757 |       --- |             --- |
+| Block RAM               |    <0.001 |        1 |        60 |            1.67 |
 | PS7                     |     1.555 |        1 |       --- |             --- |
 | Static Power            |     0.132 |          |           |                 |
-| Total                   |     1.697 |          |           |                 |
+| Total                   |     1.694 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,7 +70,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.017 |       0.009 |      0.007 |
+| Vccint    |       1.000 |     0.014 |       0.007 |      0.007 |
 | Vccaux    |       1.800 |     0.012 |       0.000 |      0.012 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -146,21 +146,21 @@ Table of Contents
 +-----------------------------------------+-----------+
 | Name                                    | Power (W) |
 +-----------------------------------------+-----------+
-| design_1_wrapper                        |     1.565 |
-|   design_1_i                            |     1.565 |
+| design_1_wrapper                        |     1.562 |
+|   design_1_i                            |     1.562 |
 |     axi_mem_intercon                    |     0.000 |
 |       s00_couplers                      |     0.000 |
 |         auto_pc                         |     0.000 |
-|     my_cordicfull_0                     |     0.009 |
-|       U0                                |     0.009 |
-|         my_cordicfull_v1_0_S00_AXI_inst |     0.009 |
-|           gIP                           |     0.009 |
-|             th                          |     0.009 |
+|     my_cordicfull_0                     |     0.006 |
+|       U0                                |     0.006 |
+|         my_cordicfull_v1_0_S00_AXI_inst |     0.006 |
+|           gIP                           |     0.006 |
+|             th                          |     0.006 |
 |               c1                        |    <0.001 |
-|               ci                        |     0.008 |
-|                 CORDIC                  |     0.007 |
-|                   data_X_reg            |     0.003 |
-|                   data_Y_reg            |     0.003 |
+|               ci                        |     0.005 |
+|                 CORDIC                  |     0.004 |
+|                   data_X_reg            |     0.002 |
+|                   data_Y_reg            |     0.002 |
 |                   data_Z_reg            |    <0.001 |
 |                 II_Reg                  |    <0.001 |
 |                 OI_Reg                  |    <0.001 |

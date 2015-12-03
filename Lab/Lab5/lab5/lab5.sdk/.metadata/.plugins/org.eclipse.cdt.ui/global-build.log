@@ -1,4 +1,4 @@
-16:56:47 **** Build of project test_mycordicfull_bsp ****
+09:50:07 **** Build of project test_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -82,1045 +82,14 @@ make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-
 make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
 "Compiling xadcps"
 'Finished building libraries'
-16:57:12 **** Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/helloworld.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  22888	   1152	  22564	  46604	   b60c	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-16:58:09 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:00:13 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:88:2: warning: implicit declaration of function 'MYPIXFULL_mWriteMemory' [-Wimplicit-function-declaration]
-  MYPIXFULL_mWriteMemory(baseaddr, (0xDEADBEEF)); // same thing, the index does not make a difference, it seems
-  ^
-../src/test_pixi.c:96:5: warning: implicit declaration of function 'MYPIXFULL_mReadMemory' [-Wimplicit-function-declaration]
-     Mem32Value = MYPIXFULL_mReadMemory(baseaddr+4*Index);
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/helloworld.o ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/test_pixi.o: In function `main':
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:57: multiple definition of `main'
-./src/helloworld.o:C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/helloworld.c:54: first defined here
-./src/test_pixi.o: In function `main':
-test_pixi.c:(.text+0x48): undefined reference to `MYPIXFULL_mWriteMemory'
-test_pixi.c:(.text+0x58): undefined reference to `MYPIXFULL_mWriteMemory'
-test_pixi.c:(.text+0x68): undefined reference to `MYPIXFULL_mWriteMemory'
-test_pixi.c:(.text+0x78): undefined reference to `MYPIXFULL_mWriteMemory'
-test_pixi.c:(.text+0xa0): undefined reference to `MYPIXFULL_mReadMemory'
-collect2.exe: error: ld returned 1 exit status
-make: *** [test_mycordicfull.elf] Error 1
-17:01:21 **** Clean-only build of configuration Debug for project test_mycordicfull ****
-make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o ./src/test_pixi.o  ./src/helloworld.d ./src/platform.d ./src/test_pixi.d  test_mycordicfull.elf.size  test_mycordicfull.elf
-' '
-17:01:21 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:88:2: warning: implicit declaration of function 'MYPIXFULL_mWriteMemory' [-Wimplicit-function-declaration]
-  MYPIXFULL_mWriteMemory(baseaddr, (0xDEADBEEF)); // same thing, the index does not make a difference, it seems
-  ^
-../src/test_pixi.c:96:5: warning: implicit declaration of function 'MYPIXFULL_mReadMemory' [-Wimplicit-function-declaration]
-     Mem32Value = MYPIXFULL_mReadMemory(baseaddr+4*Index);
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/test_pixi.o: In function `main':
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:88: undefined reference to `MYPIXFULL_mWriteMemory'
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:89: undefined reference to `MYPIXFULL_mWriteMemory'
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:90: undefined reference to `MYPIXFULL_mWriteMemory'
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:91: undefined reference to `MYPIXFULL_mWriteMemory'
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:96: undefined reference to `MYPIXFULL_mReadMemory'
-collect2.exe: error: ld returned 1 exit status
-make: *** [test_mycordicfull.elf] Error 1
-17:02:54 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:96:5: warning: implicit declaration of function 'MYPIXFULL_mReadMemory' [-Wimplicit-function-declaration]
-     Mem32Value = MYPIXFULL_mReadMemory(baseaddr+4*Index);
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/test_pixi.o: In function `main':
-C:\Users\mr_co_000\Documents\GitHub\ECE495\Lab\Lab5\lab5\lab5.sdk\test_mycordicfull\Debug/../src/test_pixi.c:96: undefined reference to `MYPIXFULL_mReadMemory'
-collect2.exe: error: ld returned 1 exit status
-make: *** [test_mycordicfull.elf] Error 1
-17:03:05 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25296	   1152	  22564	  49012	   bf74	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:04:38 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:13:49 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25296	   1152	  22564	  49012	   bf74	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:14:33 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:16:12 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:19:23 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25296	   1152	  22564	  49012	   bf74	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:21:51 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25296	   1152	  22564	  49012	   bf74	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:23:59 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:24:09 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:24:52 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25296	   1152	  22564	  49012	   bf74	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:24:53 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:26:50 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25268	   1152	  22564	  48984	   bf58	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:26:55 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25252	   1152	  22564	  48968	   bf48	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:28:24 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25188	   1152	  22564	  48904	   bf08	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:28:52 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:30:01 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25188	   1152	  22564	  48904	   bf08	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:30:18 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:31:31 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25180	   1152	  22564	  48896	   bf00	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:32:00 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25184	   1152	  22564	  48900	   bf04	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:32:01 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:32:40 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25184	   1152	  22564	  48900	   bf04	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:32:41 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:33:32 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25184	   1152	  22564	  48900	   bf04	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:34:15 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:35:27 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:35:28 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:36:08 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:36:36 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:38:10 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:38:17 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:38:54 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:38:56 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:39:08 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:39:45 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:39:47 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:40:17 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:40:34 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:40:36 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:40:40 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:40:42 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:41:33 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:42:35 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:42:37 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:42:42 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:43:07 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:43:12 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:43:28 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:44:27 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25184	   1152	  22564	  48900	   bf04	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:44:29 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-17:45:12 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25248	   1152	  22564	  48964	   bf44	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-17:45:31 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:16:24 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:17:25 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:18:40 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25264	   1152	  22564	  48980	   bf54	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-18:18:46 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:21:57 **** Clean-only build of project test_mycordicfull_bsp ****
+
+**** Build of configuration Debug for project test ****
+
+Nothing to build for project test
+09:50:37 **** Clean-only build of project test_bsp ****
 make -k clean 
 rm -f ps7_cortexa9_0/lib/libxil.a
-18:21:57 **** Build of project test_mycordicfull_bsp ****
+09:50:38 **** Build of project test_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -1204,16 +173,11 @@ make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-
 make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
 "Compiling xadcps"
 'Finished building libraries'
-18:22:21 **** Auto Build of configuration Debug for project test_mycordicfull ****
+09:50:58 **** Auto Build of configuration Debug for project test ****
 make all 
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1229,416 +193,22 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25264	   1152	  22564	  48980	   bf54	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25148	   1152	  22564	  48864	   bee0	test.elf
+'Finished building: test.elf.size'
 ' '
-18:22:27 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:22:33 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:23:21 **** Auto Build of configuration Debug for project test_mycordicfull ****
+09:51:36 **** Incremental Build of configuration Debug for project test ****
 make all 
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:106:0: error: unterminated argument list invoking macro "MY_CORDICFULL_mReadMemory"
- }
- ^
-../src/test_pixi.c:94:15: error: 'MY_CORDICFULL_mReadMemory' undeclared (first use in this function)
-  Mem32Value = MY_CORDICFULL_mReadMemory(baseaddr;
-               ^
-../src/test_pixi.c:94:15: note: each undeclared identifier is reported only once for each function it appears in
-../src/test_pixi.c:94:2: error: expected ';' at end of input
-  Mem32Value = MY_CORDICFULL_mReadMemory(baseaddr;
-  ^
-../src/test_pixi.c:94:2: error: expected declaration or statement at end of input
-../src/test_pixi.c:60:10: warning: unused variable 'Index' [-Wunused-variable]
-  int     Index;
-          ^
-../src/test_pixi.c:59:6: warning: variable 'Mem32Value' set but not used [-Wunused-but-set-variable]
-  u32 Mem32Value;
-      ^
-../src/test_pixi.c:94:2: warning: control reaches end of non-void function [-Wreturn-type]
-  Mem32Value = MY_CORDICFULL_mReadMemory(baseaddr;
-  ^
-make: *** [src/test_pixi.o] Error 1
-18:23:22 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:106:0: error: unterminated argument list invoking macro "MY_CORDICFULL_mReadMemory"
- }
- ^
-../src/test_pixi.c:94:15: error: 'MY_CORDICFULL_mReadMemory' undeclared (first use in this function)
-  Mem32Value = MY_CORDICFULL_mReadMemory(baseaddr;
-               ^
-../src/test_pixi.c:94:15: note: each undeclared identifier is reported only once for each function it appears in
-../src/test_pixi.c:94:2: error: expected ';' at end of input
-  Mem32Value = MY_CORDICFULL_mReadMemory(baseaddr;
-  ^
-../src/test_pixi.c:94:2: error: expected declaration or statement at end of input
-../src/test_pixi.c:60:10: warning: unused variable 'Index' [-Wunused-variable]
-  int     Index;
-          ^
-../src/test_pixi.c:59:6: warning: variable 'Mem32Value' set but not used [-Wunused-but-set-variable]
-  u32 Mem32Value;
-      ^
-../src/test_pixi.c:94:2: warning: control reaches end of non-void function [-Wreturn-type]
-  Mem32Value = MY_CORDICFULL_mReadMemory(baseaddr;
-  ^
-make: *** [src/test_pixi.o] Error 1
-18:23:32 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:102:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:103:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25264	   1152	  22564	  48980	   bf54	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-18:23:35 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:25:41 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:26:48 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:28:08 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:30:19 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:30:29 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:31:52 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:102:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:103:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25264	   1152	  22564	  48980	   bf54	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-18:31:59 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:45:34 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:47:07 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:48:14 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:102:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:103:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-18:48:16 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:49:21 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:103:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:104:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25284	   1152	  22564	  49000	   bf68	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-18:49:23 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:49:27 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:50:23 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-18:50:40 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:103:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:104:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25348	   1152	  22564	  49064	   bfa8	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-18:51:43 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:02:05 **** Auto Build of project test_mycordicfull_bsp ****
-make -k all 
-"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling coresightps_dcc"
-"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling cpu_cortexa9"
-"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling devcfg"
-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling dmaps"
-"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling emacps"
-"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling iicps"
-"Running Make libs in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling my_cordicfull..."
-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling qspips"
-"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scugic"
-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scutimer"
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scuwdt"
-"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling standalone"
-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling xadcps"
-'Finished building libraries'
-19:02:32 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
-../src/test_pixi.c: In function 'main':
-../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
-     Xil_DCacheEnable();
-     ^
-../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
-     Xil_ICacheEnable();
-     ^
-../src/test_pixi.c:103:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
-     Xil_DCacheDisable();
-     ^
-../src/test_pixi.c:104:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
-     Xil_ICacheDisable();
-     ^
-'Finished building: ../src/test_pixi.c'
-' '
-'Building target: test_mycordicfull.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25348	   1152	  22564	  49064	   bfa8	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
-' '
-19:03:17 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:04:03 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:05:11 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/test_pixi.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1654,110 +224,28 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25148	   1152	  22564	  48864	   bee0	test.elf
+'Finished building: test.elf.size'
 ' '
-19:19:45 **** Auto Build of project test_mycordicfull_bsp ****
-make -k all 
-"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling coresightps_dcc"
-"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling cpu_cortexa9"
-"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling devcfg"
-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling dmaps"
-"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling emacps"
-"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling iicps"
-"Running Make libs in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling my_cordicfull..."
-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling qspips"
-"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scugic"
-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scutimer"
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scuwdt"
-"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling standalone"
-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling xadcps"
-'Finished building libraries'
-19:20:14 **** Auto Build of configuration Debug for project test_mycordicfull ****
+09:53:01 **** Incremental Build of configuration Debug for project test ****
 make all 
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
+make: Nothing to be done for `all'.
+10:02:48 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+10:04:34 **** Incremental Build of configuration Debug for project test ****
+make all 
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1773,122 +261,22 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25148	   1152	  22564	  48864	   bee0	test.elf
+'Finished building: test.elf.size'
 ' '
-19:20:45 **** Incremental Build of configuration Debug for project test_mycordicfull ****
+10:05:35 **** Incremental Build of configuration Debug for project test ****
 make all 
-make: Nothing to be done for `all'.
-19:20:48 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:21:28 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:22:23 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:31:13 **** Auto Build of project test_mycordicfull_bsp ****
-make -k all 
-"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling coresightps_dcc"
-"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling cpu_cortexa9"
-"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling devcfg"
-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling dmaps"
-"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling emacps"
-"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling iicps"
-"Running Make libs in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling my_cordicfull..."
-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling qspips"
-"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scugic"
-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scutimer"
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scuwdt"
-"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling standalone"
-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling xadcps"
-'Finished building libraries'
-19:31:38 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1904,25 +292,22 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25148	   1152	  22564	  48864	   bee0	test.elf
+'Finished building: test.elf.size'
 ' '
-19:32:02 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:34:00 **** Incremental Build of configuration Debug for project test_mycordicfull ****
+10:05:51 **** Incremental Build of configuration Debug for project test ****
 make all 
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1938,22 +323,22 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25148	   1152	  22564	  48864	   bee0	test.elf
+'Finished building: test.elf.size'
 ' '
-19:36:17 **** Auto Build of configuration Debug for project test_mycordicfull ****
+10:20:03 **** Incremental Build of configuration Debug for project test ****
 make all 
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1961,33 +346,30 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
 ../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
      Xil_ICacheEnable();
      ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+../src/test_pixi.c:139:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
      Xil_DCacheDisable();
      ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
+../src/test_pixi.c:140:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
      Xil_ICacheDisable();
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25664	   1152	  22564	  49380	   c0e4	test.elf
+'Finished building: test.elf.size'
 ' '
-19:36:19 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:37:03 **** Auto Build of configuration Debug for project test_mycordicfull ****
+10:21:25 **** Incremental Build of configuration Debug for project test ****
 make all 
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -1995,127 +377,30 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
 ../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
      Xil_ICacheEnable();
      ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+../src/test_pixi.c:142:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
      Xil_DCacheDisable();
      ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
+../src/test_pixi.c:143:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
      Xil_ICacheDisable();
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25776	   1152	  22564	  49492	   c154	test.elf
+'Finished building: test.elf.size'
 ' '
-19:37:12 **** Incremental Build of configuration Debug for project test_mycordicfull ****
+10:26:08 **** Incremental Build of configuration Debug for project test ****
 make all 
-make: Nothing to be done for `all'.
-19:38:03 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-19:38:08 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
-20:16:57 **** Auto Build of project test_mycordicfull_bsp ****
-make -k all 
-"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling coresightps_dcc"
-"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling cpu_cortexa9"
-"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
-make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling devcfg"
-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling dmaps"
-"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling emacps"
-"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling iicps"
-"Running Make libs in ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src"
-make -C ps7_cortexa9_0/libsrc/my_cordicfull_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling my_cordicfull..."
-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
-make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling qspips"
-"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scugic"
-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scutimer"
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
-make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling scuwdt"
-"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
-make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
-make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling standalone"
-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
-make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
-"Compiling xadcps"
-'Finished building libraries'
-20:17:22 **** Auto Build of configuration Debug for project test_mycordicfull ****
-make all 
-'Building file: ../src/platform.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
 'Building file: ../src/test_pixi.c'
 'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_mycordicfull_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test_pixi.d" -MT"src/test_pixi.d" -o "src/test_pixi.o" "../src/test_pixi.c"
 ../src/test_pixi.c: In function 'main':
 ../src/test_pixi.c:63:5: warning: implicit declaration of function 'Xil_DCacheEnable' [-Wimplicit-function-declaration]
      Xil_DCacheEnable();
@@ -2123,25 +408,22 @@ arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test_pixi.o" -I.
 ../src/test_pixi.c:64:5: warning: implicit declaration of function 'Xil_ICacheEnable' [-Wimplicit-function-declaration]
      Xil_ICacheEnable();
      ^
-../src/test_pixi.c:100:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
+../src/test_pixi.c:142:5: warning: implicit declaration of function 'Xil_DCacheDisable' [-Wimplicit-function-declaration]
      Xil_DCacheDisable();
      ^
-../src/test_pixi.c:101:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
+../src/test_pixi.c:143:5: warning: implicit declaration of function 'Xil_ICacheDisable' [-Wimplicit-function-declaration]
      Xil_ICacheDisable();
      ^
 'Finished building: ../src/test_pixi.c'
 ' '
-'Building target: test_mycordicfull.elf'
+'Building target: test.elf'
 'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_mycordicfull_bsp/ps7_cortexa9_0/lib -o "test_mycordicfull.elf"  ./src/platform.o ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: test_mycordicfull.elf'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/test_pixi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
 ' '
 'Invoking: ARM Print Size'
-arm-xilinx-eabi-size test_mycordicfull.elf  |tee "test_mycordicfull.elf.size"
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  25276	   1152	  22564	  48992	   bf60	test_mycordicfull.elf
-'Finished building: test_mycordicfull.elf.size'
+  25776	   1152	  22564	  49492	   c154	test.elf
+'Finished building: test.elf.size'
 ' '
-20:17:39 **** Incremental Build of configuration Debug for project test_mycordicfull ****
-make all 
-make: Nothing to be done for `all'.
