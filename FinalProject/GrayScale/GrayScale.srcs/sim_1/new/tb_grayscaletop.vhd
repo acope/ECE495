@@ -56,15 +56,15 @@ begin
        resetn <= '1';
 
       -- insert stimulus here 
-        RGBin <= b"11111111"; Rp <= conv_std_logic_vector(100, P);	Gp <= conv_std_logic_vector(0, P); Bp <= conv_std_logic_vector(0, P); start <= '1';		
+        RGBin <= x"24"; Rp <= conv_std_logic_vector(50, P);	Gp <= conv_std_logic_vector(25, P); Bp <= conv_std_logic_vector(25, P); start <= '1';		
         wait for clock_period;
         start <= '0';
-        wait for clock_period*25;
+--        wait for clock_period*25;
         
-        RGBin <= b"11111111"; Rp <= conv_std_logic_vector(21, P);	Gp <= conv_std_logic_vector(72, P); Bp <= conv_std_logic_vector(7, P); start <= '1';		
-        wait for clock_period;
-        start <= '0';
-        wait for clock_period*25;
+--        RGBin <= b"11111111"; Rp <= conv_std_logic_vector(21, P);	Gp <= conv_std_logic_vector(72, P); Bp <= conv_std_logic_vector(7, P); start <= '1';		
+--        wait for clock_period;
+--        start <= '0';
+--        wait for clock_period*25;
         
 
    end process;

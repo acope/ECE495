@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 07 12:04:31 2015
+# Process ID: 8248
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.xpr
+launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+open_bd_design {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd}
+ipx::edit_ip_in_project -upgrade true -name myGrayscale_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.tmp/myGrayscale_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0/component.xml
+update_compile_order -fileset sim_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1

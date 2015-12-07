@@ -2159,3 +2159,21 @@ java.net.SocketException: Socket closed
 	at java.io.FilterOutputStream.close(Unknown Source)
 	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:194)
 	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:691)
+!SESSION 2015-12-04 15:00:24.580 -----------------------------------------------
+eclipse.buildId=2015.2
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.sdk
+
+!ENTRY org.eclipse.tcf 4 0 2015-12-04 15:02:54.883
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:194)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:691)

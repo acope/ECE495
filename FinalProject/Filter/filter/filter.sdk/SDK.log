@@ -1,0 +1,408 @@
+14:58:58 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+14:59:00 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+14:59:02 INFO  : XSDB server has started successfully.
+15:01:11 INFO  : Saving repository preferences.
+15:01:11 INFO  : Reading in cores from local repositories: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+15:01:11 INFO  : Cleaning BSP projects in the workspace.
+15:20:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+15:20:12 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:20:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+15:20:45 INFO  : 'fpga -state' command is executed.
+15:20:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:45 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+15:20:52 INFO  : Mermory regions for PS have been updated.
+15:20:52 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:20:52 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+15:20:58 INFO  : 'ps7_init' command is executed.
+15:20:59 INFO  : 'ps7_post_config' command is executed.
+15:20:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:21:00 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+15:21:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:21:01 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/photoFilter/Debug/photoFilter.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:21:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/photoFilter/Debug/photoFilter.elf
+----------------End of Script----------------
+
+15:21:02 INFO  : Memory regions updated for context APU
+15:21:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:21:02 INFO  : 'con' command is executed.
+15:21:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+15:22:44 INFO  : Disconnected from the channel tcfchan#1.
+15:22:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:22:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+15:22:45 INFO  : 'fpga -state' command is executed.
+15:22:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:22:45 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+15:22:51 INFO  : Mermory regions for PS have been updated.
+15:22:51 INFO  : Sourcing of 'C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:22:51 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0' command is executed.
+15:23:04 INFO  : 'ps7_init' command is executed.
+15:23:04 INFO  : 'ps7_post_config' command is executed.
+15:23:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:23:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+15:23:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:23:06 INFO  : The application 'C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/photoFilter/Debug/photoFilter.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:23:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+memmap -addr 1136656384 -size 65536 -flags 3
+memmap -addr 4160782336 -size 4096 -flags 3
+memmap -addr 4160786432 -size 4096 -flags 3
+memmap -addr 4160790528 -size 4096 -flags 3
+memmap -addr 4160794624 -size 4096 -flags 3
+memmap -addr 4169138176 -size 1048576 -flags 3
+memmap -addr 1048576 -size 535822336 -flags 3
+memmap -addr 4160774144 -size 4096 -flags 3
+memmap -addr 4160778240 -size 256 -flags 3
+memmap -addr 4160765952 -size 4096 -flags 3
+memmap -addr 4160761856 -size 4096 -flags 3
+memmap -addr 3758141440 -size 4096 -flags 3
+memmap -addr 4176478720 -size 256 -flags 3
+memmap -addr 4170186752 -size 1048576 -flags 3
+memmap -addr 3758112768 -size 4096 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 3760193536 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4160798720 -size 4096 -flags 3
+memmap -addr 4176486400 -size 4096 -flags 3
+memmap -addr 4169732096 -size 4096 -flags 3
+memmap -addr 3758149632 -size 4096 -flags 3
+memmap -addr 4227858432 -size 16777216 -flags 3
+memmap -addr 0 -size 196608 -flags 3
+memmap -addr 4294901760 -size 65024 -flags 3
+memmap -addr 4176478208 -size 253 -flags 3
+memmap -addr 4176482304 -size 4096 -flags 3
+memmap -addr 4176479744 -size 32 -flags 3
+memmap -addr 4176479776 -size 224 -flags 3
+memmap -addr 3759144960 -size 4096 -flags 3
+memmap -addr 4160749568 -size 4096 -flags 3
+memmap -addr 3758100480 -size 4096 -flags 3
+memmap -addr 3758104576 -size 4096 -flags 3
+memmap -addr 4160778496 -size 33 -flags 3
+source C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+dow C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/photoFilter/Debug/photoFilter.elf
+----------------End of Script----------------
+
+15:23:07 INFO  : Memory regions updated for context APU
+15:23:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:23:07 INFO  : 'con' command is executed.
+15:23:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279652080A"} -index 0
+con
+----------------End of Script----------------
+
+15:25:45 INFO  : Disconnected from the channel tcfchan#2.
+15:25:49 INFO  : ps7_init is completed.
+15:25:49 INFO  : ps7_post_config is completed.
+15:25:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:31:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:23:48 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+15:23:51 INFO  : XSDB server has started successfully.
+15:23:52 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+15:23:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:23:57 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+15:23:57 ERROR :  License Feature SDK is not available.
+15:28:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+15:28:36 INFO  : XSDB server has started successfully.
+15:28:37 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+15:28:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:28:41 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+15:46:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+15:46:09 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:46:32 INFO  : ps7_init is completed.
+15:46:32 INFO  : ps7_post_config is completed.
+15:46:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:39 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:11:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:12:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:12:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+16:12:27 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:12:35 INFO  : ps7_init is completed.
+16:12:35 INFO  : ps7_post_config is completed.
+16:12:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:12:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:12:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:13:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:13:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:14:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:14:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:15:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:15:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:18:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:22:31 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:22:33 INFO  : XSDB server has started successfully.
+17:22:35 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+17:22:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:22:41 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+17:28:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:29:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:29:39 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+17:29:45 ERROR : Unexpected error while launching program.
+java.lang.IllegalStateException: Cannot connect to processor before Hardware Platform has been specified
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:475)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:29:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:29:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+17:29:58 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:30:13 INFO  : ps7_init is completed.
+17:30:13 INFO  : ps7_post_config is completed.
+17:30:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:30:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:30:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+17:30:59 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:31:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:31:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:31:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+17:31:34 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:31:43 INFO  : ps7_init is completed.
+17:31:43 INFO  : ps7_post_config is completed.
+17:31:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:05:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1449442521278,  Project:1449259042571
+18:05:54 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:06:00 INFO  : Copied contents of C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:06:07 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:06:11 INFO  : 
+18:06:12 INFO  : Updating hardware inferred compiler options for photoFilter.
+18:06:12 INFO  : Clearing existing target manager status.
+18:06:12 INFO  : Closing and re-opening the MSS file of ther project photoFilter_bsp
+18:06:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:06:46 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+18:06:49 INFO  : XSDB server has started successfully.
+18:06:49 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+18:06:51 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:06:55 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+18:21:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+18:21:08 INFO  : XSDB server has started successfully.
+18:21:08 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+18:21:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:21:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1449444028770,  Project:1449442521278
+18:21:14 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+18:21:14 INFO  : Copied contents of C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:21:14 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+18:21:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:21:26 INFO  : 
+18:21:28 INFO  : Updating hardware inferred compiler options for photoFilter.
+18:21:28 INFO  : Clearing existing target manager status.
+18:21:29 INFO  : Closing and re-opening the MSS file of ther project photoFilter_bsp
+18:21:30 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:21:31 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:37:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:37:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+18:37:20 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:59:26 INFO  : ps7_init is completed.
+18:59:26 INFO  : ps7_post_config is completed.
+18:59:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:00:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:00:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:01:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:01:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:04:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:04:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:06:02 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+19:06:02 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+19:06:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:05:16 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:05:18 INFO  : XSDB server has started successfully.
+12:05:19 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+12:05:20 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:05:25 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+14:31:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+14:31:54 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:32:06 INFO  : ps7_init is completed.
+14:32:06 INFO  : ps7_post_config is completed.
+14:32:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:33:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:34:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:35:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:37:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:43:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:43:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:07:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:07:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:18:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:18:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:20:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:20:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:20:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:20:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+15:24:52 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:24:58 INFO  : ps7_init is completed.
+15:24:58 INFO  : ps7_post_config is completed.
+15:24:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:25:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:37 INFO  : System reset is completed.
+15:26:39 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:26:40 INFO  : ps7_init is completed.
+15:26:40 INFO  : ps7_post_config is completed.
+15:27:34 INFO  : System reset is completed.
+15:27:36 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:27:38 INFO  : ps7_init is completed.
+15:27:38 INFO  : ps7_post_config is completed.
+15:28:15 INFO  : System reset is completed.
+15:28:17 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:28:19 INFO  : ps7_init is completed.
+15:28:19 INFO  : ps7_post_config is completed.
+15:28:32 INFO  : System reset is completed.
+15:28:35 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:28:36 INFO  : ps7_init is completed.
+15:28:36 INFO  : ps7_post_config is completed.
+15:28:51 INFO  : System reset is completed.
+15:28:54 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:28:55 INFO  : ps7_init is completed.
+15:28:56 INFO  : ps7_post_config is completed.
+15:29:50 INFO  : System reset is completed.
+15:29:53 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:29:54 INFO  : ps7_init is completed.
+15:29:54 INFO  : ps7_post_config is completed.
+15:30:49 INFO  : System reset is completed.
+15:30:52 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:30:54 INFO  : ps7_init is completed.
+15:30:55 INFO  : ps7_post_config is completed.
+15:32:08 INFO  : System reset is completed.
+15:32:10 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:32:11 INFO  : ps7_init is completed.
+15:32:11 INFO  : ps7_post_config is completed.
+15:36:33 INFO  : System reset is completed.
+15:36:36 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:36:37 INFO  : ps7_init is completed.
+15:36:37 INFO  : ps7_post_config is completed.
+15:36:53 INFO  : System reset is completed.
+15:36:56 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:36:58 INFO  : ps7_init is completed.
+15:36:58 INFO  : ps7_post_config is completed.
+15:37:26 INFO  : System reset is completed.
+15:37:28 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:37:30 INFO  : ps7_init is completed.
+15:37:30 INFO  : ps7_post_config is completed.
+15:38:08 INFO  : System reset is completed.
+15:38:10 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:38:12 INFO  : ps7_init is completed.
+15:38:13 INFO  : ps7_post_config is completed.
+15:38:30 INFO  : System reset is completed.
+15:38:31 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:38:33 INFO  : ps7_init is completed.
+15:38:33 INFO  : ps7_post_config is completed.
+15:39:09 INFO  : System reset is completed.
+15:39:13 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:39:15 INFO  : ps7_init is completed.
+15:39:15 INFO  : ps7_post_config is completed.
+15:44:50 INFO  : System reset is completed.
+15:44:52 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:44:54 INFO  : ps7_init is completed.
+15:44:54 INFO  : ps7_post_config is completed.
+15:45:22 INFO  : System reset is completed.
+15:45:24 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:45:26 INFO  : ps7_init is completed.
+15:45:26 INFO  : ps7_post_config is completed.
+15:46:01 INFO  : System reset is completed.
+15:46:03 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:46:06 INFO  : ps7_init is completed.
+15:46:06 INFO  : ps7_post_config is completed.
+15:46:28 INFO  : System reset is completed.
+15:46:29 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:46:31 INFO  : ps7_init is completed.
+15:46:31 INFO  : ps7_post_config is completed.
+15:46:49 INFO  : System reset is completed.
+15:46:51 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:46:53 INFO  : ps7_init is completed.
+15:46:53 INFO  : ps7_post_config is completed.
+15:47:13 INFO  : System reset is completed.
+15:47:15 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:47:16 INFO  : ps7_init is completed.
+15:47:16 INFO  : ps7_post_config is completed.
+15:47:36 INFO  : System reset is completed.
+15:47:38 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:47:40 INFO  : ps7_init is completed.
+15:47:40 INFO  : ps7_post_config is completed.
+15:50:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

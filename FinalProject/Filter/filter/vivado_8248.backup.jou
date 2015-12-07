@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 06 15:22:06 2015
+# Process ID: 12128
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.xpr
+launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+open_bd_design {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_uartlite_0/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_uartlite_0/UART]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.C_BAUDRATE {115200}] [get_bd_cells axi_uartlite_0]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+regenerate_bd_layout
+delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M01_AXI] [get_bd_intf_nets axi_uartlite_0_UART] [get_bd_cells axi_uartlite_0]
+delete_bd_objs [get_bd_intf_ports uart_rtl]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_0
+endgroup
+set_property -dict [list CONFIG.C_BAUDRATE {115200}] [get_bd_cells axi_uartlite_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_uartlite_0/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_uartlite_0/UART]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+startgroup
+create_bd_port -dir O -type data tx
+connect_bd_net [get_bd_pins /axi_uartlite_0/tx] [get_bd_ports tx]
+endgroup
+startgroup
+create_bd_port -dir I -type data rx
+connect_bd_net [get_bd_pins /axi_uartlite_0/rx] [get_bd_ports rx]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+add_files -fileset constrs_1 -norecurse {{C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc}}
+import_files -fileset constrs_1 {{C:/Users/mr_co_000/Google Drive/Oakland_University/2015-Fall/ECE495/Zybo Files/ZYBO_Master_xdc/ZYBO_Master.xdc}}
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1
+remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+make_wrapper -files [get_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uart16550:2.0 axi_uart16550_0
+endgroup
+set_property location {2 656 589} [get_bd_cells axi_uart16550_0]
+delete_bd_objs [get_bd_cells axi_uart16550_0]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_usb2_device:5.0 axi_usb2_device_0
+endgroup
+delete_bd_objs [get_bd_cells axi_usb2_device_0]
+launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+startgroup
+endgroup
+file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+
+remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+make_wrapper -files [get_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf

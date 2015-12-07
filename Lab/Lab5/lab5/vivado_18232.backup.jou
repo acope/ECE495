@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Dec 04 14:29:05 2015
+# Process ID: 17648
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.xpr
+open_bd_design {C:/Users/mr_co_000/Documents/GitHub/ECE495/Lab/Lab5/lab5/lab5.srcs/sources_1/bd/design_1/design_1.bd}

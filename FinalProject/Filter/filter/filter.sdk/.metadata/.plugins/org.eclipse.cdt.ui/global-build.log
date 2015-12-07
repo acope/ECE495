@@ -1,0 +1,3336 @@
+15:02:37 **** Build of project photoFilter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+15:03:15 **** Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../photoFilter_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:03:52 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../photoFilter_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:04:02 **** Clean-only build of configuration Debug for project photoFilter ****
+make clean 
+rm -rf  ./src/platform.o  ./src/platform.d  photoFilter.elf.size  photoFilter.elf
+' '
+15:04:03 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../photoFilter_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:04:42 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:2:22: fatal error: mycordic.h: No such file or directory
+ #include "mycordic.h"
+                      ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:04:49 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:2:22: fatal error: mycordic.h: No such file or directory
+ #include "mycordic.h"
+                      ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:06:17 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:32:2: warning: implicit declaration of function 'MYCORDIC_mWriteReg' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/main.c:21:18: error: 'MYCORDIC_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function)
+ #define SLV_REG1 MYCORDIC_S00_AXI_SLV_REG1_OFFSET
+                  ^
+../src/main.c:32:35: note: in expansion of macro 'SLV_REG1'
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+                                   ^
+../src/main.c:21:18: note: each undeclared identifier is reported only once for each function it appears in
+ #define SLV_REG1 MYCORDIC_S00_AXI_SLV_REG1_OFFSET
+                  ^
+../src/main.c:32:35: note: in expansion of macro 'SLV_REG1'
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+                                   ^
+../src/main.c:20:18: error: 'MYCORDIC_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function)
+ #define SLV_REG0 MYCORDIC_S00_AXI_SLV_REG0_OFFSET
+                  ^
+../src/main.c:34:35: note: in expansion of macro 'SLV_REG0'
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG0,0x26DC0000);
+                                   ^
+../src/main.c:37:2: warning: implicit declaration of function 'MYCORDIC_mReadReg' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/main.c:22:18: error: 'MYCORDIC_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function)
+ #define SLV_REG2 MYCORDIC_S00_AXI_SLV_REG2_OFFSET
+                  ^
+../src/main.c:37:45: note: in expansion of macro 'SLV_REG2'
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+                                             ^
+../src/main.c:23:18: error: 'MYCORDIC_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function)
+ #define SLV_REG3 MYCORDIC_S00_AXI_SLV_REG3_OFFSET
+                  ^
+../src/main.c:38:44: note: in expansion of macro 'SLV_REG3'
+  valueZ = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG3);
+                                            ^
+../src/main.c:30:39: warning: unused variable 'Z4' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                                       ^
+../src/main.c:30:36: warning: unused variable 'Y4' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                                    ^
+../src/main.c:30:33: warning: unused variable 'X4' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                                 ^
+../src/main.c:30:30: warning: unused variable 'Z3' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                              ^
+../src/main.c:30:27: warning: unused variable 'Y3' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                           ^
+../src/main.c:30:24: warning: unused variable 'X3' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                        ^
+../src/main.c:30:21: warning: unused variable 'Z2' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                     ^
+../src/main.c:30:18: warning: unused variable 'Y2' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                  ^
+../src/main.c:30:15: warning: unused variable 'X2' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+               ^
+../src/main.c:30:12: warning: unused variable 'Z1' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+            ^
+../src/main.c:30:9: warning: unused variable 'Y1' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+         ^
+../src/main.c:30:6: warning: unused variable 'X1' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+      ^
+../src/main.c:29:68: warning: variable 'valueZ4' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                                                    ^
+../src/main.c:29:58: warning: variable 'valueXY4' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                                          ^
+../src/main.c:29:50: warning: variable 'valueZ3' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                                  ^
+../src/main.c:29:40: warning: variable 'valueXY3' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                        ^
+../src/main.c:29:32: warning: variable 'valueZ2' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                ^
+../src/main.c:29:22: warning: variable 'valueXY2' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                      ^
+../src/main.c:29:15: warning: variable 'valueZ' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+               ^
+../src/main.c:29:6: warning: variable 'valueXY' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+      ^
+make: *** [src/main.o] Error 1
+15:07:12 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:31:2: warning: implicit declaration of function 'MYCORDIC_mWriteReg' [-Wimplicit-function-declaration]
+  MYCORDIC_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+  ^
+../src/main.c:36:2: warning: implicit declaration of function 'MYCORDIC_mReadReg' [-Wimplicit-function-declaration]
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+  ^
+../src/main.c:36:45: error: 'SLV_REG2' undeclared (first use in this function)
+  valueXY = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG2);
+                                             ^
+../src/main.c:36:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:37:44: error: 'SLV_REG3' undeclared (first use in this function)
+  valueZ = MYCORDIC_mReadReg (MYCORDIC_BASE,SLV_REG3);
+                                            ^
+../src/main.c:29:39: warning: unused variable 'Z4' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                                       ^
+../src/main.c:29:36: warning: unused variable 'Y4' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                                    ^
+../src/main.c:29:33: warning: unused variable 'X4' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                                 ^
+../src/main.c:29:30: warning: unused variable 'Z3' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                              ^
+../src/main.c:29:27: warning: unused variable 'Y3' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                           ^
+../src/main.c:29:24: warning: unused variable 'X3' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                        ^
+../src/main.c:29:21: warning: unused variable 'Z2' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                     ^
+../src/main.c:29:18: warning: unused variable 'Y2' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+                  ^
+../src/main.c:29:15: warning: unused variable 'X2' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+               ^
+../src/main.c:29:12: warning: unused variable 'Z1' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+            ^
+../src/main.c:29:9: warning: unused variable 'Y1' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+         ^
+../src/main.c:29:6: warning: unused variable 'X1' [-Wunused-variable]
+  u16 X1,Y1,Z1,X2,Y2,Z2,X3,Y3,Z3,X4,Y4,Z4;
+      ^
+../src/main.c:28:68: warning: variable 'valueZ4' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                                                    ^
+../src/main.c:28:58: warning: variable 'valueXY4' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                                          ^
+../src/main.c:28:50: warning: variable 'valueZ3' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                                  ^
+../src/main.c:28:40: warning: variable 'valueXY3' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                        ^
+../src/main.c:28:32: warning: variable 'valueZ2' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                                ^
+../src/main.c:28:22: warning: variable 'valueXY2' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+                      ^
+../src/main.c:28:15: warning: variable 'valueZ' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+               ^
+../src/main.c:28:6: warning: variable 'valueXY' set but not used [-Wunused-but-set-variable]
+  u32 valueXY, valueZ,valueXY2, valueZ2,valueXY3, valueZ3,valueXY4, valueZ4;
+      ^
+make: *** [src/main.o] Error 1
+15:07:29 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22568	   1152	  22564	  46284	   b4cc	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:07:33 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:09:21 **** Clean-only build of configuration Debug for project photoFilter ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  photoFilter.elf.size  photoFilter.elf
+' '
+15:09:22 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../photoFilter_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:09:47 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../photoFilter_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter_bsp\ps7_cortexa9_0\libsrc\standalone_v5_1\src/xil-crt0.S:128: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:17:49 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG2);
+  ^
+In file included from ../src/main.c:2:0:
+../src/main.c:35:29: error: 'MYCORDIC_BASE' undeclared (first use in this function)
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG2);
+                             ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:15: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+               ^
+../src/main.c:35:29: note: each undeclared identifier is reported only once for each function it appears in
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG2);
+                             ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:15: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+               ^
+../src/main.c:35:43: error: 'SLV_REG2' undeclared (first use in this function)
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG2);
+                                           ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:31: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+                               ^
+../src/main.c:40:1: error: expected expression before '/' token
+ /
+ ^
+../src/main.c:28:6: warning: variable 'RGB' set but not used [-Wunused-but-set-variable]
+  u32 RGB;
+      ^
+../src/main.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+15:17:57 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG1);
+  ^
+In file included from ../src/main.c:2:0:
+../src/main.c:35:29: error: 'MYCORDIC_BASE' undeclared (first use in this function)
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG1);
+                             ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:15: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+               ^
+../src/main.c:35:29: note: each undeclared identifier is reported only once for each function it appears in
+  RGB = MYGRAYSCALE_mReadReg(MYCORDIC_BASE,SLV_REG1);
+                             ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:15: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+               ^
+../src/main.c:40:1: error: expected expression before '/' token
+ /
+ ^
+../src/main.c:28:6: warning: variable 'RGB' set but not used [-Wunused-but-set-variable]
+  u32 RGB;
+      ^
+../src/main.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+15:18:20 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+In file included from ../src/main.c:2:0:
+../src/main.c:37:24: error: 'MYCORDIC_BASE' undeclared (first use in this function)
+  MYGRAYSCALE_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+                        ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:15: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/main.c:37:24: note: each undeclared identifier is reported only once for each function it appears in
+  MYGRAYSCALE_mWriteReg(MYCORDIC_BASE,SLV_REG1,0x00000000); //Clear the register
+                        ^
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:15: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/main.c:40:1: error: expected expression before '/' token
+ /
+ ^
+../src/main.c:28:6: warning: variable 'RGB' set but not used [-Wunused-but-set-variable]
+  u32 RGB;
+      ^
+../src/main.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+15:18:28 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+../src/main.c:40:1: error: expected expression before '/' token
+ /
+ ^
+../src/main.c:28:6: warning: variable 'RGB' set but not used [-Wunused-but-set-variable]
+  u32 RGB;
+      ^
+../src/main.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+15:19:44 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+../src/main.c:28:6: warning: variable 'RGB' set but not used [-Wunused-but-set-variable]
+  u32 RGB;
+      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22624	   1152	  22564	  46340	   b504	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:19:50 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:20:38 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:22:39 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25128	   1152	  22564	  48844	   becc	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:22:41 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:24:09 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25128	   1152	  22564	  48844	   becc	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:25:43 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:26:25 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:28:37 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF154807); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25128	   1152	  22564	  48844	   becc	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:29:17 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+../src/main.c:28:10: warning: variable 'LUMA' set but not used [-Wunused-but-set-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	   1152	  22564	  48908	   bf0c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:29:33 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25208	   1152	  22564	  48924	   bf1c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:30:04 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:31:13 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25208	   1152	  22564	  48924	   bf1c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:31:15 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:31:43 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:33:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,0xFF640000); //Clear the register
+  ^
+../src/main.c:35:2: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+  RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25208	   1152	  22564	  48924	   bf1c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+15:32:08 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+15:42:59 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:21: fatal error: xintc_I.h: No such file or directory
+ #include "xintc_I.h"
+                     ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:43:13 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:21: fatal error: xintc_l.h: No such file or directory
+ #include "xintc_l.h"
+                     ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:43:16 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:21: fatal error: xintc_l.h: No such file or directory
+ #include "xintc_l.h"
+                     ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:43:30 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:43:32 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:44:29 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:46:22 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:46:50 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:27:2: warning: implicit declaration of function 'XUartLite_RecvByte' [-Wimplicit-function-declaration]
+  inp=XUartLite_RecvByte(XPAR_PS7_UART_1_BASEADDR);
+  ^
+../src/main.c:37:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter\Debug/../src/main.c:27: undefined reference to `XUartLite_RecvByte'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:46:52 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter\Debug/../src/main.c:27: undefined reference to `XUartLite_RecvByte'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+15:47:44 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:25: fatal error: xuartlite_i.h: No such file or directory
+ #include "xuartlite_i.h"
+                         ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+15:47:48 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:25: fatal error: xuartlite_i.h: No such file or directory
+ #include "xuartlite_i.h"
+                         ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+16:01:19 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:27:2: warning: implicit declaration of function 'XUartLite_RecvByte' [-Wimplicit-function-declaration]
+  inp=XUartLite_RecvByte(XPAR_PS7_UART_1_BASEADDR);
+  ^
+../src/main.c:37:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\photoFilter\Debug/../src/main.c:27: undefined reference to `XUartLite_RecvByte'
+collect2.exe: error: ld returned 1 exit status
+make: *** [photoFilter.elf] Error 1
+16:02:24 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:27:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+  inp=scanf("%x",inp);
+  ^
+../src/main.c:27:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+../src/main.c:27:6: warning: 'inp' is used uninitialized in this function [-Wuninitialized]
+  inp=scanf("%x",inp);
+      ^
+../src/main.c:37:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78352	   2320	  22636	 103308	  1938c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+16:02:32 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:27:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%x",inp);
+  ^
+../src/main.c:27:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+../src/main.c:27:2: warning: 'inp' is used uninitialized in this function [-Wuninitialized]
+../src/main.c:37:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78352	   2320	  22636	 103308	  1938c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+16:02:37 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:02:46 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:11:21 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%x",inp);
+  ^
+../src/main.c:28:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+../src/main.c:28:2: warning: 'inp' is used uninitialized in this function [-Wuninitialized]
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  94784	   2324	  22636	 119744	  1d3c0	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+16:11:39 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:12:32 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:12:53 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:13:48 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%x",inp);
+  ^
+../src/main.c:28:2: warning: format '%x' expects argument of type 'unsigned int *', but argument 2 has type 'int' [-Wformat=]
+../src/main.c:28:2: warning: 'inp' is used uninitialized in this function [-Wuninitialized]
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78368	   2320	  22636	 103324	  1939c	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+16:13:53 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:14:06 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:14:25 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:15:24 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:26:40 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:27:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+In file included from ../src/main.c:2:0:
+../../photoFilter_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:4: warning: 'inp' is used uninitialized in this function [-Wuninitialized]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+../src/main.c:24:16: note: 'inp' was declared here
+  unsigned char inp;
+                ^
+../src/main.c:37:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25128	   1152	  22564	  48844	   becc	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+17:26:53 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:27:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:37:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25128	   1152	  22564	  48844	   becc	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+17:27:36 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:27:57 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: error: expected ';' before 'inp'
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+make: *** [src/main.o] Error 1
+17:28:00 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: error: expected ';' before 'inp'
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+make: *** [src/main.o] Error 1
+17:28:03 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: error: expected ';' before 'inp'
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+make: *** [src/main.o] Error 1
+17:28:08 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1152	  22564	  48920	   bf18	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+17:28:09 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:28:12 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:29:01 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:30:04 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:31:06 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+17:31:38 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+make: Nothing to be done for `all'.
+18:06:55 **** Auto Build of project photoFilter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+18:07:22 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1152	  22564	  48920	   bf18	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+18:14:56 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:14:57 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:15:12 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:25: fatal error: gpio_header.h: No such file or directory
+ #include "gpio_header.h"
+                         ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:15:13 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:25: fatal error: gpio_header.h: No such file or directory
+ #include "gpio_header.h"
+                         ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:15:22 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:15:23 **** Incremental Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:15:30 **** Auto Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1152	  22564	  48920	   bf18	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+18:21:30 **** Clean-only build of project photoFilter_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+18:21:31 **** Clean-only build of configuration Debug for project photoFilter ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  photoFilter.elf.size  photoFilter.elf
+' '
+18:21:32 **** Build of project photoFilter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+18:21:57 **** Build of configuration Debug for project photoFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../photoFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: photoFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../photoFilter_bsp/ps7_cortexa9_0/lib -o "photoFilter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: photoFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size photoFilter.elf  |tee "photoFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1152	  22564	  48920	   bf18	photoFilter.elf
+'Finished building: photoFilter.elf.size'
+' '
+18:31:46 **** Build of project filter2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+18:32:10 **** Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:35:36 **** Clean-only build of configuration Debug for project filter2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  filter2.elf.size  filter2.elf
+' '
+18:35:36 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:38:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1152	  22564	  48920	   bf18	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:39:46 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:22: fatal error: uartlite.h: No such file or directory
+ #include "uartlite.h"
+                      ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:39:47 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:7:22: fatal error: uartlite.h: No such file or directory
+ #include "uartlite.h"
+                      ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+18:39:57 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:29:2: warning: implicit declaration of function 'XUartPs_RecvByte' [-Wimplicit-function-declaration]
+  inp = XUartPs_RecvByte(MYGRAYSCALE_BASE);
+  ^
+../src/main.c:39:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25204	   1152	  22564	  48920	   bf18	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:39:58 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:44:32 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:29:24: error: 'UartLite' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE)
+                        ^
+../src/main.c:29:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:29:34: error: 'RecvBuffer' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE)
+                                  ^
+../src/main.c:29:46: error: 'RECIEVE' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE)
+                                              ^
+In file included from ../src/main.c:2:0:
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:4: error: expected ';' before 'Xil_Out32'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+../src/main.c:31:2: note: in expansion of macro 'MYGRAYSCALE_mWriteReg'
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp); //Clear the register
+  ^
+../src/main.c:25:16: warning: variable 'inp' set but not used [-Wunused-but-set-variable]
+  unsigned char inp;
+                ^
+make: *** [src/main.o] Error 1
+18:45:35 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:30:24: error: 'UartLite' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE)
+                        ^
+../src/main.c:30:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:30:34: error: 'RecvBuffer' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE)
+                                  ^
+In file included from ../src/main.c:2:0:
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:4: error: expected ';' before 'Xil_Out32'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+../src/main.c:32:2: note: in expansion of macro 'MYGRAYSCALE_mWriteReg'
+  MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp); //Clear the register
+  ^
+../src/main.c:25:16: warning: variable 'inp' set but not used [-Wunused-but-set-variable]
+  unsigned char inp;
+                ^
+make: *** [src/main.o] Error 1
+18:45:40 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:30:24: error: 'UartLite' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE);
+                        ^
+../src/main.c:30:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:30:34: error: 'RecvBuffer' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE);
+                                  ^
+make: *** [src/main.o] Error 1
+18:45:41 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:30:24: error: 'UartLite' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE);
+                        ^
+../src/main.c:30:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:30:34: error: 'RecvBuffer' undeclared (first use in this function)
+  inp = XUartLite_Recv(&UartLite, RecvBuffer, RECIEVE);
+                                  ^
+make: *** [src/main.o] Error 1
+18:58:52 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:30:8: warning: passing argument 1 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'struct XUartLite *' but argument is of type 'int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:30:8: warning: passing argument 2 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'u8 *' but argument is of type 'unsigned int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:30:8: warning: 'RECIEVE' is used uninitialized in this function [-Wuninitialized]
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+../src/main.c:40:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27028	   1152	  22580	  50760	   c648	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:58:56 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:59:19 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+19:00:24 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+19:01:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:30:8: warning: passing argument 1 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'struct XUartLite *' but argument is of type 'int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:30:8: warning: passing argument 2 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'u8 *' but argument is of type 'unsigned int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:30:8: warning: 'RECIEVE' is used uninitialized in this function [-Wuninitialized]
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+../src/main.c:41:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27040	   1152	  22580	  50772	   c654	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+19:01:46 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+19:04:05 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:22:39 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:17:1: warning: data definition has no type or storage class
+ photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+ ^
+../src/main.c:17:1: warning: type defaults to 'int' in declaration of 'photo' [-Wimplicit-int]
+../src/main.c: In function 'main':
+../src/main.c:652:8: warning: passing argument 1 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'struct XUartLite *' but argument is of type 'int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:652:8: warning: passing argument 2 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'u8 *' but argument is of type 'unsigned int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:652:8: warning: 'RECIEVE' is used uninitialized in this function [-Wuninitialized]
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+../src/main.c:663:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27040	  41152	  22580	  90772	  16294	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:22:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:652:8: warning: passing argument 1 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'struct XUartLite *' but argument is of type 'int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:652:8: warning: passing argument 2 of 'XUartLite_Recv' makes pointer from integer without a cast
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+In file included from ../src/main.c:7:0:
+../../filter2_bsp/ps7_cortexa9_0/include/xuartlite.h:244:14: note: expected 'u8 *' but argument is of type 'unsigned int'
+ unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^
+../src/main.c:652:8: warning: 'RECIEVE' is used uninitialized in this function [-Wuninitialized]
+  inp = XUartLite_Recv(XPAR_UARTLITE_0_BASEADDR, RECIEVE, 8);
+        ^
+../src/main.c:663:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27040	  41152	  22580	  90772	  16294	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:25:17 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:656:6: error: 'i' undeclared (first use in this function)
+  for(i=0;i<PHOTOLENGTH;i++){
+      ^
+../src/main.c:656:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:648:15: warning: unused variable 'RECIEVE' [-Wunused-variable]
+  unsigned int RECIEVE,PHOTOLENGTH;
+               ^
+make: *** [src/main.o] Error 1
+14:25:30 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:2:0:
+../src/main.c: In function 'main':
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:4: warning: 'inp' is used uninitialized in this function [-Wuninitialized]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+../src/main.c:647:16: note: 'inp' was declared here
+  unsigned char inp;
+                ^
+../src/main.c:668:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25216	  41152	  22564	  88932	  15b64	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:28:03 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:671:2: warning: 'LUMA' is used uninitialized in this function [-Wuninitialized]
+  xil_printf("LUMA = %08X \r\n", LUMA);
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25280	  41152	  22564	  88996	  15ba4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:28:49 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:6: error: conflicting types for 'RGB'
+  int RGB,Rp,Gp,Bp;
+      ^
+../src/main.c:646:6: note: previous declaration of 'RGB' was here
+  u32 RGB,LUMA;
+      ^
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+make: *** [src/main.o] Error 1
+14:29:12 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25264	  41152	  22564	  88980	  15b94	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:30:07 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	  41152	  22564	  88984	  15b98	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:30:09 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:31:08 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	  41152	  22564	  88984	  15b98	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:31:57 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:32:48 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	  41152	  22564	  88984	  15b98	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:33:26 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:33:27 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:34:25 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	  41152	  22564	  88984	  15b98	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:34:27 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:35:16 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	  41152	  22564	  88984	  15b98	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:35:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25268	  41152	  22564	  88984	  15b98	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:35:52 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:36:34 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:12: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+            ^
+../src/main.c:649:9: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+         ^
+../src/main.c:649:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+      ^
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	  41152	  22564	  88908	  15b4c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:36:47 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:12: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+            ^
+../src/main.c:649:9: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+         ^
+../src/main.c:649:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+      ^
+../src/main.c:646:10: warning: unused variable 'LUMA' [-Wunused-variable]
+  u32 RGB,LUMA;
+          ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	  41152	  22564	  88908	  15b4c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:36:54 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:12: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+            ^
+../src/main.c:649:9: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+         ^
+../src/main.c:649:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	  41152	  22564	  88908	  15b4c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:37:01 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:39:16 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:42:18 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:12: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+            ^
+../src/main.c:649:9: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+         ^
+../src/main.c:649:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	  41152	  22564	  88908	  15b4c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:42:48 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:12: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+            ^
+../src/main.c:649:9: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+         ^
+../src/main.c:649:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  int Rp,Gp,Bp;
+      ^
+../src/main.c:648:29: warning: variable 'pixel' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOLENGTH,pixel;
+                             ^
+In file included from ../src/main.c:2:0:
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:4: warning: 'inp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+../src/main.c:647:6: note: 'inp' was declared here
+  u32 inp;
+      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25192	  41152	  22564	  88908	  15b4c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:43:22 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	  41152	  22564	  88972	  15b8c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:43:24 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:43:28 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+14:46:08 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	  41152	  22564	  88972	  15b8c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+14:58:41 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:12: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp;
+            ^
+../src/main.c:649:9: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp;
+         ^
+../src/main.c:649:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp;
+      ^
+../src/main.c:648:29: warning: variable 'pixel' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOLENGTH,pixel;
+                             ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	  41152	  22564	  88972	  15b8c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:05:20 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:655:2: error: 'PER' undeclared (first use in this function)
+  PER = (Rp<<16 & 0x00FF0000) + (Gp<<8 & 0x0000FF00) + (Bp & 0x000000FF);
+  ^
+../src/main.c:655:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:648:29: warning: variable 'pixel' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOLENGTH,pixel;
+                             ^
+make: *** [src/main.o] Error 1
+15:05:34 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:15: warning: variable 'PER' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp,PER;
+               ^
+../src/main.c:648:29: warning: variable 'pixel' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOLENGTH,pixel;
+                             ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	  41152	  22564	  88972	  15b8c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:06:19 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:15: warning: variable 'PER' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp,PER;
+               ^
+../src/main.c:648:29: warning: variable 'pixel' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOLENGTH,pixel;
+                             ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	  41152	  22564	  88972	  15b8c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:06:24 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:06:35 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:15: warning: variable 'PER' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp,PER;
+               ^
+../src/main.c:648:29: warning: variable 'pixel' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOLENGTH,pixel;
+                             ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25256	  41152	  22564	  88972	  15b8c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:07:30 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25320	  41152	  22564	  89036	  15bcc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:07:35 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:17:11 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:17:49 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25240	  41152	  22564	  88956	  15b7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:18:05 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:18:51 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:19:00 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:19:25 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:19:27 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:19:34 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:19:47 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25240	  41152	  22564	  88956	  15b7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:20:00 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:20:02 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:20:16 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:20:18 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:20:24 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:20:42 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:21:11 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:21:20 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:22:51 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:23:16 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:24:20 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:24:55 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:25:19 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:25:21 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:26:09 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:26:36 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:27:13 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:27:24 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:27:32 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:28:10 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25232	  41152	  22564	  88948	  15b74	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:28:14 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:28:29 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25232	  41152	  22564	  88948	  15b74	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:28:31 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:28:50 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:29:38 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25232	  41152	  22564	  88948	  15b74	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:29:39 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:29:49 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:30:34 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:30:47 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:32:01 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:32:03 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:32:06 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:36:29 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:36:32 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:36:52 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:37:20 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:37:22 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:37:23 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:38:04 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:38:07 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:38:28 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:39:02 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:39:08 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:44:48 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:44:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:51: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                                   ^
+../src/main.c:648:38: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                      ^
+../src/main.c:648:17: warning: variable 'PHOTOPIXLENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,PHOTOPIXLENGTH,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:45:13 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:45:20 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:45:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:45:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:659:12: error: expected expression before '<' token
+  for(i=0;i=<1;i++){
+            ^
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+make: *** [src/main.o] Error 1
+15:45:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:45:59 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:46:22 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:46:26 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:46:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:46:46 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:47:09 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:47:10 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:47:11 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:47:30 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+15:47:32 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+15:47:34 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.

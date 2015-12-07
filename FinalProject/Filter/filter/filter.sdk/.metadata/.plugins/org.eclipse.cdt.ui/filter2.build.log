@@ -1,0 +1,6 @@
+15:47:34 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+
+15:47:35 Build Finished (took 195ms)
+
