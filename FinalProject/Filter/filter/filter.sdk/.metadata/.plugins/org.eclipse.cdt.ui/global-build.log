@@ -3334,3 +3334,2705 @@ make: Nothing to be done for `all'.
 15:47:34 **** Incremental Build of configuration Debug for project filter2 ****
 make all 
 make: Nothing to be done for `all'.
+16:57:34 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:57:50 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:58:17 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:58:50 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:59:13 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:00:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:6: warning: variable 'output' set but not used [-Wunused-but-set-variable]
+  u16 output = 0;
+      ^
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:01:02 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:01:05 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:01:30 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:01:33 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:02:03 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:02:07 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:02:23 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:02:30 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:02:32 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:03:01 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:03:03 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:03:23 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:03:25 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:04:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:04:59 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:05:25 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:05:59 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:06:02 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:06:19 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:06:24 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:06:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:06:52 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:07:21 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:07:26 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:07:47 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:07:55 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:09:19 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:09:43 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:13 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:10:20 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:10:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:10:47 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:11:04 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:11:12 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:11:53 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:11:57 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:13:37 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25424	  41152	  22564	  89140	  15c34	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:13:43 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:14:21 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:14:28 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:14:30 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:15:09 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:15:27 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:18:42 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:666:3: warning: right shift count >= width of type
+   output = RGB>>32 & 0x0000FFFF;
+   ^
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:18:47 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:19:22 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:19:25 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:19:28 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:19:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:19:54 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:20:10 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:20:12 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:20:42 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:20:48 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:683:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:21:04 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:684:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:21:06 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:21:20 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:684:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:21:24 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:22:17 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:29:54 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:35:08 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:654:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Rp'
+  Rp = 100;
+  ^
+../src/main.c:670:7: error: 'Delay' undeclared (first use in this function)
+   for(Delay = 0; Delay < LED_DELAY; Delay++);
+       ^
+../src/main.c:670:7: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+17:35:21 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:35:31 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:35:32 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:36:08 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:37:00 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:37:24 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:37:29 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:37:51 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:37:54 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:38:40 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:38:41 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:45:42 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:04 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:652:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:685:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+17:48:11 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:648:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:648:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:684:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:11:12 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:685:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:12:39 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:13:02 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:13:23 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:13:35 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:13:54 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:13:56 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:14:09 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:14:18 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:14:48 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:15:11 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:15:13 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:15:49 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:15:53 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:17:40 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:687:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:17:45 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:18:23 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:18:27 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:18:28 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:19:10 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:19:12 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:21:20 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:21:26 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:22:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:22:57 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:27:19 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:27:43 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:27:46 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:28:07 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:28:09 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:28:32 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:28:36 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:28:59 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:29:02 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:29:39 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:29:43 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:30:36 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:30:39 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:30:55 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:31:16 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:31:22 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:31:46 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:686:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:31:50 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:32:15 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:651:6: warning: unused variable 'output' [-Wunused-variable]
+  u16 output = 0;
+      ^
+../src/main.c:650:15: warning: variable 'PER' set but not used [-Wunused-but-set-variable]
+  u32 Rp,Gp,Bp,PER = 0;
+               ^
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:649:17: warning: unused variable 'pixel' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                 ^
+../src/main.c:649:15: warning: unused variable 'i' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+               ^
+../src/main.c:648:6: warning: unused variable 'inp' [-Wunused-variable]
+  u32 inp = 0;
+      ^
+../src/main.c:647:6: warning: unused variable 'RGB' [-Wunused-variable]
+  u32 RGB = 0;
+      ^
+../src/main.c:687:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22676	  41152	  22564	  86392	  15178	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:32:32 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:32:37 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:32:40 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:32:59 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:33:02 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:33:42 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:33:44 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:34:07 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:34:10 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:34:28 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:34:31 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:34:55 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:34:59 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:35:26 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:35:29 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:36:14 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:36:17 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:13 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:37:16 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:57 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:38:00 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:38:45 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:38:47 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:39:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:39:52 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:42:23 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:42:25 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:44:43 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:649:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:649:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:700:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:44:45 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:45:09 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:45:38 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:48:22 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:702:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:48:33 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:48:54 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:702:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	  41152	  22564	  89076	  15bf4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:48:57 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:49:25 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:704:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	  41152	  22564	  89076	  15bf4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:49:27 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:50:31 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:704:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25304	  41152	  22564	  89020	  15bbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:50:35 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:51:47 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:704:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	  41152	  22564	  89016	  15bb8	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:51:48 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:52:33 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:704:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25300	  41152	  22564	  89016	  15bb8	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:52:38 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:53:58 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:704:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:54:04 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:55:34 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+18:56:40 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:703:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+18:57:08 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+19:02:14 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:676:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+19:02:29 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.

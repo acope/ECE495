@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 24 17:10:13 2015
+# Process ID: 14484
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V3/hw4_v2/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V3/hw4_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V3/hw4_v2/hw4_v2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/mr_co_000/Desktop/hw4_v2/hw4_v2' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb_text.vhd', nor could it be found using path 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb_text.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/mr_co_000/Documents/GitHub/ECE495/Homework/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb.vhd', nor could it be found using path 'C:/Users/mr_co_000/Desktop/Homework4_V2/Homework4_V2/homework4_v2/homework4_v2.srcs/sim_1/new/pipe_tb.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 737.273 ; gain = 173.031
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 24 17:11:31 2015...

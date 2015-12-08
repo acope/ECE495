@@ -89,6 +89,7 @@ architecture arch_imp of myGrayscale_v1_0_S00_AXI is
      Generic(P : integer:=8);
       Port (slv_reg0 : in std_logic_vector(31 downto 0);
             slv_reg1 : out std_logic_vector(31 downto 0);
+            slv_reg2 : in std_logic_vector(31 downto 0);
             S_AXI_ARESETN  : in std_logic;
             S_AXI_ACLK : in std_logic;
             slv_reg_wren : in std_logic);
@@ -219,7 +220,7 @@ begin
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0 <= (others => '0');
 --	      slv_reg1 <= (others => '0');
---	      slv_reg2 <= (others => '0');
+	      slv_reg2 <= (others => '0');
 --	      slv_reg3 <= (others => '0');
 	    else
 	      loc_addr := axi_awaddr(ADDR_LSB + OPT_MEM_ADDR_BITS downto ADDR_LSB);
@@ -241,14 +242,14 @@ begin
 --	                slv_reg1(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
 --	              end if;
 --	            end loop;
---	          when b"10" =>
---	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
---	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
---	                -- Respective byte enables are asserted as per write strobes                   
---	                -- slave registor 2
---	                slv_reg2(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
---	              end if;
---	            end loop;
+	          when b"10" =>
+	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
+	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
+	                -- Respective byte enables are asserted as per write strobes                   
+	                -- slave registor 2
+	                slv_reg2(byte_index*8+7 downto byte_index*8) <= S_AXI_WDATA(byte_index*8+7 downto byte_index*8);
+	              end if;
+	            end loop;
 --	          when b"11" =>
 --	            for byte_index in 0 to (C_S_AXI_DATA_WIDTH/8-1) loop
 --	              if ( S_AXI_WSTRB(byte_index) = '1' ) then
@@ -260,7 +261,7 @@ begin
 	          when others =>
 	            slv_reg0 <= slv_reg0;
 --	            slv_reg1 <= slv_reg1;
---	            slv_reg2 <= slv_reg2;
+	            slv_reg2 <= slv_reg2;
 --	            slv_reg3 <= slv_reg3;
 	        end case;
 	      end if;
@@ -390,7 +391,9 @@ begin
 	-- Add user logic here
  Grayscale_AXI: Grayscale_AXI_Top
     Generic map(P => P)
-      Port map(slv_reg0 => slv_reg0, slv_reg1 => slv_reg1, S_AXI_ARESETN => S_AXI_ARESETN, slv_reg_wren => slv_reg_wren, S_AXI_ACLK => S_AXI_ACLK);
+      Port map(slv_reg0 => slv_reg0, slv_reg2 => slv_reg2, slv_reg1 => slv_reg1, S_AXI_ARESETN => S_AXI_ARESETN, slv_reg_wren => slv_reg_wren, S_AXI_ACLK => S_AXI_ACLK);
+	
+
 	-- User logic ends
 
 end arch_imp;

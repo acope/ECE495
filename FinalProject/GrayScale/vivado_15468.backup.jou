@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 07 15:12:30 2015
+# Process ID: 8572
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/vivado.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.xpr
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscaletop.tcl
+save_wave_config {C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg}
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscaletop.tcl
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new/tb_grayscale_textfile.vhd w ]
+add_files -fileset sim_1 C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/GrayScale.srcs/sim_1/new/tb_grayscale_textfile.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_grayscale_textfile [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale_textfile.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale_textfile.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale_textfile.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/GrayScale/tb_my_mult_behav.wcfg
+source tb_grayscale_textfile.tcl
+close_sim

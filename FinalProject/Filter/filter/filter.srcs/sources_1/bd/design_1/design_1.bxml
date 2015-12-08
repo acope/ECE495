@@ -36,14 +36,6 @@
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip\design_1_myGrayscale_0_1\design_1_myGrayscale_0_1.xci" Type="IP">
-        <Instance HierarchyPath="myGrayscale_0"/>
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
       <File Name="ip\design_1_xbar_0\design_1_xbar_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0_axi_periph/xbar"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
@@ -54,6 +46,14 @@
       </File>
       <File Name="ip\design_1_axi_uartlite_0_0\design_1_axi_uartlite_0_0.xci" Type="IP">
         <Instance HierarchyPath="axi_uartlite_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\design_1_myGrayscale_0_0\design_1_myGrayscale_0_0.xci" Type="IP">
+        <Instance HierarchyPath="myGrayscale_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>

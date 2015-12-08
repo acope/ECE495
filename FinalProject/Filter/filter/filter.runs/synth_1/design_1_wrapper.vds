@@ -2,8 +2,8 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Sun Dec 06 18:16:49 2015
-# Process ID: 2412
+# Start of session at: Mon Dec 07 18:04:14 2015
+# Process ID: 17664
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/synth_1/design_1_wrapper.vds
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -11,12 +11,13 @@ source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 249.148 ; gain = 57.195
 Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 297.715 ; gain = 120.328
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 298.285 ; gain = 120.539
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:42]
 INFO: [Synth 8-3491] module 'design_1' declared at 'C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1113' bound to instance 'design_1_i' of component 'design_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:71]
@@ -174,11 +175,11 @@ INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (13#1) [c:/Users
 INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (14#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/axi_lite_ipif_v3_0/876b8fe4/hdl/src/vhdl/axi_lite_ipif.vhd:249]
 INFO: [Synth 8-256] done synthesizing module 'axi_uartlite' (15#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/axi_uartlite_v2_0/a3d1bdff/hdl/src/vhdl/axi_uartlite.vhd:220]
 INFO: [Synth 8-256] done synthesizing module 'design_1_axi_uartlite_0_0' (16#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/synth/design_1_axi_uartlite_0_0.vhd:86]
-INFO: [Synth 8-3491] module 'design_1_myGrayscale_0_1' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_1/synth/design_1_myGrayscale_0_1.vhd:56' bound to instance 'myGrayscale_0' of component 'design_1_myGrayscale_0_1' [C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1456]
-INFO: [Synth 8-638] synthesizing module 'design_1_myGrayscale_0_1' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_1/synth/design_1_myGrayscale_0_1.vhd:82]
+INFO: [Synth 8-3491] module 'design_1_myGrayscale_0_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_0/synth/design_1_myGrayscale_0_0.vhd:56' bound to instance 'myGrayscale_0' of component 'design_1_myGrayscale_0_0' [C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1456]
+INFO: [Synth 8-638] synthesizing module 'design_1_myGrayscale_0_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_0/synth/design_1_myGrayscale_0_0.vhd:82]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'myGrayscale_v1_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0.vhd:5' bound to instance 'U0' of component 'myGrayscale_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_1/synth/design_1_myGrayscale_0_1.vhd:144]
+INFO: [Synth 8-3491] module 'myGrayscale_v1_0' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0.vhd:5' bound to instance 'U0' of component 'myGrayscale_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_0/synth/design_1_myGrayscale_0_0.vhd:144]
 INFO: [Synth 8-638] synthesizing module 'myGrayscale_v1_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0.vhd:49]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
@@ -190,11 +191,11 @@ INFO: [Synth 8-638] synthesizing module 'myGrayscale_v1_0_S00_AXI' [c:/Users/mr_
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter P bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'Grayscale_AXI_Top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:6' bound to instance 'Grayscale_AXI' of component 'Grayscale_AXI_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0_S00_AXI.vhd:391]
-INFO: [Synth 8-638] synthesizing module 'Grayscale_AXI_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:15]
+INFO: [Synth 8-3491] module 'Grayscale_AXI_Top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:6' bound to instance 'Grayscale_AXI' of component 'Grayscale_AXI_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0_S00_AXI.vhd:392]
+INFO: [Synth 8-638] synthesizing module 'Grayscale_AXI_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:16]
 	Parameter P bound to: 8 - type: integer 
 	Parameter P bound to: 8 - type: integer 
-INFO: [Synth 8-3491] module 'Grayscale_Top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_Top.vhd:5' bound to instance 'grayness' of component 'Grayscale_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:49]
+INFO: [Synth 8-3491] module 'Grayscale_Top' declared at 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_Top.vhd:5' bound to instance 'grayness' of component 'Grayscale_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:55]
 INFO: [Synth 8-638] synthesizing module 'Grayscale_Top' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_Top.vhd:14]
 	Parameter P bound to: 8 - type: integer 
 	Parameter P bound to: 8 - type: integer 
@@ -347,10 +348,10 @@ INFO: [Synth 8-256] done synthesizing module 'my_pashiftreg_sclr' (25#1) [c:/Use
 INFO: [Synth 8-256] done synthesizing module 'res_div_iter' (26#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/res_div_iter.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'Grayscale' (27#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale.vhd:15]
 INFO: [Synth 8-256] done synthesizing module 'Grayscale_Top' (28#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_Top.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'Grayscale_AXI_Top' (29#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Grayscale_AXI_Top' (29#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/src/Grayscale_AXI_Top.vhd:16]
 INFO: [Synth 8-256] done synthesizing module 'myGrayscale_v1_0_S00_AXI' (30#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0_S00_AXI.vhd:86]
 INFO: [Synth 8-256] done synthesizing module 'myGrayscale_v1_0' (31#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/mygrayscale_v1_0/1abda110/hdl/myGrayscale_v1_0.vhd:49]
-INFO: [Synth 8-256] done synthesizing module 'design_1_myGrayscale_0_1' (32#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_1/synth/design_1_myGrayscale_0_1.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'design_1_myGrayscale_0_0' (32#1) [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_myGrayscale_0_0/synth/design_1_myGrayscale_0_0.vhd:82]
 INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:57]
 INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:156]
 	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
@@ -1448,7 +1449,7 @@ INFO: [Synth 8-256] done synthesizing module 'design_1_rst_processing_system7_0_
 INFO: [Synth 8-256] done synthesizing module 'design_1' (75#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd:1145]
 INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (76#1) [C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:42]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 432.441 ; gain = 255.055
+Finished RTL Elaboration : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 433.133 ; gain = 255.387
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1458,7 +1459,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 432.441 ; gain = 255.055
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 433.133 ; gain = 255.387
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1492,16 +1493,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDR => FDRE: 18 instances
   SRL16 => SRL16E: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 656.621 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.031 . Memory (MB): peak = 656.863 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Constraint Validation : Time (s): cpu = 00:01:07 ; elapsed = 00:01:14 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:07 ; elapsed = 00:01:14 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -1517,7 +1518,7 @@ Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0_axi_p
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/rst_processing_system7_0_50M. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:15 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "EN_16x_Baud" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "fifo_full_p1" won't be mapped to RAM because it is too sparse
@@ -1541,7 +1542,7 @@ INFO: [Synth 8-5544] ROM "p_0_in1" won't be mapped to Block RAM because address 
 INFO: [Synth 8-4471] merging register 'gen_axilite.s_axi_wready_i_reg' into 'gen_axilite.s_axi_awready_i_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/axi_crossbar_v2_1/9368eebf/hdl/verilog/axi_crossbar_v2_1_decerr_slave.v:136]
 INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/proc_sys_reset_v5_0/066de7cd/hdl/src/vhdl/sequence.vhd:222]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:10 ; elapsed = 00:01:19 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1572,7 +1573,7 @@ Detailed RTL Component Info :
 	               64 Bit    Registers := 1     
 	               47 Bit    Registers := 2     
 	               36 Bit    Registers := 2     
-	               32 Bit    Registers := 3     
+	               32 Bit    Registers := 4     
 	               16 Bit    Registers := 2     
 	               14 Bit    Registers := 2     
 	               12 Bit    Registers := 7     
@@ -1583,13 +1584,14 @@ Detailed RTL Component Info :
 	                4 Bit    Registers := 10    
 	                3 Bit    Registers := 6     
 	                2 Bit    Registers := 20    
-	                1 Bit    Registers := 108   
+	                1 Bit    Registers := 106   
 +---Muxes : 
 	   2 Input     66 Bit        Muxes := 4     
 	   2 Input     64 Bit        Muxes := 1     
 	   2 Input     47 Bit        Muxes := 2     
 	   2 Input     36 Bit        Muxes := 2     
 	   2 Input     32 Bit        Muxes := 11    
+	   3 Input     32 Bit        Muxes := 2     
 	   2 Input     16 Bit        Muxes := 3     
 	   2 Input     14 Bit        Muxes := 2     
 	   2 Input     12 Bit        Muxes := 4     
@@ -1604,7 +1606,7 @@ Detailed RTL Component Info :
 	   5 Input      2 Bit        Muxes := 3     
 	   4 Input      2 Bit        Muxes := 2     
 	   6 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 112   
+	   2 Input      1 Bit        Muxes := 110   
 	   4 Input      1 Bit        Muxes := 10    
 	   5 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
@@ -1760,21 +1762,16 @@ Detailed RTL Component Info :
 	   4 Input      1 Bit        Muxes := 4     
 	   2 Input      1 Bit        Muxes := 1     
 	   5 Input      1 Bit        Muxes := 1     
-Module Grayscale_AXI_Top 
-Detailed RTL Component Info : 
-+---Registers : 
-	                1 Bit    Registers := 2     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 2     
 Module myGrayscale_v1_0_S00_AXI 
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 2     
+	               32 Bit    Registers := 3     
 	                4 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 5     
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 6     
 Module axi_register_slice_v2_1_axic_register_slice 
 Detailed RTL Component Info : 
@@ -2000,7 +1997,7 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 656.621 ; gain = 479.234
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:11 ; elapsed = 00:01:19 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -2008,9 +2005,9 @@ INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/ipshared/xilinx.com/axi_register_slice_v2_1/03a8e0ba/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:20 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Parallel Reinference  : Time (s): cpu = 00:01:12 ; elapsed = 00:01:20 . Memory (MB): peak = 656.863 ; gain = 479.117
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -2021,16 +2018,16 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Area Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:30 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:21 ; elapsed = 00:01:30 . Memory (MB): peak = 656.863 ; gain = 479.117
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 656.621 ; gain = 479.234
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:21 ; elapsed = 00:01:30 . Memory (MB): peak = 656.863 ; gain = 479.117
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -2038,10 +2035,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:37 . Memory (MB): peak = 791.539 ; gain = 614.152
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:45 . Memory (MB): peak = 791.813 ; gain = 614.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:01:38 . Memory (MB): peak = 808.535 ; gain = 631.148
+Finished Timing Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:01:45 . Memory (MB): peak = 807.859 ; gain = 630.113
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2060,43 +2057,74 @@ INFO: [Synth 8-3332] Sequential element (\UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO
 INFO: [Synth 8-3332] Sequential element (\UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO_RBU_F/overflow_i_reg ) is unused and will be removed from module axi_uartlite.
 INFO: [Synth 8-3332] Sequential element (\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] ) is unused and will be removed from module axi_uartlite.
 INFO: [Synth 8-3332] Sequential element (\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] ) is unused and will be removed from module axi_uartlite.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[7] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[2] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[22] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[21] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[20] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[19] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[18] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[17] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[16] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[15] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[14] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[13] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[12] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[11] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[10] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[9] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[8] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[7] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[6] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[5] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[2] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_1.
-INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_1.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[31] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[30] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[29] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[28] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[27] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[26] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[25] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[24] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[23] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[22] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[21] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[20] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[19] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[18] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[17] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[16] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[15] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[14] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[13] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[12] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[11] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[10] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[9] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[8] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[7] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[6] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[5] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[2] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/slv_reg2_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[7] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/divider/gB/Qt_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[2] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/Grayscale_AXI/grayness/daGray/addReg/Qt_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[22] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[21] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[20] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[19] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[18] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[17] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[16] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[15] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[14] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[13] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[12] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[11] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[10] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[9] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[8] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[7] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[6] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[5] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[4] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[3] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[2] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rdata_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module design_1_myGrayscale_0_0.
+INFO: [Synth 8-3332] Sequential element (\U0/myGrayscale_v1_0_S00_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module design_1_myGrayscale_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] ) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] ) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] ) is unused and will be removed from module design_1_auto_pc_0.
@@ -2121,15 +2149,9 @@ INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] ) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axlen_cnt_reg[8] ) is unused and will be removed from module design_1_auto_pc_0.
 INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/axlen_cnt_reg[4] ) is unused and will be removed from module design_1_auto_pc_0.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/incr_cmd_0/axlen_cnt_reg[8] ) is unused and will be removed from module design_1_auto_pc_0.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/axlen_cnt_reg[4] ) is unused and will be removed from module design_1_auto_pc_0.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_sasd.crossbar_sasd_0/reg_slice_r/skid_buffer_reg[35] ) is unused and will be removed from module design_1_xbar_0.
-INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
-INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
-INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
-INFO: [Synth 8-3332] Sequential element (\U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6 ) is unused and will be removed from module design_1_rst_processing_system7_0_50M_0.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:32 ; elapsed = 00:01:42 . Memory (MB): peak = 829.379 ; gain = 651.992
+Finished Technology Mapping : Time (s): cpu = 00:01:39 ; elapsed = 00:01:49 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2169,7 +2191,7 @@ INFO: [Synth 8-4618] Found max_fanout attribute set to 10 on net \inst/gen_axili
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:34 ; elapsed = 00:01:43 . Memory (MB): peak = 829.379 ; gain = 651.992
+Finished IO Insertion : Time (s): cpu = 00:01:41 ; elapsed = 00:01:51 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -2182,7 +2204,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:34 ; elapsed = 00:01:43 . Memory (MB): peak = 829.379 ; gain = 651.992
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:41 ; elapsed = 00:01:51 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2194,13 +2216,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:34 ; elapsed = 00:01:44 . Memory (MB): peak = 829.379 ; gain = 651.992
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:41 ; elapsed = 00:01:51 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:01:34 ; elapsed = 00:01:44 . Memory (MB): peak = 829.379 ; gain = 651.992
+Start Renaming Generated Ports : Time (s): cpu = 00:01:41 ; elapsed = 00:01:51 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:34 ; elapsed = 00:01:44 . Memory (MB): peak = 829.379 ; gain = 651.992
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:41 ; elapsed = 00:01:51 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -2253,8 +2275,8 @@ Report Cell Usage:
 |6     |LUT2    |    49|
 |7     |LUT3    |   305|
 |8     |LUT4    |   207|
-|9     |LUT5    |   172|
-|10    |LUT6    |   269|
+|9     |LUT5    |   173|
+|10    |LUT6    |   268|
 |11    |MUXCY_L |    22|
 |12    |MUXF7   |     1|
 |13    |PS7     |     1|
@@ -2263,9 +2285,9 @@ Report Cell Usage:
 |16    |SRLC32E |    47|
 |17    |VCC     |     1|
 |18    |XORCY   |    24|
-|19    |FDCE    |    48|
+|19    |FDCE    |    46|
 |20    |FDR     |    12|
-|21    |FDRE    |   836|
+|21    |FDRE    |   837|
 |22    |FDSE    |    83|
 |23    |IBUF    |     1|
 |24    |OBUF    |     1|
@@ -2275,8 +2297,8 @@ Report Instance Areas:
 +------+---------------------------------------------------+------------------------------------------------------------+------+
 |      |Instance                                           |Module                                                      |Cells |
 +------+---------------------------------------------------+------------------------------------------------------------+------+
-|1     |top                                                |                                                            |  2423|
-|2     |  design_1_i                                       |design_1                                                    |  2421|
+|1     |top                                                |                                                            |  2422|
+|2     |  design_1_i                                       |design_1                                                    |  2420|
 |3     |    axi_uartlite_0                                 |design_1_axi_uartlite_0_0                                   |   213|
 |4     |      U0                                           |axi_uartlite                                                |   213|
 |5     |        AXI_LITE_IPIF_I                            |axi_lite_ipif                                               |    64|
@@ -2297,10 +2319,10 @@ Report Instance Areas:
 |20    |              I_SRL_FIFO_RBU_F                     |srl_fifo_rbu_f                                              |    31|
 |21    |                CNTR_INCR_DECR_ADDN_F_I            |cntr_incr_decr_addn_f                                       |    19|
 |22    |                DYNSHREG_F_I                       |dynshreg_f                                                  |    11|
-|23    |    myGrayscale_0                                  |design_1_myGrayscale_0_1                                    |   279|
-|24    |      U0                                           |myGrayscale_v1_0                                            |   279|
-|25    |        myGrayscale_v1_0_S00_AXI_inst              |myGrayscale_v1_0_S00_AXI                                    |   279|
-|26    |          Grayscale_AXI                            |Grayscale_AXI_Top                                           |   184|
+|23    |    myGrayscale_0                                  |design_1_myGrayscale_0_0                                    |   278|
+|24    |      U0                                           |myGrayscale_v1_0                                            |   278|
+|25    |        myGrayscale_v1_0_S00_AXI_inst              |myGrayscale_v1_0_S00_AXI                                    |   278|
+|26    |          Grayscale_AXI                            |Grayscale_AXI_Top                                           |   180|
 |27    |            grayness                               |Grayscale_Top                                               |   180|
 |28    |              daGray                               |Grayscale                                                   |   180|
 |29    |                addReg                             |my_rege                                                     |    86|
@@ -2354,11 +2376,11 @@ Report Instance Areas:
 |77    |          SEQ_COUNTER                              |upcnt_n                                                     |    14|
 +------+---------------------------------------------------+------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:34 ; elapsed = 00:01:44 . Memory (MB): peak = 829.379 ; gain = 651.992
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:42 ; elapsed = 00:01:51 . Memory (MB): peak = 829.766 ; gain = 652.020
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:01:26 . Memory (MB): peak = 829.379 ; gain = 355.895
-Synthesis Optimization Complete : Time (s): cpu = 00:01:34 ; elapsed = 00:01:44 . Memory (MB): peak = 829.379 ; gain = 651.992
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:01:32 . Memory (MB): peak = 829.766 ; gain = 356.887
+Synthesis Optimization Complete : Time (s): cpu = 00:01:42 ; elapsed = 00:01:52 . Memory (MB): peak = 829.766 ; gain = 652.020
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 72 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -2371,8 +2393,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRL16 => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-477 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+502 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:31 ; elapsed = 00:01:38 . Memory (MB): peak = 829.379 ; gain = 580.074
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 829.379 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun Dec 06 18:18:37 2015...
+synth_design: Time (s): cpu = 00:01:38 ; elapsed = 00:01:46 . Memory (MB): peak = 829.766 ; gain = 580.617
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 829.766 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 07 18:06:10 2015...

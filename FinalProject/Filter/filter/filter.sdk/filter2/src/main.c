@@ -13,6 +13,7 @@
  //Already Defined in the mycordic.h file
 #define SLV_REG0 MYGRAYSCALE_S00_AXI_SLV_REG0_OFFSET
 #define SLV_REG1 MYGRAYSCALE_S00_AXI_SLV_REG1_OFFSET
+#define SLV_REG2 MYGRAYSCALE_S00_AXI_SLV_REG2_OFFSET
 
 unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
 
@@ -640,33 +641,36 @@ unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24
 
 		0xD6, 0xD6, 0x8D, 0xB1, 0xB1, 0xB2, 0xD6, 0xDA, 0xB1, 0xB1, 0xB1, 0x48, 0x8D, 0x8D, 0x6C, 0x6C};
 
+#define LED_DELAY 10000
 /* main function */
 int main(void){
-
+	volatile int Delay;
 	u32 RGB = 0;
 	u32 inp = 0;
 	unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
 	u32 Rp,Gp,Bp,PER = 0;
+	u16 output = 0;
 
-	Rp = 50;
-	Gp = 25;
-	Bp = 25;
+
+	Rp = 100;
+	Gp = 0;
+	Bp = 0;
 
 	PER = (Rp<<16 & 0x00FF0000) + (Gp<<8 & 0x0000FF00) + (Bp & 0x000000FF);
 
-	MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG1,0x00000000); //Clear the register
 
-	for(i=0;i<1;i++){
+	for(i=0;i<10000;i++){
 		pixel = photo[i];
 		inp = (pixel<<24 & 0xFF000000) + PER;
 
 		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
-		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG1,0x00000000); //Clear the register
+		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000001); //Start
+		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000000); //Clear the register
 		RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
-
-		xil_printf("%08X \r\n", RGB);
+		output = RGB>>24 & 0xFFFFFFFF;
+		xil_printf("%02X \r\n", output);
 	};
 
 
-	return 1;
+	//return 1;
 }

@@ -342,3 +342,1232 @@ selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK"
 // Tcl Message: launch_runs impl_1 
 // Tcl Message: [Mon Dec 07 16:01:34 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 16:01:34 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
 dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+// Elapsed time: 13 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Grayscale_AXI_Top.vhd", 595, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Grayscale_AXI_Top.vhd", 354, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+closeMainWindow("myGrayscale_v1_0_project - [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// ap:bI (cl:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // ap:bI (cl:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 72 MB. Current time: 12/7/15 4:02:56 PM EST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// cp:P (cl:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0'. 
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // cp:P (cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/myGrayscale_0 ; true ; design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk) ; design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk) ;  ;  ; myGrayscale_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1052, 68, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells myGrayscale_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1011, 65, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:myGrayscale:1.0 myGrayscale_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins myGrayscale_0/S00_AXI] 
+// Tcl Message: </myGrayscale_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1]", 0, true); // k:JTree (JViewport:JComponent, cl:JFrame) - Node
+selectTab((HResource) null, (HResource) null, "Design", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:ag (cl:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:ag)
+dismissDialog("Create HDL Wrapper"); // a:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 551 MB. GUI used memory: 70 MB. Current time: 12/7/15 4:03:53 PM EST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// [Engine Memory]: 559 MB (+23502kb) [03:59:16]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 976.199 ; gain = 84.734 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Elapsed time: 15 seconds
+dismissDialog("Create HDL Wrapper"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 69 MB. Current time: 12/7/15 4:33:53 PM EST
+// Elapsed time: 3177 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 66 MB. Current time: 12/7/15 5:03:54 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 63 MB. Current time: 12/7/15 5:33:54 PM EST
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// Elapsed time: 3110 seconds
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1041, 63, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name myGrayscale_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.tmp/myGrayscale_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.586 ; gain = 13.824 
+// 'i' command handler elapsed time: 12 seconds
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd), myGrayscale_v1_0_S00_AXI_inst - myGrayscale_v1_0_S00_AXI - arch_imp (myGrayscale_v1_0_S00_AXI.vhd), Grayscale_AXI - Grayscale_AXI_Top - Behavioral (Grayscale_AXI_Top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd), myGrayscale_v1_0_S00_AXI_inst - myGrayscale_v1_0_S00_AXI - arch_imp (myGrayscale_v1_0_S00_AXI.vhd), Grayscale_AXI - Grayscale_AXI_Top - Behavioral (Grayscale_AXI_Top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("Grayscale_AXI_Top.vhd", 160, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 302, 474); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 170, 518); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 896, 520); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Grayscale_AXI_Top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 928, 517); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Grayscale_AXI_Top.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 169, 517); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Grayscale_AXI_Top.vhd", 401, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("Grayscale_AXI_Top.vhd", 165, 529); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 170, 524); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 170, 524, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd), myGrayscale_v1_0_S00_AXI_inst - myGrayscale_v1_0_S00_AXI - arch_imp (myGrayscale_v1_0_S00_AXI.vhd)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd), myGrayscale_v1_0_S00_AXI_inst - myGrayscale_v1_0_S00_AXI - arch_imp (myGrayscale_v1_0_S00_AXI.vhd)]", 2, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 19 seconds
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 111, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 96, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 262, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 272, 277); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 406, 499); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Grayscale_AXI_Top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 218, 519); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 127, 165); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 405, 500); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 376, 512); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 398, 496); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 406, 501); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 414, 498); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 551, 503); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Mon Dec 07 17:53:19 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 17:53:19 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2032] formal slv_reg2 is not declared [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/ip_repo/mygrayscale_1.0/hdl/myGrayscale_v1_0_S00_AXI.vhd:393]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\mr_co_000\documents\github\ece495\finalproject\filter\ip_repo\mygrayscale_1.0\hdl\myGrayscale_v1_0_S00_AXI.vhd;-;;-;16;-;line;-;393;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2032] formal slv_reg2 is not declared [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/ip_repo/mygrayscale_1.0/hdl/myGrayscale_v1_0_S00_AXI.vhd:393]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\mr_co_000\documents\github\ece495\finalproject\filter\ip_repo\mygrayscale_1.0\hdl\myGrayscale_v1_0_S00_AXI.vhd;-;;-;16;-;line;-;393;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Grayscale_AXI_Top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Grayscale_AXI_Top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 557, 500); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 260, 499); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 266, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 402, 503); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 404, 501); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 405, 499); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Mon Dec 07 17:54:36 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 17:54:36 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 290, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 290, 505, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 289, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Mon Dec 07 17:55:13 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 17:55:13 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2032] formal slv_reg2 is not declared [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/ip_repo/mygrayscale_1.0/hdl/myGrayscale_v1_0_S00_AXI.vhd:393]. ]", 1, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\mr_co_000\documents\github\ece495\finalproject\filter\ip_repo\mygrayscale_1.0\hdl\myGrayscale_v1_0_S00_AXI.vhd;-;;-;16;-;line;-;393;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Grayscale_AXI_Top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 173, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 279, 187); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 345, 211); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 301, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Grayscale_AXI_Top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 33, 499); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 57, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 57, 453, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 296, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 123, 474); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 255, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 293, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 108, 409); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 318, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 182, 419); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 182, 419, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 275, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 147, 440); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 147, 439, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 421, 439); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 311, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 418, 449); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 432, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Grayscale_AXI_Top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Grayscale_AXI_Top.vhd", 290, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Grayscale_AXI_Top.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 335, 487); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 170, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 174, 488, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 175, 495); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 171, 500); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 175, 478); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 175, 478, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 222, 490); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 531, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 362, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 362, 486, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 446, 485); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 1196, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Dec 07 17:57:43 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 17:57:43 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near Port. [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/ip_repo/mygrayscale_1.0/hdl/myGrayscale_v1_0_S00_AXI.vhd:398]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\mr_co_000\documents\github\ece495\finalproject\filter\ip_repo\mygrayscale_1.0\hdl\myGrayscale_v1_0_S00_AXI.vhd;-;;-;16;-;line;-;398;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 223, 397); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Mon Dec 07 17:57:56 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 17:57:56 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 590, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 1210, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 433, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 408, 363); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 410, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("myGrayscale_v1_0_S00_AXI.vhd", 201, 386); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "myGrayscale_v1_0_S00_AXI.vhd", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Dec 07 17:58:51 2015] Launched synth_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/synth_1/runme.log [Mon Dec 07 17:58:51 2015] Launched impl_1... Run output will be captured here: c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Grayscale_AXI_Top.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 24 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design myGrayscale_v1_0 has unconnected port s00_axi_awprot[2]. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design myGrayscale_v1_0 has unconnected port s00_axi_awprot[2]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design myGrayscale_v1_0 has unconnected port s00_axi_awprot[2]. ]", 2); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cl:JFrame): TRUE
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - myGrayscale", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+closeMainWindow("myGrayscale_v1_0_project - [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// ap:bI (cl:JFrame): Close Project: addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // ap:bI (cl:JFrame)
+// TclEventType: PROJECT_CLOSE
+// 'b' command handler elapsed time: 6 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 78 MB. Current time: 12/7/15 6:00:39 PM EST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // cp:P (cl:JFrame)
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1041, 57, 1307, 593, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells myGrayscale_0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1041, 46, 1307, 593, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0, "myGrayscale_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0, "myGrayscale_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0, "myGrayscale_v1.0", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// cp:P (cl:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:myGrayscale:1.0 myGrayscale_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins myGrayscale_0/S00_AXI] 
+// Tcl Message: </myGrayscale_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// cp:P (cl:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:ag (cl:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:ag)
+dismissDialog("Create HDL Wrapper"); // a:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// a:a (cl:JFrame): Critical Messages: addNotify
+dismissDialog("Create HDL Wrapper"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cl:JFrame)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // i:l (JPanel:JComponent, cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Upgrade IP"); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/myGrayscale_0 ; true ; design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk) ; design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk) ;  ;  ; myGrayscale_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, (String) null); // M:i (C:av, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/myGrayscale_0 ; true ; design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk) ; design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk) ;  ;  ; myGrayscale_v1.0 ; 1.0 (Rev. 1) ; 1.0 (Rev. 1) ; Included ; xc7z010clg400-1", 1, "design_1_myGrayscale_0_1 [myGrayscale_v1.0] (IP definition 'myGrayscale_v1.0 (1.0)' changed on disk)", 3, false); // C:av (JViewport:JComponent, cl:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd)]", 3); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), myGrayscale_0 - design_1_myGrayscale_0_1 (design_1_myGrayscale_0_1.xci)]", 5, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), myGrayscale_0 - design_1_myGrayscale_0_1 (design_1_myGrayscale_0_1.xci)]", 5, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd), design_1_i - design_1 (design_1.bd), design_1 - STRUCTURE (design_1.vhd), myGrayscale_0 - design_1_myGrayscale_0_1 (design_1_myGrayscale_0_1.xci)]", 5, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''design_1_myGrayscale_0_1.xci' IP is part of a block design. Please use the block<br>design 'design_1' to customize the IP. (Re-customize IP)'
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Elapsed time: 14 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1041, 81, 1307, 593, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name myGrayscale_v1_0_project -directory C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.tmp/myGrayscale_v1_0_project c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'i' command handler elapsed time: 8 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd), myGrayscale_v1_0_S00_AXI_inst - myGrayscale_v1_0_S00_AXI - arch_imp (myGrayscale_v1_0_S00_AXI.vhd), Grayscale_AXI - Grayscale_AXI_Top - Behavioral (Grayscale_AXI_Top.vhd)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, myGrayscale_v1_0 - arch_imp (myGrayscale_v1_0.vhd), myGrayscale_v1_0_S00_AXI_inst - myGrayscale_v1_0_S00_AXI - arch_imp (myGrayscale_v1_0_S00_AXI.vhd), Grayscale_AXI - Grayscale_AXI_Top - Behavioral (Grayscale_AXI_Top.vhd)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+closeMainWindow("myGrayscale_v1_0_project - [c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// ap:bI (cl:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // ap:bI (cl:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 81 MB. Current time: 12/7/15 6:03:18 PM EST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1048, 81, 1307, 593, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M00_AXI] [get_bd_cells myGrayscale_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1020, 99, 1307, 617, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "my"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0, "myGrayscale_v1.0", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "myGrayscale_v1.0", 0, "myGrayscale_v1.0", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// cp:P (cl:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:myGrayscale:1.0 myGrayscale_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // i:l (JPanel:JComponent, cl:JFrame)
+// t:ag (cl:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Connection Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins myGrayscale_0/S00_AXI] 
+// Tcl Message: </myGrayscale_0/S00_AXI/S00_AXI_reg> is being mapped into </processing_system7_0/Data> at <0x43C00000[ 64K ]> 
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:ag (cl:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:ag)
+dismissDialog("Create HDL Wrapper"); // a:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd>  
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd Wrote  : <C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: Exporting to file C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Dec 07 18:04:13 2015] Launched synth_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/synth_1/runme.log [Mon Dec 07 18:04:13 2015] Launched impl_1... Run output will be captured here: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 224 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, G:ag): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// 'n' command handler elapsed time: 4 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+// Tcl Message: file copy -force C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/impl_1/design_1_wrapper.sysdef C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 83 MB. Current time: 12/7/15 6:33:24 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 78 MB. Current time: 12/7/15 7:03:28 PM EST
