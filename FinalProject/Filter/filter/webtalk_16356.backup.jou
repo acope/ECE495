@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 07 16:02:57 2015
+# Process ID: 12864
+# Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/webtalk.log
+# Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace

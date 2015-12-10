@@ -2,11 +2,11 @@
 # Webtalk v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Mon Dec 07 16:02:57 2015
-# Process ID: 12864
+# Start of session at: Thu Dec 10 15:55:29 2015
+# Process ID: 16356
 # Log file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/webtalk.log
 # Journal file: C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter\webtalk.jou
 #-----------------------------------------------------------
-source c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
-INFO: [Common 17-186] 'c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/mygrayscale_v1_0_project/myGrayscale_v1_0_project.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Dec 07 16:02:59 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Mon Dec 07 16:02:59 2015...
+source c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/gaussian_v1_0_project/Gaussian_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'c:/users/mr_co_000/documents/github/ece495/finalproject/filter/filter/filter.tmp/gaussian_v1_0_project/Gaussian_v1_0_project.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Dec 10 15:55:31 2015. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 10 15:55:31 2015...

@@ -54,7 +54,8 @@ set rc [catch {
   set_property parent.project_path C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.xpr [current_project]
   set_property ip_repo_paths {
   c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.cache/ip
-  C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0
+  c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0
+  C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/Gaussian_1.0
 } [current_project]
   set_property ip_output_repo c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.cache/ip [current_project]
   add_files -quiet C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.runs/synth_1/design_1_wrapper.dcp

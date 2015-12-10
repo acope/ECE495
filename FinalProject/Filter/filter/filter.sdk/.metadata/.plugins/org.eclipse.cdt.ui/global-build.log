@@ -7303,3 +7303,851 @@ arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
 12:18:57 **** Incremental Build of configuration Debug for project filter2 ****
 make all 
 make: Nothing to be done for `all'.
+14:39:59 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:06:07 **** Clean-only build of project filter2_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+16:06:08 **** Clean-only build of configuration Debug for project filter2 ****
+make clean 
+rm -rf  ./src/Grayscale.o ./src/main.o ./src/platform.o  ./src/Grayscale.d ./src/main.d ./src/platform.d  filter2.elf.size  filter2.elf
+' '
+16:06:08 **** Build of project filter2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+16:06:32 **** Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:5:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+16:06:50 **** Clean-only build of configuration Debug for project filter2 ****
+make clean 
+rm -rf  ./src/Grayscale.o ./src/main.o ./src/platform.o  ./src/Grayscale.d ./src/main.d ./src/platform.d  filter2.elf.size  filter2.elf
+' '
+16:06:51 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:8:23: fatal error: Grayscale.h: No such file or directory
+ #include "Grayscale.h"
+                       ^
+compilation terminated.
+make: *** [src/Grayscale.o] Error 1
+16:06:57 **** Clean-only build of configuration Debug for project filter2 ****
+make clean 
+rm -rf  ./src/Grayscale.o ./src/main.o ./src/platform.o  ./src/Grayscale.d ./src/main.d ./src/platform.d  filter2.elf.size  filter2.elf
+' '
+16:06:57 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:5:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+16:09:29 **** Build of project imageFilter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/Gaussian_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Gaussian_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/Gaussian_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Gaussian_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling Gaussian..."
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project imageFilter ****
+
+Nothing to build for project imageFilter
+16:10:53 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:5:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	  81152	  22564	 126652	  1eebc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:21:18 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:21:38 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:21:48 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	  81152	  22564	 126652	  1eebc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:21:58 **** Clean-only build of configuration Debug for project imageFilter ****
+make clean 
+rm -rf  ./src/Grayscale.o ./src/main.o  ./src/Grayscale.d ./src/main.d  imageFilter.elf.size  imageFilter.elf
+' '
+16:21:58 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c:5:23: fatal error: Grayscale.h: No such file or directory
+ #include "Grayscale.h"
+                       ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+16:22:03 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:17:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	  81152	  22564	 126652	  1eebc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:22:58 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:17:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	  81152	  22564	 126652	  1eebc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:24:31 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+'Finished building: ../src/GaussianFilter.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	  81152	  22564	 126652	  1eebc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:24:51 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+In file included from ../src/GaussianFilter.c:7:0:
+../src/image.h:11:76: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                            ^
+../src/image.h:11:84: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                    ^
+../src/image.h:11:92: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                            ^
+../src/image.h:17:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/GaussianFilter.o] Error 1
+16:25:09 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+In file included from ../src/GaussianFilter.c:7:0:
+../src/image.h:11:76: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                            ^
+../src/image.h:11:84: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                    ^
+../src/image.h:11:92: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                            ^
+../src/image.h:17:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/GaussianFilter.o] Error 1
+16:25:59 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+In file included from ../src/GaussianFilter.c:7:0:
+../src/image.h:17:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/GaussianFilter.c'
+' '
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:24:2: warning: implicit declaration of function 'gaussianFilter' [-Wimplicit-function-declaration]
+  gaussianFilter();
+  ^
+In file included from ../src/main.c:6:0:
+../src/main.c: At top level:
+../src/image.h:17:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\imageFilter\Debug/../src/main.c:24: undefined reference to `gaussianFilter'
+collect2.exe: error: ld returned 1 exit status
+make: *** [imageFilter.elf] Error 1
+16:26:14 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+In file included from ../src/GaussianFilter.c:7:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/GaussianFilter.c'
+' '
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:24:2: warning: implicit declaration of function 'gaussianFilter' [-Wimplicit-function-declaration]
+  gaussianFilter();
+  ^
+In file included from ../src/main.c:6:0:
+../src/main.c: At top level:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\filter\filter.sdk\imageFilter\Debug/../src/main.c:24: undefined reference to `gaussianFilter'
+collect2.exe: error: ld returned 1 exit status
+make: *** [imageFilter.elf] Error 1
+16:26:23 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	 121152	  22564	 166652	  28afc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:32:58 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:21:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'grayscaleFilter'
+ u8 output grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp){
+           ^
+In file included from ../src/Grayscale.c:8:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/Grayscale.o] Error 1
+16:38:02 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:21:5: error: conflicting types for 'grayscaleFilter'
+ u16 grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp){
+     ^
+In file included from ../src/Grayscale.c:8:0:
+../src/image.h:12:6: note: previous declaration of 'grayscaleFilter' was here
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+      ^
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Grayscale.o] Error 1
+16:38:38 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	 121152	  22564	 166652	  28afc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:51:15 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:21:5: error: conflicting types for 'grayscaleFilter'
+ u16 grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp){
+     ^
+In file included from ../src/Grayscale.c:8:0:
+../src/image.h:12:6: note: previous declaration of 'grayscaleFilter' was here
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+      ^
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Grayscale.o] Error 1
+16:51:26 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+In file included from ../src/GaussianFilter.c:7:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/GaussianFilter.c'
+' '
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19876	 121152	  22564	 163592	  27f08	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:51:50 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:14:6: warning: variable 'output' set but not used [-Wunused-but-set-variable]
+  u16 output;
+      ^
+In file included from ../src/main.c:6:0:
+../src/main.c: At top level:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19884	 121152	  22564	 163600	  27f10	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:52:12 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:25:2: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+  xil_printf("%02X \r\n", output);
+  ^
+In file included from ../src/main.c:6:0:
+../src/main.c: At top level:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22864	 121152	  22564	 166580	  28ab4	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:53:05 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22864	 121152	  22564	 166580	  28ab4	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:53:13 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:53:14 **** Incremental Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:53:58 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:53:58 **** Incremental Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:54:33 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:54:33 **** Incremental Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:55:16 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:55:16 **** Incremental Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:56:14 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:56:14 **** Incremental Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:56:53 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22864	 121152	  22564	 166580	  28ab4	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+16:56:58 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+16:56:58 **** Incremental Build of configuration Debug for project imageFilter ****
+make all 
+make: Nothing to be done for `all'.
+16:57:18 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:21:6: error: conflicting types for 'grayscaleFilter'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp){
+      ^
+In file included from ../src/Grayscale.c:8:0:
+../src/image.h:12:5: note: previous declaration of 'grayscaleFilter' was here
+ u16 grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+     ^
+make: *** [src/Grayscale.o] Error 1
+16:57:24 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/GaussianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/GaussianFilter.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/GaussianFilter.d" -MT"src/GaussianFilter.d" -o "src/GaussianFilter.o" "../src/GaussianFilter.c"
+In file included from ../src/GaussianFilter.c:7:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/GaussianFilter.c'
+' '
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:26:9: error: void value not ignored as it ought to be
+  output = grayscaleFilter(PHOTO_HEIGHT, PHOTO_LENGTH, Rp, Gp, Bp);
+         ^
+In file included from ../src/main.c:6:0:
+../src/main.c: At top level:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/main.o] Error 1
+16:57:32 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	 121152	  22564	 166652	  28afc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '

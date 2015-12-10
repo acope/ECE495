@@ -27,7 +27,7 @@ levelinfo -pg 1 50 280 680 980 1100
 ",
 }
 {
-   da_axi4_cnt: "7",
+   da_axi4_cnt: "9",
    da_board_cnt: "2",
    da_ps7_cnt: "1",
 }

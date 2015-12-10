@@ -867,3 +867,55 @@ java.lang.IllegalStateException: Cannot connect to processor before Hardware Pla
 12:19:00 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 12:19:01 INFO  : ps7_init is completed.
 12:19:01 INFO  : ps7_post_config is completed.
+14:40:01 INFO  : System reset is completed.
+14:40:03 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:40:04 INFO  : ps7_init is completed.
+14:40:04 INFO  : ps7_post_config is completed.
+15:57:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:05:44 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:05:48 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+16:05:49 INFO  : XSDB server has started successfully.
+16:05:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:05:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1449781361398,  Project:1449529671778
+16:05:53 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+16:05:53 INFO  : Copied contents of C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:05:53 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+16:06:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:06:05 INFO  : 
+16:06:06 INFO  : Updating hardware inferred compiler options for filter2.
+16:06:06 INFO  : Clearing existing target manager status.
+16:06:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:06:08 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:53:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:53:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+16:53:39 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:54:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:54:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:54:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:55:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:55:19 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:995)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:506)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:673)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:298)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:56:16 INFO  : System reset is completed.
+16:56:19 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:56:20 INFO  : ps7_init is completed.
+16:56:20 INFO  : ps7_post_config is completed.
+16:56:59 INFO  : System reset is completed.
+16:57:01 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:57:02 INFO  : ps7_init is completed.
+16:57:02 INFO  : ps7_post_config is completed.
+17:41:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

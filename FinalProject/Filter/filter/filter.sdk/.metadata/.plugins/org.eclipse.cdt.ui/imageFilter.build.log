@@ -1,0 +1,25 @@
+16:57:32 **** Auto Build of configuration Debug for project imageFilter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../imageFilter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../src/image.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: imageFilter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../imageFilter_bsp/ps7_cortexa9_0/lib -o "imageFilter.elf"  ./src/GaussianFilter.o ./src/Grayscale.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: imageFilter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size imageFilter.elf  |tee "imageFilter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	 121152	  22564	 166652	  28afc	imageFilter.elf
+'Finished building: imageFilter.elf.size'
+' '
+
+16:57:33 Build Finished (took 784ms)
+

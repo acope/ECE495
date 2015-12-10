@@ -14,7 +14,10 @@ set_property webtalk.parent_dir C:/Users/mr_co_000/Documents/GitHub/ECE495/Final
 set_property parent.project_path C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_repo_paths c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0 [current_project]
+set_property ip_repo_paths {
+  c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/ip_repo/myGrayscale_1.0
+  c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/Gaussian_1.0
+} [current_project]
 add_files C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_50M_0/design_1_rst_processing_system7_0_50M_0_board.xdc]
