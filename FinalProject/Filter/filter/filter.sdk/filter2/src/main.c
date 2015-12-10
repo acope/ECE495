@@ -641,17 +641,18 @@ unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24
 
 		0xD6, 0xD6, 0x8D, 0xB1, 0xB1, 0xB2, 0xD6, 0xDA, 0xB1, 0xB1, 0xB1, 0x48, 0x8D, 0x8D, 0x6C, 0x6C};
 
-#define LED_DELAY 10000
 /* main function */
 int main(void){
-	volatile int Delay;
 	u32 RGB = 0;
 	u32 inp = 0;
-	unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+	unsigned int i,c,pixel,PHOTO_HEIGHT,PHOTO_LENGTH,PHOTO_SIZE;
 	u32 Rp,Gp,Bp,PER = 0;
 	u16 output = 0;
 
-
+	i,c = 0;
+	PHOTO_HEIGHT = 100;
+	PHOTO_LENGTH = 100;
+	PHOTO_SIZE = PHOTO_HEIGHT * PHOTO_LENGTH;
 	Rp = 100;
 	Gp = 0;
 	Bp = 0;
@@ -659,18 +660,30 @@ int main(void){
 	PER = (Rp<<16 & 0x00FF0000) + (Gp<<8 & 0x0000FF00) + (Bp & 0x000000FF);
 
 
-	for(i=0;i<10000;i++){
+	for(i=0;i<PHOTO_SIZE;i++){
 		pixel = photo[i];
 		inp = (pixel<<24 & 0xFF000000) + PER;
+		c = c+1;
 
-		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
-		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000001); //Start
-		MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000000); //Clear the register
-		RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
-		output = RGB>>24 & 0xFFFFFFFF;
-		xil_printf("%02X \r\n", output);
+		if (c == PHOTO_LENGTH){
+			c = 0;
+			MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+			MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000001); //Start
+			MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000000); //Clear the register
+			RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+			output = RGB>>24 & 0xFFFFFFFF;
+			xil_printf("%02X \r\n", output);
+		}
+		else{
+			MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+			MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000001); //Start
+			MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000000); //Clear the register
+			RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+			output = RGB>>24 & 0xFFFFFFFF;
+			xil_printf("%02X", output);
+		}
 	};
 
 
-	//return 1;
+	return 1;
 }

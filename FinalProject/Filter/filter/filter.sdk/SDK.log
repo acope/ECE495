@@ -777,3 +777,69 @@ java.lang.IllegalStateException: Cannot connect to processor before Hardware Pla
 19:02:38 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 19:02:39 INFO  : ps7_init is completed.
 19:02:40 INFO  : ps7_post_config is completed.
+19:05:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:24:42 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:24:47 INFO  : Processing command line option -hwspec C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper.hdf.
+10:24:48 INFO  : XSDB server has started successfully.
+10:24:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:24:55 INFO  : Restoring local repository preferences: 
+		 C:\Users\mr_co_000\Documents\GitHub\ECE495\FinalProject\Filter\ip_repo\myGrayscale_1.0
+10:27:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:27:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652080A" && level==0} -index 1' command is executed.
+10:27:09 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:27:48 INFO  : System reset is completed.
+10:27:50 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:27:52 INFO  : ps7_init is completed.
+10:27:52 INFO  : ps7_post_config is completed.
+10:31:01 INFO  : System reset is completed.
+10:31:03 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:31:05 INFO  : ps7_init is completed.
+10:31:05 INFO  : ps7_post_config is completed.
+10:34:49 INFO  : System reset is completed.
+10:34:54 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:34:56 INFO  : ps7_init is completed.
+10:34:56 INFO  : ps7_post_config is completed.
+10:35:59 INFO  : System reset is completed.
+10:36:01 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:36:03 INFO  : ps7_init is completed.
+10:36:03 INFO  : ps7_post_config is completed.
+10:36:52 INFO  : System reset is completed.
+10:36:53 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:36:55 INFO  : ps7_init is completed.
+10:36:55 INFO  : ps7_post_config is completed.
+10:37:51 INFO  : System reset is completed.
+10:37:53 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:37:55 INFO  : ps7_init is completed.
+10:37:55 INFO  : ps7_post_config is completed.
+10:38:21 INFO  : System reset is completed.
+10:38:24 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:38:26 INFO  : ps7_init is completed.
+10:38:26 INFO  : ps7_post_config is completed.
+10:39:35 INFO  : System reset is completed.
+10:39:36 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:39:37 INFO  : ps7_init is completed.
+10:39:38 INFO  : ps7_post_config is completed.
+10:40:02 INFO  : System reset is completed.
+10:40:05 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:40:07 INFO  : ps7_init is completed.
+10:40:07 INFO  : ps7_post_config is completed.
+10:41:00 INFO  : System reset is completed.
+10:41:03 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:41:05 INFO  : ps7_init is completed.
+10:41:05 INFO  : ps7_post_config is completed.
+10:43:10 INFO  : System reset is completed.
+10:43:12 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:43:13 INFO  : ps7_init is completed.
+10:43:14 INFO  : ps7_post_config is completed.
+10:43:23 INFO  : System reset is completed.
+10:43:25 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:43:26 INFO  : ps7_init is completed.
+10:43:26 INFO  : ps7_post_config is completed.
+10:43:54 INFO  : System reset is completed.
+10:43:56 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:43:57 INFO  : ps7_init is completed.
+10:43:57 INFO  : ps7_post_config is completed.
+10:44:30 INFO  : System reset is completed.
+10:44:33 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:44:34 INFO  : ps7_init is completed.
+10:44:34 INFO  : ps7_post_config is completed.

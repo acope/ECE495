@@ -7,14 +7,17 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 C_SRCS += \
+../src/Grayscale.c \
 ../src/main.c \
 ../src/platform.c 
 
 OBJS += \
+./src/Grayscale.o \
 ./src/main.o \
 ./src/platform.o 
 
 C_DEPS += \
+./src/Grayscale.d \
 ./src/main.d \
 ./src/platform.d 
 

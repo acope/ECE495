@@ -6036,3 +6036,701 @@ arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
 19:02:29 **** Incremental Build of configuration Debug for project filter2 ****
 make all 
 make: Nothing to be done for `all'.
+10:24:53 **** Auto Build of project filter2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/myGrayscale_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling myGrayscale..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartlite_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+10:25:23 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: unused variable 'PHOTO_LENGTH' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: unused variable 'PHOTO_HEIGHT' [-Wunused-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:676:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:25:55 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:36: warning: variable 'PHOTO_LENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                                    ^
+../src/main.c:650:23: warning: variable 'PHOTO_HEIGHT' set but not used [-Wunused-but-set-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                       ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:677:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25296	  41152	  22564	  89012	  15bb4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:26:29 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:650:49: warning: variable 'PHOTO_SIZE' set but not used [-Wunused-but-set-variable]
+  unsigned int i,pixel,PHOTO_HEIGHT,PHOTO_LENGTH,PHOTO_SIZE = 0;
+                                                 ^
+../src/main.c:647:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^
+../src/main.c:678:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	  41152	  22564	  89076	  15bf4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:26:54 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:676:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	  41152	  22564	  89076	  15bf4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:26:56 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:27:37 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:29:34 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:676:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	  41152	  22564	  89076	  15bf4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:30:58 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:33:29 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:665:3: error: 'c' undeclared (first use in this function)
+   c = c+1;
+   ^
+../src/main.c:665:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:667:6: error: expected '(' before 'c'
+   if c = PHOTO_LENGTH{
+      ^
+../src/main.c:650:6: warning: unused variable 'output' [-Wunused-variable]
+  u16 output = 0;
+      ^
+../src/main.c:647:6: warning: variable 'inp' set but not used [-Wunused-but-set-variable]
+  u32 inp = 0;
+      ^
+../src/main.c:646:6: warning: unused variable 'RGB' [-Wunused-variable]
+  u32 RGB = 0;
+      ^
+../src/main.c:688:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+10:33:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:667:6: error: expected '(' before 'c'
+   if c = PHOTO_LENGTH{
+      ^
+../src/main.c:650:6: warning: unused variable 'output' [-Wunused-variable]
+  u16 output = 0;
+      ^
+../src/main.c:647:6: warning: variable 'inp' set but not used [-Wunused-but-set-variable]
+  u32 inp = 0;
+      ^
+../src/main.c:646:6: warning: unused variable 'RGB' [-Wunused-variable]
+  u32 RGB = 0;
+      ^
+../src/main.c:688:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+10:33:57 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:688:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:34:09 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:34:43 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:34:47 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:35:51 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:35:57 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:36:32 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:36:46 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:36:51 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:37:20 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:667:3: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (c = 5){
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25360	  41152	  22564	  89076	  15bf4	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:37:29 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:667:10: error: expected expression before '<' token
+   if (c =< 5){
+          ^
+make: *** [src/main.o] Error 1
+10:37:35 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:37:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:37:48 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:38:20 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:38:54 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:39:28 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:39:32 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:39:54 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:40:00 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:40:55 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:652:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:40:58 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:43:08 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:43:21 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:43:46 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:652:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:43:52 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:44:19 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:652:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:44:29 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:46:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+10:47:45 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+10:55:21 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+../src/Grayscale.c:689:2: warning: 'return' with a value, in function returning void
+  return 1;
+  ^
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `photo'
+./src/Grayscale.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [filter2.elf] Error 1
+10:55:39 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `photo'
+./src/Grayscale.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [filter2.elf] Error 1
+10:58:37 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:(.data+0x0): multiple definition of `photo'
+./src/Grayscale.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [filter2.elf] Error 1
