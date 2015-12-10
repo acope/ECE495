@@ -1,0 +1,26 @@
+#include "myGrayscale.h"
+#include "xparameters.h"
+//#include "xil_printf.h"
+//#include "xil_io.h"
+#include "stdio.h"
+//#include "xuartlite.h" //For use of UART, need to figure out how to use!
+#include "Grayscale.h"
+
+
+/* main function */
+int main(void){
+
+	unsigned int PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+	u32 Rp, Gp, Bp = 0;
+
+
+	PHOTO_HEIGHT = 100;
+	PHOTO_LENGTH = 100;
+	Rp = 100;
+	Gp = 0;
+	Bp = 0;
+
+	grayscaleFilter(PHOTO_HEIGHT, PHOTO_LENGTH, Rp, Gp, Bp);
+
+	return 1;
+}

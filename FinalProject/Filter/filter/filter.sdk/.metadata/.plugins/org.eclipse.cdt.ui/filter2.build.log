@@ -1,21 +1,6 @@
-10:58:37 **** Auto Build of configuration Debug for project filter2 ****
+12:18:57 **** Incremental Build of configuration Debug for project filter2 ****
 make all 
-'Building file: ../src/Grayscale.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
-../src/Grayscale.c: In function 'grayscaleFilter':
-../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
-  i,c = 0;
-   ^
-'Finished building: ../src/Grayscale.c'
-' '
-'Building target: filter2.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-./src/main.o:(.data+0x0): multiple definition of `photo'
-./src/Grayscale.o:(.data+0x0): first defined here
-collect2.exe: error: ld returned 1 exit status
-make: *** [filter2.elf] Error 1
+make: Nothing to be done for `all'.
 
-10:58:37 Build Finished (took 595ms)
+12:18:57 Build Finished (took 206ms)
 

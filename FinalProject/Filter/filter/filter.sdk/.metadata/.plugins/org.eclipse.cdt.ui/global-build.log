@@ -6734,3 +6734,572 @@ arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa
 ./src/Grayscale.o:(.data+0x0): first defined here
 collect2.exe: error: ld returned 1 exit status
 make: *** [filter2.elf] Error 1
+11:00:34 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+In file included from ../src/Grayscale.c:2:0:
+../src/Grayscale.c:671:26: error: 'MYGRAYSCALE_BASE' undeclared (first use in this function)
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+                          ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:15: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/Grayscale.c:671:26: note: each undeclared identifier is reported only once for each function it appears in
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+                          ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:15: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/Grayscale.c:671:43: error: 'SLV_REG0' undeclared (first use in this function)
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+                                           ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:31: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^
+../src/Grayscale.c:672:43: error: 'SLV_REG2' undeclared (first use in this function)
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000001); //Start
+                                           ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:31: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^
+../src/Grayscale.c:674:48: error: 'SLV_REG1' undeclared (first use in this function)
+    RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+                                                ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:31: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+                               ^
+make: *** [src/Grayscale.o] Error 1
+11:01:14 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+In file included from ../src/Grayscale.c:2:0:
+../src/Grayscale.c:671:26: error: 'MYGRAYSCALE_BASE' undeclared (first use in this function)
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+                          ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:15: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/Grayscale.c:671:26: note: each undeclared identifier is reported only once for each function it appears in
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+                          ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:15: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/Grayscale.c:671:43: error: 'SLV_REG0' undeclared (first use in this function)
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG0,inp);
+                                           ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:31: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^
+../src/Grayscale.c:672:43: error: 'SLV_REG2' undeclared (first use in this function)
+    MYGRAYSCALE_mWriteReg(MYGRAYSCALE_BASE,SLV_REG2,0x00000001); //Start
+                                           ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:35:31: note: in definition of macro 'MYGRAYSCALE_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                               ^
+../src/Grayscale.c:674:48: error: 'SLV_REG1' undeclared (first use in this function)
+    RGB = MYGRAYSCALE_mReadReg(MYGRAYSCALE_BASE,SLV_REG1);
+                                                ^
+../../filter2_bsp/ps7_cortexa9_0/include/myGrayscale.h:55:31: note: in definition of macro 'MYGRAYSCALE_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+                               ^
+make: *** [src/Grayscale.o] Error 1
+11:01:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:653:3: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  i,c = 0;
+   ^
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:02:09 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:02:36 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:13:2: warning: implicit declaration of function 'grayscaleFilter' [-Wimplicit-function-declaration]
+  grayscaleFilter();
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:02:58 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25496	  41152	  22564	  89212	  15c7c	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:03:03 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+11:05:40 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:646:6: error: conflicting types for 'grayscaleFilter'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp){
+      ^
+In file included from ../src/Grayscale.c:8:0:
+../src/Grayscale.h:12:6: note: previous declaration of 'grayscaleFilter' was here
+ void grayscaleFilter(void);
+      ^
+make: *** [src/Grayscale.o] Error 1
+11:05:53 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:14:2: error: too few arguments to function 'grayscaleFilter'
+  grayscaleFilter();
+  ^
+In file included from ../src/main.c:8:0:
+../src/Grayscale.h:12:6: note: declared here
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+      ^
+make: *** [src/main.o] Error 1
+11:06:44 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:23:2: error: too few arguments to function 'grayscaleFilter'
+  grayscaleFilter();
+  ^
+In file included from ../src/main.c:8:0:
+../src/Grayscale.h:12:6: note: declared here
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+      ^
+../src/main.c:14:14: warning: variable 'Bp' set but not used [-Wunused-but-set-variable]
+  u32 Rp, Gp, Bp = 0;
+              ^
+../src/main.c:14:10: warning: variable 'Gp' set but not used [-Wunused-but-set-variable]
+  u32 Rp, Gp, Bp = 0;
+          ^
+../src/main.c:14:6: warning: variable 'Rp' set but not used [-Wunused-but-set-variable]
+  u32 Rp, Gp, Bp = 0;
+      ^
+../src/main.c:13:28: warning: variable 'PHOTO_LENGTH' set but not used [-Wunused-but-set-variable]
+  unsigned int PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+                            ^
+../src/main.c:13:15: warning: variable 'PHOTO_HEIGHT' set but not used [-Wunused-but-set-variable]
+  unsigned int PHOTO_HEIGHT,PHOTO_LENGTH = 0;
+               ^
+make: *** [src/main.o] Error 1
+11:07:18 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  41152	  22564	  89276	  15cbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:07:40 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+11:07:41 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+11:08:55 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  41152	  22564	  89276	  15cbc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:09:10 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+11:09:11 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+11:11:56 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+In file included from ../src/Grayscale.c:8:0:
+../src/Grayscale.h:14:21: warning: 'photo' initialized and declared 'extern'
+ extern unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+../src/Grayscale.c:19:14: error: redefinition of 'photo'
+ unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+              ^
+In file included from ../src/Grayscale.c:8:0:
+../src/Grayscale.h:14:21: note: previous definition of 'photo' was here
+ extern unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/Grayscale.o] Error 1
+11:12:48 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c:19:14: error: redefinition of 'photo'
+ unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+              ^
+In file included from ../src/Grayscale.c:8:0:
+../src/Grayscale.h:14:21: note: previous definition of 'photo' was here
+ static unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+../src/Grayscale.h:14:21: warning: 'photo' defined but not used [-Wunused-variable]
+make: *** [src/Grayscale.o] Error 1
+11:12:50 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:8:0:
+../src/Grayscale.h:14:21: warning: 'photo' defined but not used [-Wunused-variable]
+ static unsigned int photo[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:13:18 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+11:14:42 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+../src/Grayscale.c: In function 'grayscaleFilter':
+../src/Grayscale.c:38:11: error: 'photo' undeclared (first use in this function)
+   pixel = photo[i];
+           ^
+../src/Grayscale.c:38:11: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../src/Grayscale.c:8:0:
+../src/Grayscale.c: At top level:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/Grayscale.o] Error 1
+11:15:02 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:8:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:15:10 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:4:0:
+../src/Grayscale.h:12:76: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                            ^
+../src/Grayscale.h:12:84: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                    ^
+../src/Grayscale.h:12:92: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                            ^
+../src/main.c: In function 'main':
+../src/main.c:11:2: error: unknown type name 'u32'
+  u32 Rp, Gp, Bp = 0;
+  ^
+../src/main.c:20:2: warning: implicit declaration of function 'grayscaleFilter' [-Wimplicit-function-declaration]
+  grayscaleFilter(PHOTO_HEIGHT, PHOTO_LENGTH, Rp, Gp, Bp);
+  ^
+In file included from ../src/main.c:4:0:
+../src/main.c: At top level:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/main.o] Error 1
+11:15:26 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:8:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:15:43 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:7:0:
+../src/Grayscale.h:12:76: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                            ^
+../src/Grayscale.h:12:84: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                    ^
+../src/Grayscale.h:12:92: error: unknown type name 'u32'
+ void grayscaleFilter(unsigned int PHOTO_HEIGHT, unsigned int PHOTO_LENGTH, u32 Rp, u32 Gp, u32 Bp);
+                                                                                            ^
+../src/main.c: In function 'main':
+../src/main.c:14:2: error: unknown type name 'u32'
+  u32 Rp, Gp, Bp = 0;
+  ^
+../src/main.c:23:2: warning: implicit declaration of function 'grayscaleFilter' [-Wimplicit-function-declaration]
+  grayscaleFilter(PHOTO_HEIGHT, PHOTO_LENGTH, Rp, Gp, Bp);
+  ^
+In file included from ../src/main.c:7:0:
+../src/main.c: At top level:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+make: *** [src/main.o] Error 1
+11:15:47 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:7:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:15:53 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:5:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+11:18:14 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:5:0:
+../src/Grayscale.h:18:21: warning: 'pictureRocks' defined but not used [-Wunused-variable]
+ static unsigned int pictureRocks[]={0x24, 0x24, 0x48, 0x24, 0x24, 0x48, 0x68, 0x24, 0x24, 0x24, 0x24, 0x24, 0x44, 0x20, 0x44, 0x44, 0x48, 0x6C, 0x44, 0x20, 0x24, 0x44, 0x44, 0x24, 0x24, 0x6C, 0x68, 0x48, 0x44, 0x44, 0x44, 0x48,
+                     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+12:09:11 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25564	  81152	  22564	 129280	  1f900	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+12:09:15 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.
+12:18:49 **** Auto Build of configuration Debug for project filter2 ****
+make all 
+'Building file: ../src/Grayscale.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Grayscale.o" -I../../filter2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Grayscale.d" -MT"src/Grayscale.d" -o "src/Grayscale.o" "../src/Grayscale.c"
+'Finished building: ../src/Grayscale.c'
+' '
+'Building target: filter2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../filter2_bsp/ps7_cortexa9_0/lib -o "filter2.elf"  ./src/Grayscale.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: filter2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size filter2.elf  |tee "filter2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25560	  81152	  22564	 129276	  1f8fc	filter2.elf
+'Finished building: filter2.elf.size'
+' '
+12:18:57 **** Incremental Build of configuration Debug for project filter2 ****
+make all 
+make: Nothing to be done for `all'.

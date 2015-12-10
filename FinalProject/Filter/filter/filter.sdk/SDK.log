@@ -843,3 +843,27 @@ java.lang.IllegalStateException: Cannot connect to processor before Hardware Pla
 10:44:33 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
 10:44:34 INFO  : ps7_init is completed.
 10:44:34 INFO  : ps7_post_config is completed.
+11:03:05 INFO  : System reset is completed.
+11:03:08 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:03:09 INFO  : ps7_init is completed.
+11:03:09 INFO  : ps7_post_config is completed.
+11:07:42 INFO  : System reset is completed.
+11:07:45 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:07:48 INFO  : ps7_init is completed.
+11:07:48 INFO  : ps7_post_config is completed.
+11:09:13 INFO  : System reset is completed.
+11:09:15 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:09:17 INFO  : ps7_init is completed.
+11:09:17 INFO  : ps7_post_config is completed.
+11:13:20 INFO  : System reset is completed.
+11:13:22 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:13:23 INFO  : ps7_init is completed.
+11:13:24 INFO  : ps7_post_config is completed.
+12:09:17 INFO  : System reset is completed.
+12:09:20 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:09:22 INFO  : ps7_init is completed.
+12:09:22 INFO  : ps7_post_config is completed.
+12:18:58 INFO  : System reset is completed.
+12:19:00 INFO  : FPGA configured successfully with bitstream "C:/Users/mr_co_000/Documents/GitHub/ECE495/FinalProject/Filter/filter/filter.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:19:01 INFO  : ps7_init is completed.
+12:19:01 INFO  : ps7_post_config is completed.

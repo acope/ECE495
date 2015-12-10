@@ -1,0 +1,16 @@
+/* Generated driver function for led_controller IP core */
+#include "myGrayscale.h"
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "stdio.h"
+#include "xuartlite.h"
+
+
+/* main function */
+int main(void){
+
+	grayscaleFilter();
+
+	return 1;
+}
